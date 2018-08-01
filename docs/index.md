@@ -12,7 +12,7 @@
 ## Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
-![2017Robot][./images/IMG_6697.JPG]
+![2017Robot](./images/IMG_6697.JPG)
 
 _Specific outcomes include:_
 * The ability to apply specific design methodologies to the course project
