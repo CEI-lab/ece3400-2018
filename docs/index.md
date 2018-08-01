@@ -54,7 +54,7 @@ Week | Topic | Week | Topic
 5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | (EE-)Power and Careers, [_Milestone 4_](./Grading/Milestone_score.md)
 6 | FPGA / Vision, [_LAB 3_](./lab3.md) | 14 | Alternative approaches to IPS 
 7 | Prototyping ME, [_Milestone 2_](./Grading/Milestone_score.md) | 15 | IPS Ethics 
-8 | Communication | 16 | Final Competition
+8 | Wired/wireless Communication | 16 | Final Competition
 
 See detailed schedule and deadlines [here](schedule.md)
 
