@@ -47,14 +47,14 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | Intro, Arduino programming | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
-2 | IPS fundamentals, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms 
-3 | Sensors and filters | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
-4 | Embedded control, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
-5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | Power and Career Center talk, [_Milestone 4_](./Grading/Milestone_score.md)
-6 | FPGA, VGA, [_LAB 3_](./lab3.md) | 14 | Alternative approaches to IPS 
-7 | Prototyping ME, [_Milestone 2_](./Grading/Milestone_score.md) | 15 | IPS Ethics, Final Competition
-8 | Wireless communication | 16 | -
+1 | Intro | 9 | Prototyping EE, [_LAB 4_](./lab4.md)  
+2 | Embedded programming, team work/time management, [_LAB 1_](./lab1.md) | 10 | Algorithms 
+3 | Online communication | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
+4 | Sensors and filters, [_LAB 2_](./lab2.md) | 12 | Evaluating and debugging IPS
+5 | Actuators and control, [_Milestone 1_](./Grading/Milestone_score.md) | 13 | (EE-)Power and Careers, [_Milestone 4_](./Grading/Milestone_score.md)
+6 | FPGA / Vision, [_LAB 3_](./lab3.md) | 14 | Alternative approaches to IPS 
+7 | Prototyping ME, [_Milestone 2_](./Grading/Milestone_score.md) | 15 | IPS Ethics 
+8 | Communication | 16 | Final Competition
 
 See detailed schedule and deadlines [here](schedule.md)
 
