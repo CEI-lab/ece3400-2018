@@ -28,9 +28,13 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 
 **Solutions**
 
+Note that all labs have changed slightly, and no prior solutions are directly applicable to the current semester challenge.
+
 [Team Alpha Repository](https://cei-lab.github.io/ECE3400-2017-teamAlpha/)
 
 This is the repository for the team of TA's that solved all the labs during the Summer of 2017. Please use this website for support and inspiration; no credits will be given for close copies of these solutions. Also, the TA's were under strict timelines - hopefully you will upload more comprehensive and better websites over the course of the semester.
+
+[2017 Team Websites](https://cei-lab.github.io/ece3400-2017/teams.html)
 
 **Making Tutorials**
 
