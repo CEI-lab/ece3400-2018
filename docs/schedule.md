@@ -1,20 +1,20 @@
 # Schedule for ECE 3400 Fall 2017
 
 Week 1:
-* Aug 23rd, Wednesday: Introduction. Deadline @midnight: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
-* Aug 25th, Friday: Working with Arduinos
+* Aug 24th, Friday: Introduction
+* August 25th, midnight: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
 
 Week 2:
 * *Lab 1 Microcontrollers*
-* Aug 28th, Monday: IPS fundamentals. Deadline @8am: Submit [team contract](./Teamwork/Team_Contract.md) to the lecturer. Also, make your first team website and add a link to the contract.
-* Aug 30th, Wed: Effective team work/time management
-* Sep 1st, Fri: How to make good websites, online communication
+* Aug 27th, Monday: Working with Arduinos
+* Aug 29th, Wednesday: Effective team work/time management (??) 
+* Aug 31st, Friday: <span style="color:red">Deadline @midnight</span>. 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to Kirstin.
 
 Week 3:
 * *Work on milestone 1*
-* Sep 4th, Mon: Labor day
-* Sep 6th, Wed: Sensors.
-* Sep 8th, Fri: Analog filters. Deadline @8am: The websites will be graded for contents on lab 1.
+* Sep 3rd, Mon: Labor day
+* Sep 5th, Wed: How to make good websites, online communication
+* Sep 7th, Fri: Sensors and Analog filters. <span style="color:red">Deadline @8midnight</span>: The websites will be graded for contents on lab 1.
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
