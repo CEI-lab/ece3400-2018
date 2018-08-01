@@ -64,4 +64,4 @@ See detailed schedule and deadlines [here](schedule.md)
 
 # Tutorials and Helpful links
 
-Check out [this page](./tutorials/tutorials.md) for lots of tutorials and helpful links!
+Check out [this page](./tutorials/readme.md) for lots of tutorials and helpful links!
