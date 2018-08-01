@@ -1,14 +1,12 @@
 
-# ECE 3400, To Do list, Summer 2017
+# ECE 3400, To Do list, Fall 2018
 
-* Make GitHub tutorial
-* Make critical copying tutorial (use fft as example, sloppy written code found online) - Ryan
-* Make tutorial videos for PCB
-* Make site explaining how to do a basic part in Solid Works
-* Make new mazes, order material
-* Prepare Duffield Hall arena
-
-* Prepare new lectures
-* Prepare think-pair-share activities
-* Make budget website with info on the price of all components
-
+* Change Lab 3 to include camera (Joshua)
+* Update mazes with new treasures and IR disturbances
+* Make shopping list, aim for 30 teams
+* Print additional parts, aim for 30 teams
+* Make PCB mills work (Haron)
+* Make tutorials on PCB mills (Haron)
+* Prepare new lectures (Kirstin)
+* Prepare online quizzes (Kirstin)
+* Prepare think-pair-share activities (Kirstin)
