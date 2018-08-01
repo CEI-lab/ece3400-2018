@@ -33,7 +33,7 @@ Expectation of workload, as per university policy:
 
 5. Everyone needs to help give the final grades on December 5th
 
-6. If you'd like to give a lecture, let Kirstin know at least two weeks in advance. Note that this takes considerable effort and preparation time, but looks great on your CV. Lecture topics can be sensors and signal processing, feedback control, mechanical prototyping, wired communication, wireless communication, or FPGA coding.
+6. If you'd like to give a lecture, let Kirstin know at least two weeks in advance. Note that this takes considerable effort and preparation time, but looks great on your CV. Lecture topics can be sensors and signal processing, feedback control, mechanical prototyping, PCB design, wired communication, wireless communication, or FPGA coding.
 
 ### List of TA's
 
