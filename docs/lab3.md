@@ -1,5 +1,8 @@
-# Lab 4: Radio Communication and Map Drawing
-## ECE 3400 Fall ’17
+# Lab 3: Radio Communication and Map Drawing
+## ECE 3400 Fall ’18
+
+FIX!!!
+
 
 ### Objective
 In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw a full maze on a VGA monitor and update it with information received from the radio.
