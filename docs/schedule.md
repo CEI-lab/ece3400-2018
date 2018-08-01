@@ -2,37 +2,37 @@
 
 Week 1:
 * Aug 24th, Friday: Introduction
-* August 25th, midnight: Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
+* August 25th, Saturday: **Deadline @midnight:** Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
 
 Week 2:
 * *Lab 1 Microcontrollers*
-* Aug 27th, Monday: Working with Arduinos
-* Aug 29th, Wednesday: Effective team work/time management (??) 
-* Aug 31st, Friday: <span style="color:red">Deadline @midnight</span>. 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to Kirstin.
+* Aug 27th, Monday: Working with Arduinos, embedded control
+* Aug 29th, Wednesday: Effective team work/time management (Erica Dawson??) 
+* Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to Kirstin.
 
 Week 3:
 * *Work on milestone 1*
 * Sep 3rd, Mon: Labor day
 * Sep 5th, Wed: How to make good websites, online communication
-* Sep 7th, Fri: Sensors and Analog filters. <span style="color:red">Deadline @8midnight</span>: The websites will be graded for contents on lab 1.
+* Sep 7th, Fri: Team meetings. **Deadline @8midnight:** The websites will be graded for contents on lab 1.
 
 Week 4:
 * *Lab 2 Analog circuitry and FFT*
-* Sep 11th, Mon: Digital filters.
-* Sep 13th, Wed: Embedded Systems (Joe Skovira)
-* Sep 15th, Fri: Embedded Control 
+* Sep 10th, Mon: Sensors and Analog filters
+* Sep 12th, Wed: Digital filters
+* Sep 14th, Fri: Team meetings 
 
 Week 5:
 * *Work on milestone 1*
-* Sep 18th, Mon: Actuators
-* Sep 20th, Wed: Feedback Control (Adarsh Jayakumar)
-* Sep 22nd, Fri: How servos work. Deadline @8am: The websites will be graded for contents on lab 2 and milestone 1.
+* Sep 17th, Mon: Actuators, feedback control
+* Sep 19th, Wed: Feedback Control, how servos work.
+* Sep 21st, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2 and milestone 1.
 
 Week 6:
 * *Work on milestone 2*
-* Sep 25th, Mon: FPGA (Bruce Land)
-* Sep 27th, Wed: FPGA
-* Sep 29th, Fri: FPGA/VGA (Claire Chen). Deadline @8am: The websites will be graded for contents on milestone 2.
+* Sep 24th, Mon: FPGA (Bruce Land)
+* Sep 26th, Wed: VGA/Camera
+* Sep 28th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2.
 * Sep 29th, Sat: Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
 Week 7:
