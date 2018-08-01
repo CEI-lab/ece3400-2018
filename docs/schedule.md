@@ -38,7 +38,7 @@ Week 6:
 
 Week 7:
 * *Lab 3 Wireless Communication*
-* Oct 1st, Mon: FPGA (Bruce Land??)
+* Oct 1st, Mon: FPGA lecture by Bruce Land
 * Oct 3rd, Wed: VGA/Camera
 * Oct 5th, Fri: Team meetings. **Deadline @midnight:** Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
 
