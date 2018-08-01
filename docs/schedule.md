@@ -92,6 +92,5 @@ Week 15:
 * Nov 30th, Fri: Team meetings.
 
 Week 16:
-* Dec 1st, Fri: COMPETITION DAY! (Duffield Hall)
-* Dec 6th, Wed: Deadline @8am: The final websites will be graded.
-
+* Dec 3rd, Mon: Team meetings. 
+* Dec 4th, Tuesday: **FINAL COMPETION 9-12**. **Deadline @midnight** Grading of final websites!
