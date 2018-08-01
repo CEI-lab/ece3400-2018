@@ -1,7 +1,7 @@
 # ECE 3400: Intelligent Physical Systems
-## Cornell University, Fall 2017
+## Cornell University, Fall 2018
 
-[Return to main page](https://cei-lab.github.io/ece3400/)
+[Return to main page](https://cei-lab.github.io/ece3400-2018/)
 
 ## Tutorials and Helpful links
 
@@ -12,7 +12,7 @@ We have and will continue to upload helpful tutorials and links on this webpage.
 * [How to create Gant charts](https://www.smartsheet.com/blog/gantt-chart-excel01) for free in Microsoft Excel for time management
 * Excellent [Ted talk](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator/transcript?language=en) for those who tend to procrastinate
 * [Team contract](../Teamwork/Team_Contract.md)
-* [Managing conflict](../Teamwork/Managing_conflict_Chapter_7.pdf)
+* [Managing conflict](https://cei-lab.github.io/ece3400-2017/Teamwork/Managing_conflict_Chapter_7.pdf)
 * [Team assessment](../Teamwork/GroupProcess-QualitativePeerSelfEval.docx)
 * [Leadership](../Teamwork/Leadership.md)
 
