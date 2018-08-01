@@ -9,4 +9,4 @@
 * Make tutorials on PCB mills (Haron)
 * Prepare new lectures (Kirstin)
 * Prepare online quizzes (Kirstin)
-* Prepare think-pair-share activities (Kirstin)
+* Make Blackboard page with grading rubrics
