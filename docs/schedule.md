@@ -1,7 +1,5 @@
 # Schedule for ECE 3400 Fall 2017
 
-XXX Deadline @8am: Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
-
 Week 1:
 * Aug 24th, Friday: Introduction
 * Aug 25th, Saturday: **Deadline @midnight:** Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
@@ -16,7 +14,8 @@ Week 3:
 * *Work on milestone 1*
 * Sep 3rd, Mon: Labor day
 * Sep 5th, Wed: How to make good websites, online communication
-* Sep 7th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 1.
+* Sep 7th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 1. Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 4:
 * *Work on milestone 1*
@@ -28,7 +27,8 @@ Week 5:
 * *Lab 2 Analog circuitry and FFT*
 * Sep 17th, Mon: Actuators, feedback control
 * Sep 19th, Wed: Feedback Control, how servos work.
-* Sep 21st, Fri: Team meetings. 
+* Sep 21st, Fri: Team meetings. **Deadline @midnight:** Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 6:
 * *Work on milestone 2*
@@ -36,24 +36,24 @@ Week 6:
 * Sep 26th, Wed: Wireless communication
 * Sep 28th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2.
 
-XXX Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor. XXX
-
 Week 7:
 * *Lab 3 Wireless Communication*
 * Oct 1st, Mon: FPGA (Bruce Land??)
 * Oct 3rd, Wed: VGA/Camera
-* Oct 5th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2.
+* Oct 5th, Fri: Team meetings. **Deadline @midnight:** Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 8:
 * Oct 8th, Mon: Fall break
 * Oct 10th, Wed: Mechanical prototyping
-* Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 3.
+* Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2. 
 
 Week 9:
 * *Lab 4 FPGA / Vision*
 * Oct 15th, Mon: Tutorial on 3D printers, laser cutters, and design strategies.
 * Oct 17th, Wed: EE prototyping (PCB layout)
-* Oct 19th, Fri: Team meetings. 
+* Oct 19th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 3. Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 10:
 * *Work on milestone 3*
@@ -65,7 +65,8 @@ Week 11:
 * *Work on milestone 3*
 * Oct 29th, Mon: Algorithms
 * Oct 31st, Wed: Algorithms
-* Nov 2nd, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3.
+* Nov 2nd, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 12:
 * *Work on milestone 4*
@@ -77,7 +78,8 @@ Week 13:
 * *Work on milestone 4*
 * Nov 12th, Mon: Power and batteries for IPS
 * Nov 14th, Wed: Cornell Engineering Career Center (Christa Downey)
-* Nov 16th, Fri: Team meetings **Deadline @midnight:** The websites will be graded for contents on milestone 4.
+* Nov 16th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 4. Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 14:
 * *Work on final system*
@@ -89,7 +91,8 @@ Week 15:
 * *Work on final system*
 * Nov 26th, Mon: IPS Ethics
 * Nov 28th, Wed: IPS Ethics
-* Nov 30th, Fri: Team meetings
+* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Fill out and send the [team assessment form](./Teamwork/GroupProcess-QualitativePeerSelfEval.docx) to the instructor.
+
 
 Week 16:
 * Dec 3rd, Mon: Team meetings. 
