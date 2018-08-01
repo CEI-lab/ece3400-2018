@@ -1,47 +1,33 @@
 # ECE 3400 Intelligent Physical Systems
+## Cornell University, Fall 2017
 
-* **Cornell, Fall 2018**
-* **Class hours:** Monday and Wednesday in Upson Hall 142
-* **Team meetings:** Friday, location determined by the team
-* **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427
-* **Instructor:** Kirstin Petersen (khp37)
-* **TA's:** Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
-* **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), please sign up [here](piazza.com/cornell/fall2017/ece3400)
-* **Blackboard:** Blackboard will be used to distribute grades only
+Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment. Specifically, in teams of 5-6, students will design and fabricate a robot able to navigate and map out a maze with treasures in the shortest possible time.
 
-## Course Description
+![ECE3400 Overview](./images/Overview.png)
 
-Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
-![2017Robot](./images/IMG_6697.JPG)
+[Here is a video of the 2015 competition](https://www.youtube.com/watch?v=WN0maCOflVQ).
 
-_Specific outcomes include:_
-* The ability to apply specific design methodologies to the course project
-* The ability to evaluate what problems are best solved in software, electronics, or mechanics; as well as the trade-offs between theory, simulation, and practical implementations.
-* Efficient team work, as a member and as a leader.
-* Effectively communication skills through online media.
-* Awareness of professional and ethical responsibilities in the context of Intelligent Physical Systems.
-_Prerequisites_ include ECE 2100  ECE 2200 and ECE 2300.  Recommended prerequisite: ECE 2400 (or equivalent).
-All information is gathered on this page; no additional textbooks are required.
+Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for future students to rely on.
 
-## Semester Project
+***
 
-In teams of 4 you will design, fabricate, and program a robot able to autonomously explore a maze. Control will be based on an Arduino Uno; the default propulsion method will be differential drive with continuous rotation servos. The robot will traverse the maze by following black lines on a white floor; it must also be able to detect walls, an audible start signal, and treasures with different shapes and colors. When the robot has finished exploring the maze, it must transmit its progress to a base station (also based on Arduino Uno), and print the maze on a screen for verification. Points will be awarded for speed, accuracy, and innovative design methods. The entire robot can cost no more than $100; this [chart](Cost.md) shows how the price is calculated.
+## Relevant Links
 
-All designs must be documented throughout the semester on a group website. The goal is for these websites to be used as a source of reference for future classes. Accordingly, they will be graded with respect to thoroughness and clarity. Only documented accomplishments receive credits. However, to give teams a competitive advantage, we ask everyone to keep explicit code and circuit designs private until the end of the semester.
+* [Course Description](./courseDescription.md)
+* [Team Websites](./teams.md)
+* [Detailed Schedule](schedule.md)
+* [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
+* [Lectures](./lectures/readme.md)
+* [Grades, rules, and final scoring chart](./Grading/Readme.md)
+* [Robot cost](./Cost.md)
+* [Tutorials](./tutorials/readme.md)
+* [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
+* [TA's](./instructors.md): Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
+* Piazza: [The main page is located here](https://piazza.com/cornell/fall2018/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2018/ece3400)
+* Class hours: Monday, Wednesday, and Friday in Kimbal Hall B11. Lecture Pdf's can be found [here](./lectures/readme.md).
+* Lab hours: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
 
-[Rules and final scoring chart](./Grading/Readme.md)
-
-## Team Composition
-
-The teams will be composed by the TA's and lecturer *without exception*.
-
-Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 25th please fill out this [Google form](https://goo.gl/forms/G54ZCPmXbgT65QS32) such that the teams can be formed immediately.
-
-All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. Be sure to note what team members solve what on the website. 
-
-We will host internal team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
-
-This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2018 and that the score-chart may be changed throughout the semester.  
+***
 
 ## Schedule and Hand-Outs
 
@@ -60,6 +46,4 @@ Week | Topic | Week | Topic
 
 See detailed schedule and deadlines [here](schedule.md)
 
-# Tutorials and Helpful links
-
-Check out [this page](./tutorials/readme.md) for lots of tutorials and helpful links!
+***
