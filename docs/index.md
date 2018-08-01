@@ -1,4 +1,11 @@
 # ECE 3400 Intelligent Physical Systems
+
+* [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
+* [TA's](./instructors.md): Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
+* Class hours: Monday and Wednesday 11.15am-12.05pm, Upson Hall 142.
+* Team meetings: Friday 11.15am-12.05pm, location TBD by teams.
+* Labs: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
+
 ## Cornell University, Fall 2017
 
 Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment. Specifically, in teams of 5-6, students will design and fabricate a robot able to navigate and map out a maze with treasures in the shortest possible time.
@@ -14,18 +21,14 @@ Instead of traditional hand-ins, we leverage peer-to-peer mentoring where studen
 ## Relevant Links
 
 * [Course Description](./courseDescription.md)
-* [Team Websites](./teams.md)
 * [Detailed Schedule](schedule.md)
 * [Lab schedule](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York)
 * [Lectures](./lectures/readme.md)
+* [Piazza:](https://piazza.com/cornell/fall2018/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2018/ece3400)
+* [Team Websites](./teams.md)
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
 * [Robot cost](./Cost.md)
 * [Tutorials](./tutorials/readme.md)
-* [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
-* [TA's](./instructors.md): Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
-* Piazza: [The main page is located here](https://piazza.com/cornell/fall2018/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2018/ece3400)
-* Class hours: Monday, Wednesday, and Friday in Kimbal Hall B11. Lecture Pdf's can be found [here](./lectures/readme.md).
-* Lab hours: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
 
 ***
 
