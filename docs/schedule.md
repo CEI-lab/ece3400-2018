@@ -4,7 +4,7 @@ XXX Deadline @8am: Fill out and send the [team assessment form](./Teamwork/Group
 
 Week 1:
 * Aug 24th, Friday: Introduction
-* August 25th, Saturday: **Deadline @midnight:** Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
+* Aug 25th, Saturday: **Deadline @midnight:** Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
 
 Week 2:
 * *Lab 1 Microcontrollers*
