@@ -1,14 +1,5 @@
 # ECE 3400 Intelligent Physical Systems
 
-* **Cornell, Fall 2018**
-* **Class hours:** Monday and Wednesday in Upson Hall 142
-* **Team meetings:** Friday, location determined by the team
-* **Lab hours:** Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427
-* **Instructor:** Kirstin Petersen (khp37)
-* **TA's:** Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
-* **Piazza:** The main page is located [here](piazza.com/cornell/fall2017/ece3400/home), please sign up [here](piazza.com/cornell/fall2017/ece3400)
-* **Blackboard:** Blackboard will be used to distribute grades only
-
 ## Course Description
 
 Students will engage in a holistic design approach to Intelligent Physical Systems which can perceive, reason about, and act upon their environment. This course will expand on the ECE 2000-level courses, and include topics on algorithms, field programmable gate arrays, wireless communication, sensors, actuators, power, and mechanics. Students will learn the value and trade-offs between theory, simulation, and physical implementations, and gain familiarity with rapid prototyping techniques, system debugging, team work, leadership skills, time management, and how to disseminate work to a broader audience through webpages.
@@ -36,13 +27,13 @@ All designs must be documented throughout the semester on a group website. The g
 
 The teams will be composed by the TA's and lecturer *without exception*.
 
-Teams will be dependent on lab-time sign-up, student skillsets, and personalities. Before midnight August 25th please fill out this [Google form](https://goo.gl/forms/G54ZCPmXbgT65QS32) such that the teams can be formed immediately.
+Teams will be dependent on lab-time sign-up, student skillsets, and personalities. 
 
 All labs are divided into two sub-labs. To ensure a good mix, it is required that you keep switching partners for the different labs. Be sure to note what team members solve what on the website. 
 
 We will host internal team evaluations and practice constructive critiscism. Receiving and giving profesional feedback may be uncomfortable at first, but it is a skill that will help you in any future career.
 
-This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes has been made for Fall 2018 and that the score-chart may be changed throughout the semester.  
+This [folder](./Grading/Readme.md) includes documents detailing how students will be graded. Be aware that a lot of changes occur every semester, and consequently the score-chart may be changed throughout the semester.  
 
 # Tutorials and Helpful links
 
