@@ -9,8 +9,8 @@ Week 1:
 Week 2:
 * *Lab 1 Microcontrollers*
 * Aug 27th, Monday: Working with Arduinos, embedded control
-* Aug 29th, Wednesday: Effective team work/time management (Erica Dawson??) 
-* Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to Kirstin.
+* Aug 29th, Wednesday: Effective team work/time management by Erica Dawson
+* Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to the instructor.
 
 Week 3:
 * *Work on milestone 1*
@@ -57,7 +57,7 @@ Week 9:
 
 Week 10:
 * *Work on milestone 3*
-* Oct 22nd, Mon: Conflict resolution
+* Oct 22nd, Mon: Conflict resolution by Erica Dawson
 * Oct 24th, Wed: Algorithms
 * Oct 26th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 4. 
 
