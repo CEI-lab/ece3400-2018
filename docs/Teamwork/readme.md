@@ -1,5 +1,5 @@
 # Teamwork 
-## ECE 3400, Fall 2017
+## ECE 3400, Fall 2018
 
 On this page you can find interesting documents on effective team work and communication. 
 
