@@ -7,7 +7,7 @@ Week 1:
 Week 2:
 * *Lab 1 Microcontrollers*
 * Aug 27th, Monday: Working with Arduinos, embedded control
-* Aug 29th, Wednesday: Effective team work/time management by Erica Dawson
+* Aug 29th, Wednesday: Effective team work/time management by Robin Parker, Center for Teaching Excellence
 * Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to the instructor.
 
 Week 3:
