@@ -10,7 +10,7 @@
 
 ***
 
-Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment. Specifically, in teams of 5-6, students will design and fabricate a robot able to navigate and map out a maze with treasures in the shortest possible time.
+Welcome to ECE 3400; a class where students learn to tie the fundamental principles of Electrical and Computer Engineering (ECE) across virtual and physical boundaries to create autonomous robots able to perceive, reason about, and act upon their environment. Specifically, in teams of 4-5, students will design and fabricate a robot able to navigate and map out a maze with treasures in the shortest possible time.
 
 ![ECE3400 Overview](./images/Overview.png)
 
