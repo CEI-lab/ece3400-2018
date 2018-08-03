@@ -1,10 +1,34 @@
-# Lab 2: Analog Circuitry and FFTs
-## ECE 3400 Fall ’17
+# ECE3400 Fall 2017
+## Lab 2: Analog Circuitry and FFTs
 
 ### Objective
-In this lab, you will create two analog circuits to attached to your Arduino. One is a microphone circuit that will detect a whistle blow signifying the beginning of your mapping race. The other is a sensing circuit of your choice.
+In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect an IR treasure blinking at 7kHz.
 
-### Materials
+### Pre-lab Assignment
+Before you start your lab, you should have familiarized yourself with the analog-to-digital converter on the [ATmega328](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) (Arduino microcontroller).
+
+You should also have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your website will be expected to have a sufficient explanation of the basic FFT algorithm.
+
+Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading 660Hz sine wave, or ~10kHz treasure). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
+
+For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+
+You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. You will especially need an [amplifier](https://cei-lab.github.io/ece3400/Grading/Lab_score.html) on your treasure detection circuit to reliably detect the correct frequency of the treasure. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.)
+
+As always it is a good idea to check [Team Alpha's website](https://cei-lab.github.io/ECE3400-2017-teamAlpha/) to see an example of a solution. But please strive to do better than we did!
+
+### Documentation
+Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, photos, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
+
+Be sure to note on the website what work is carried out by whom. And remember that, if at all possible, you are expected to form different sub teams in every lab.
+
+***
+
+### Procedure
+
+Split into two teams.
+
+The acoustic team will need the following materials:
 - Arduino Uno
 - Electret microphone
 - 1 µF capacitor
@@ -12,76 +36,75 @@ In this lab, you will create two analog circuits to attached to your Arduino. On
 - ~3 kΩ resistor
 - Various other components, as needed
 
-### Pre-lab Assignment
-Before you start your lab, you should have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your lab report will be expected to have a sufficient explanation of the basic FFT algorithm.
+The optical team will need the following materials:
+- Arduino Uno
+- IR receiver
+- 300 Ω resistors
+- Borrow a treasure board from the TA's
+- Various other components, as needed
 
-Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the board’s ADC, or is analogRead fast enough? What might be some concerns of using either method? Keep in mind that your goal is to detect a 660Hz sine wave “whistle.” What’s the normal range of a human voice? Are the harmonics of human speech an issue?
+#### Download the Open Music Labs FFT library
 
-For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+* Open [Music Labs’ FFT page](http://wiki.openmusiclabs.com/wiki/ArduinoFFT), scroll down and download the newer FFT library folder. Extract this, and then go to My Documents > Arduino > Libraries and put the "FFT" library folder (not the entire "ArduinoFFT3" folder) inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
 
-It would be wise to design some quick amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the strength of your microphone’s signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset are appropriate?
+* Use the example sketch to start coding. On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor.
 
-Your group should also meet together before your lab session to decide on your secondary analog circuit. This circuit does not have to be complex; rather, it just needs to be useful to your design. A simple example of this is thresholding a sensor to turn it into a digital output. If your circuit idea includes any components that you do not think will already be available in the lab, contact the professor or a TA as soon as possible.
+* *Unit Test:* Setup a signal generator to deliver a signal that matches what you expect to see from your sensor. This signal must be between 0-5V to not damage the Arduino. Test that the frequency output from your signal generator matches what you see on the serial monitor.
 
-### Notebook Documentation
-Throughout this lab and ALL labs, remember to have each team member document their steps and experiences in their own lab notebook. Notebooks should contain personal notes, schematics, diagrams, and documentation of results and challenges of this lab. These notebooks will be looked over at the end of your lab session to ensure two things: that you were present in the lab (remember: labs are required), and that you are taking good notes. Keep in mind that you will use your notebooks until the end of the final project. The notebooks will keep track of your progress with the labs and project, how the labs tie into the final project. There is a document on BlackBoard with more details about that.
+* Optional: You can, for example, use Matlab to debug your frequencies. Matlab can import values from a serial port and plot a graph of your signal. Use the myserialport = serial(comport, ‘BaudRate’, baudrate_needed) to initialize a serial port. Set the comport parameter to the port that your Arduino is connected to (under Tools>ports in the Adriano program) and the budrateneeded parameter to 9600. Use the fopen(myserialport) to open the serial port. Read from the port using fscanf(myserialport,’%i’) and plot the value read. Close the port using fclose(myserialport) after you’re done reading.
 
-### Procedure
-It is suggested that the team divides into two groups to complete this lab. One group can work on the microphone circuit, while the other group can work on the secondary circuit. Depending on the complexity of the secondary circuit, the team may want to delegate extra work to balance the overall workload per group. It is highly suggested that you work on your microphone module in chunks, testing the circuitry and code separately before joining them together.
+#### Acoustic Team: Assemble your microphone circuit
 
-1. **Download the Open Music Labs FFT library**
-One Open Music Labs’ FFT page, scroll down and download the newer FFT library folder. Extract this, and then go to My Documents Arduino  Libraries and put the FFT library folder inside of it. If you have the Arduino IDE open, close it and then restart the program (not the computer) so that it can update accordingly.
+The basic circuit for your electret microphone is as follows. It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor:
 
-2. **Use the example sketch to start coding**
-On the FFT webpage, you will find some good, solid documentation on how to use the library. You should have reviewed this before the lab. In addition, the library you just installed has an example sketch that reads in values from Analog Pin 0 and outputs the frequency bin magnitudes via the serial monitor. Check this code out, and consider using it as a base for your microphone circuit code. You should have thought about possible modifications to this code from when you did the prelab. Remember that your goal is to be able to match a signal to its frequency. For the competition, a sine wave at 660 Hz will be emitted from a set of speakers to signal the start of the race.
+![Image from Wikipedia](images/lab2_fig1.png)
 
-To program your Arduino, click the checkmark to compile your code and then the right-pointing arrow to upload (program) it. Note: When you click the right arrow, your code will automatically be re-compiled, so clicking the checkmark isn’t strictly necessary. If it doesn’t work, check that it is connected to the correct COM port by looking at the Tools  Serial Port list.
+* *Unit Test:* Use the app you downloaded during the pre-lab to generate a 660Hz tone. Measure the output from the microphone with the oscilloscope, and try to get an idea of what you need to do to the signal to be able to detect it securely from the Arduino.
 
-Refer to the Arduino Reference (http://arduino.cc/en/Reference/HomePage) for helpful functions and syntax as needed.
+* Next, add any additional circuitry you think you need. An amplifier? A analog passive/active filter? If you are adding a circuit you don't need the extra components, just plug one end of the microphone to ground and the other straight into your analog circuitry. Feel free to reference textbooks and the web to decide what circuitry to use. Just be sure that you can fully describe and explain your circuitry choices and how they work when you update your website. Be sure to cite your sources.
 
-3. **Assemble your microphone circuit**
-The basic circuit for your electret microphone is as follows:
+* *Unit Test:* Check your circuitry before hooking it up to the Arduino. An amplifier can easily be tested by adding a DC voltage to the input. A filter should be tested by doing a frequency sweep with a signal generator. Once you know that it works, you can test your circuit further by hooking it up to your microphone and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
-![Fig. 1](images/lab2_fig1.png)
-Image from Wikipedia
+* Next, hook up your circuit to the Arduino and try make it detect when you register the 660Hz signal. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor. You only need these components if you are not adding amplifiers and filters yet – otherwise, just plug one end of the microphone to ground and the other straight into your analog circuitry. It is up to your team to determine if and what kinds of amplifiers and/or filters will be necessary to register the whistle blow. If you decide to add filters and/or amplifiers, feel free to reference textbooks and the Web. Just be sure that you can fully describe and explain your circuitry choices and how they work when you write your lab report (as well as cite your sources).
+* Be aware that during the competition, this circuit must work despite excessive background noise. Your performance will be penalized if you have to start the robot manually and you will get a late start on mapping the maze. Try to recreate this situation during the lab and check if your circuit is robust to audible noise!
 
-The Arduino’s analogRead function can only measure signals from 0 to 5 volts, so make sure that your circuit’s output is between these ranges (hint: you might want to create a DC offset).
-It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
+* Finally, if you have time to spare, it might be worth implementing an override button right away, such that you can start your robot quickly during the competition in case your microphone circuit fails to recognize the start signal.
 
-4. **Finish coding and debugging your microphone circuit**
-You will likely find that plugging in your circuit and running your code will not produce expected results. Remember when you debug that the oscilloscope on your lab bench is an invaluable tool both for your physical circuitry and for your Arduino. The waveform generator will also be an asset in debugging your code.
+* As always, feel free to talk to other groups or a TA if you need assistance!
 
-Also MATLAB, which is installed on the lab computers, is another invaluable tool for debugging. You can use MATLAB to import values from a serial port and plot a graph of your signal. Use the myserialport = serial(comport, ‘BaudRate’, budrateneeded) to initialize a serial port. Set the comport parameter to the port that your Arduino is connected to (under Tools>ports in the Adriano program) and the budrateneeded parameter to 9600. Use the fopen(myserialport) to open the serial port. Read from the port using fscanf(myserialport,’%i’) and plot the value read. Close the port using fclose(myserialport) after you’re done reading.
+#### Optical Team: Assemble your IR circuit
 
-As always, feel free to talk to other groups or a TA if you need assistance.
-Remember to do adequate error-checking so that your robot responds reliably to the whistle blow. Otherwise, your performance will be penalized and you will get a late start on mapping the maze.
+Objective: Be able to detect a 7kHz IR beacon with an Arduino using the FFT library.
 
-5. **Assemble and code your additional circuit**
-Before you start creating your secondary circuit, make sure that a TA has checked off on it first. This design and implementation is largely up to you, so make sure you have a solid game plan before you come into the lab.
-One example for your additional circuit is a thresholded grayscale sensor. Using a white LED, a photoresistor, and Schmitt Trigger, you can design a circuit that outputs a “1” when it is on top of the black tape and a “0” when it is not (or vice versa). Doing this is helpful because packaged grayscale sensors have an analog output, which you don’t have that many pins for. Freeing up an analog pin for another sensor could be helpful when you are designing your robot.
+* A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](https://www.digikey.com/product-detail/en/lite-on-inc/LTR-301/160-1065-ND/153270) (LTR-301). Then connect the sensor as below:
 
-There are countless circuits you could invent that would aid in your design. Remember that your circuit does not need to be complex – only useful.
+![IR_phototransistor](./images/Lab2_Phototransistor.jpg)
 
-### Wrap-Up
-Keep your circuits and Arduino Unos in the box dedicated for your team. Any other unused components can be placed back into their appropriate bins.
+* Prepare your treasure: Measure the frequency output of your treasure with an oscilloscope, adjust the potentiometer using a small screwdriver to make it flash at 7kHz.
 
-You should have documented this lab in your notebook; your documentation should include personal notes, brainstorms and ideas for your code, challenges, successes, and applicable diagrams. In addition, your notebook should contain information on the circuits you designed for sections 3 and 5 of the Procedure.
+![Treasure](./images/Treasure_Pot.JPG)
 
-Use the GitHub/SourceTree program on the lab computer to save your code. Using one teammate’s personal account, add the code from this lab as a private repository and share it with other team members. If you need to access this code at a later time, you can “clone” it back onto the computer. If you need any assistance with using GitHub/Bitbucket, refer to the tutorial on Blackboard or ask a TA.
+* *Unit Test:* Hold your treasure at a realistic difference from the sensor (you can check with the maze that is setup in the front room), and measure the output of the sensor with the scope. Will you need additional analog circuitry before you pass this on to the Arduino?
 
-### Report
-See the Lab and Notebook Write-up document on BlackBoard for guidelines on how to write the report.
+* While designing additional amplifiers/analog passive/active filter circuits, feel free to reference textbooks and the web to decide what circuitry to use. Just be sure that you can fully describe and explain your circuitry choices and how they work when you update your website. Be sure to cite your sources.
 
-The report for this lab should not be longer than four pages. It should include three sections:
+* *Unit Test:* If you have additional circuitry, be sure to test it before hooking them up to the Arduino. An amplifer can easily be tested by adding a DC voltage to the input and an oscilloscope to the output. A filter should be tested by doing a frequency sweep with a signal generator and an oscilloscope on the output. Once you know that it works, you can test your circuit further by hooking it up to your photo transistor and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
-1. One to two pages with an introduction, statement of the purpose of the lab, and an overview of your circuit designs.
+* Next, hook up your circuit to the Arduino and try make it detect the presence and frequency of a treasure. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-2. Two to three pages (OK if it's more) with diagrams and documentation of your designed circuits and programs, along with a description of the methods used (including FFT). This means that you need to explain clearly why you use the FFT, how you do it (explain the filtering, how you implement the filtering, how the filters work with schematics), and how your circuits work (calculations, simulations, measurements, etc.). Everything needs to be explained.
+* In the final competition you will need to distinguish up to three different treasures at 7kHz, 12kHz, and 17kHz. If you have time to spare, check that your FFT works well enough to sense the difference.
 
-3. One page for any issues encountered, results, a short explanation on how the lab fits with the final project, and any suggested improvements for the lab.
+* **Remember to turn off the treasure when you're done using it, and to hand it back to the TAs**
 
-4. In addition to submitting a hard copy of your report in lab, upload an electronic version of your report (with all clearly commented code) to Blackboard.
+* As always, feel free to talk to other groups or a TA if you need assistance!
 
-The grading of these reports will not be based on the effectiveness of your design but entirely upon your documentation and written understanding of the lab. This will include a TA review of your lab notebook that contains notes, design sketches, and results/challenges.
+***
+
+### Wrap-Up and Clean-Up
+
+Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
+
+You should document this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
+
+Use GitHub on the computer to upload and save your code, be sure to add appropriate commit messages. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
