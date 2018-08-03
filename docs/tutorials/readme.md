@@ -36,6 +36,8 @@ This is the repository for the team of TA's that solved all the labs during the 
 
 [2017 Team Websites](https://cei-lab.github.io/ece3400-2017/teams.html)
 
+Also, check out this brief on [systems design](./Systems_design.md) early in the semester - it will help you prep for the final competition!
+
 **Making Tutorials**
 
 * Making tutorials is a great way to earn extra credit. Please confer with the professor _before_ starting. [Here's a brief tutorial on making tutorials](https://cei-lab.github.io/ece3400-2017/tutorials/tutorials.html), with a list of possible tutorials we'd like to add.
