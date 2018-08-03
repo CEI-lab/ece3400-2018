@@ -2,7 +2,7 @@
 
 Week 1:
 * Aug 24th, Friday: Introduction
-* Aug 25th, Saturday: **Deadline @midnight:** Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32).
+* Aug 25th, Saturday: **Deadline @midnight:** 1) Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32). 2) Sign up for [Piazza](piazza.com/cornell/fall2018/ece3400)
 
 Week 2:
 * *Lab 1 Microcontrollers*
