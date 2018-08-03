@@ -3,9 +3,7 @@
 
 On this page you can find interesting documents on effective team work and communication. 
 
-Please fill in [this form](https://goo.gl/forms/XJ1fiFNouGQxrq562) before midnight Monday August 28th.
-
-You can also find the [team contract](Team_Contract.md) to be submitted Friday September 1st, and [team assessment forms](GroupProcess-QualitativePeerSelfEval.docx) to be submitted before midnight Sep 22nd, Oct 20th, and Nov 17th. 
-
-
-[Here](https://www.smartsheet.com/blog/gantt-chart-excel01) is a neat way to create a Gant chart for free in Microsoft Excel
+* Please fill in [this form](https://goo.gl/forms/XJ1fiFNouGQxrq562) before midnight August 25th, and the [team contract](Team_Contract.md) before midnight August 31st. 
+* Team assessment forms are available on Qualtrics, and you will get an email reminder with a link every two weeks. 
+* [Here](https://www.smartsheet.com/blog/gantt-chart-excel01) is a neat way to create a Gant chart for free in Microsoft Excel
+* Great chapter on how to achieve effective [Team work](./Groupwork%20Brent%20Elhajj%20Felder%20Oakley%202004.pdf)
