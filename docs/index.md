@@ -4,7 +4,7 @@
 
 * [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
 * [TA's](./instructors.md): Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
-* [Piazza](piazza.com/cornell/fall2018/ece3400/home), sign up [here](piazza.com/cornell/fall2018/ece3400)
+* [Piazza](https://piazza.com/cornell/fall2018/ece3400/home?), sign up [here](http://piazza.com/cornell/fall2018/ece3400)
 * Class hours: Monday and Wednesday 11.15am-12.05pm, Upson Hall 142.
 * Team meetings: Friday 11.15am-12.05pm, location TBD by teams.
 * Labs: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
