@@ -76,8 +76,8 @@ Week 12:
 
 Week 13:
 * *Work on milestone 4*
-* Nov 12th, Mon: Power and batteries for IPS
-* Nov 14th, Wed: Cornell Engineering Career Center (Christa Downey)
+* Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
+* Nov 14th, Wed: Power and batteries for IPS
 * Nov 16th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 4. Fill out the team assessment form.
 
 
