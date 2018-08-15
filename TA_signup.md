@@ -16,12 +16,12 @@ Expectation of workload, as per university policy:
 
 2. All TAs must sign up to grade at least one of the lab's (website), and one of the milestones (we need two TA's for every grading assignment):
 
-* Lab 1 (Alicia, name)
+* Lab 1 (Alicia, Michael)
 * Lab 2 (name, name)
 * Lab 3 (name, name)
 * Lab 4 (name, name)
 * Milestone 1 (Aicia, name)
-* Milestone 2 (name, name)
+* Milestone 2 (Michael, name)
 * Milestone 3 (name, name)
 * Milestone 4 (name, name)
 
