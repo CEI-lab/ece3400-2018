@@ -10,17 +10,17 @@ Expectation of workload, as per university policy:
 
 * Monday 1.25-4.25pm (Ryan, Alicia)
 * Monday 7.30-10pm (name, name)
-* Wednesday 7.30-10pm (name, name)
+* Wednesday 7.30-10pm (Alex, name)
 * Thursday 7.30-10pm (name, name)
 * Friday 1.25-4.25pm (Michael, name)
 
 2. All TAs must sign up to grade at least one of the lab's (website), and one of the milestones (we need two TA's for every grading assignment):
 
 * Lab 1 (Alicia, Michael)
-* Lab 2 (name, name)
+* Lab 2 (Alex, name)
 * Lab 3 (name, name)
 * Lab 4 (name, name)
-* Milestone 1 (Aicia, name)
+* Milestone 1 (Aicia, Alex)
 * Milestone 2 (Michael, name)
 * Milestone 3 (name, name)
 * Milestone 4 (name, name)
@@ -44,6 +44,6 @@ Expectation of workload, as per university policy:
 * Ugrad: Alicia Coto
 * Ugrad: Jennifer Fuhrer
 * Ugrad: Michael Solomentsev
-* Ugrad: Alex Katz
+* Ugrad: Alex Katz (aik49)
 * Ugrad: Yonghun Lee
 * Ugrad: Evan Kravitz
