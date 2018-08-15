@@ -23,6 +23,8 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 
 ![Thinesiya](./images/Thinesiya.png)
 
+### TA: Alicia Coto (lab session: )
+
 ### TA: Jennifer Fuhrer (lab session: )
 
 ![Jennifer](./images/Jennifer.png)
@@ -30,6 +32,8 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 ### TA: Logan Horowitz (lab session: )
 
 ![Logan](./images/Logan.png)
+
+### TA: Alex Katz
 
 ### TA: Evan Kravitz
 
