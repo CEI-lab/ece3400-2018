@@ -8,7 +8,7 @@ Expectation of workload, as per university policy:
 
 1. All TAs must sign up to attend one of the weekly lab hours - we need exactly two TA's for every lab:
 
-* Monday 1.25-4.25pm (name, name)
+* Monday 1.25-4.25pm (Ryan, name)
 * Monday 7.30-10pm (name, name)
 * Wednesday 7.30-10pm (name, name)
 * Thursday 7.30-10pm (name, name)
