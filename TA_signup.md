@@ -12,7 +12,7 @@ Expectation of workload, as per university policy:
 * Monday 7.30-10pm (name, name)
 * Wednesday 7.30-10pm (name, name)
 * Thursday 7.30-10pm (name, name)
-* Friday 1.25-4.25pm (name, name)
+* Friday 1.25-4.25pm (Michael, name)
 
 2. All TAs must sign up to grade at least one of the lab's (website), and one of the milestones (we need two TA's for every grading assignment):
 
