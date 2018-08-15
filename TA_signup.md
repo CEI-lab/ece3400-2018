@@ -41,9 +41,9 @@ Expectation of workload, as per university policy:
 * Grad: Ryan O'Hern (rmo26)
 * MEng: Thinesiya Krishnathasan (tk455)
 * Ugrad: Logan Horowitz (lhh48)
-* Ugrad: 
-* Ugrad: 
-* Ugrad: 
-* Ugrad: 
-* Ugrad: 
-* Ugrad 
+* Ugrad: Alicia Coto
+* Ugrad: Jennifer Fuhrer
+* Ugrad: Michael Solomentsev
+* Ugrad: Alex Katz
+* Ugrad: Yonghun Lee
+* Ugrad: Evan Kravitz
