@@ -27,7 +27,7 @@ Expectation of workload, as per university policy:
 
 3. No students are allowed in PH414/PH427 without a TA present, so we need lots of Open Lab hours (OH) with a couple of caveats. No more than two TAs should cover a single time slot. OHs during the weekend are encouraged. TAs are not expected to do OH during the two weeks where they grade. If you have weeks where you have no time for OH, feel free to catch up later. Specifically, we need lots of extra office hours Sept 4-9th (because of labor day), Oct 10th-14th (because of Fall break), and before and after Thanksgiving. It is very helpful for the students if you plan at least one week ahead for OH. 
 
-* Mark open lab hours in the [Google calendar](https://calendar.google.com/calendar/embed?src=ece34002017%40gmail.com&ctz=America/New_York) (with the password and username sent in a separate email).
+* Mark open lab hours in the [Google calendar](https://calendar.google.com/calendar?cid=Y29ybmVsbC5lY2UzNDAwQGdtYWlsLmNvbQ) (with the password and username sent in a separate email).
 
 4. All TAs must be present during the final competition December 4th.
 
