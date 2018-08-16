@@ -1,12 +1,12 @@
 # Lab 1: Microcontroller
-## ECE 3400 Fall 2017
+## ECE 3400 Fall 2018
 
 ### Objective
 In this introductory lab, you will learn how to use the various functionalities of the Arduino Uno and the Arduino IDE, as well as the GitHub repository. Your team will brainstorm and construct a simple functional Arduino program using multiple external components and the Arduino Uno. Once you have this basic understanding, you should put together your robot and have it perform a simple autonomous task. If you are already familiar with the Arduino, feel free to let those less familiar focus on the lab, and engage in some of the other tasks mentioned at the end of this page. 
 
 ### Pre-lab Assignment
-By the beginning of your lab session, your team must have created a GitHub account and made a basic website. We will use GitHub to share and save code (source control), and to manage the website. 
-To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This link (RYAN ADD LINK!) has helpful remarks on how to use GitHub, and how to build a website.
+By the beginning of your lab session, your team must have created a GitHub account. We will use GitHub to share and save code (source control), and to manage your team website. 
+To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This [link](https://cei-lab.github.io/ece3400-2018/tutorials/) has helpful remarks on how to use GitHub, and how to build a website.
 
 In addition, you should have reviewed the Arduino Reference (http://arduino.cc/en/Reference/HomePage) page and made yourself familiar with its layout and some basic functions and syntax. Also, read up on how the Parallax Continuous Rotation Servo is used in a circuit:
 http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
@@ -14,7 +14,7 @@ http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
 ### Documentation
 Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites. 
 
-Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. 
+Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, be sure to note on the website what work is carried out by whom. Please make new teams for every lab!
 
 ### Procedure
 
