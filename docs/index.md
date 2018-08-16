@@ -3,7 +3,7 @@
 ## Cornell University, Fall 2018
 
 * [Instructor](./instructors.md): Assistant Professor Kirstin Petersen (khp37)
-* [TA's](./instructors.md): Haron Abdel-Raziq (hma49), Ryan O'Hern (rmo26), Logan Horowitz (lhh48), ...
+* [TA's](./instructors.md)
 * [Piazza](https://piazza.com/cornell/fall2018/ece3400/home?), sign up [here](http://piazza.com/cornell/fall2018/ece3400)
 * Note that lab and milestone grades will be distributed over Blackboard!
 * Class hours: Monday and Wednesday 11.15am-12.05pm, Upson Hall 142.
