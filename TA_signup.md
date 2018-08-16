@@ -10,7 +10,7 @@ Expectation of workload, as per university policy:
 
 * Monday 1.25-4.25pm (Ryan, Alicia)
 * Monday 7.30-10pm (Alex, name)
-* Wednesday 7.30-10pm (Thinesiya, name)
+* Wednesday 7.30-10pm (Thinesiya, Logan)
 * Thursday 7.30-10pm (name, name)
 * Friday 1.25-4.25pm (Michael, Haron)
 
@@ -18,10 +18,10 @@ Expectation of workload, as per university policy:
 
 * Lab 1 (Alicia, Michael)
 * Lab 2 (Alex, Thinesiya)
-* Lab 3 (name, name)
+* Lab 3 (Logan, name)
 * Lab 4 (name, name)
 * Milestone 1 (Aicia, Alex)
-* Milestone 2 (Michael, name)
+* Milestone 2 (Michael, Logan)
 * Milestone 3 (Thinesiya, name)
 * Milestone 4 (name, name)
 
