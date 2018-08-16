@@ -95,5 +95,5 @@ Week 15:
 
 
 Week 16:
-* Dec 3rd, Mon: Team meetings. 
+* Dec 3rd, Mon: Recap!
 * Dec 4th, Tuesday: **FINAL COMPETION 9-12**. **Deadline @midnight** Grading of final websites!
