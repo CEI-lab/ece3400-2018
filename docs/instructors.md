@@ -32,6 +32,7 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 ### TA: Logan Horowitz (lab session: )
 
 ![Logan](./images/Logan.png)
+I'm a senior ECE currently involved in a number of projects with the Collective Embodied Intelligence Lab, designing electronics for studying bees and creating modular robots.  I am also conducting research with the Molnar Group, designing circuit blocks for use on various IC’s and exploring novel energy recovery methods to improve full-duplex radio efficiency.  I am the electrical lead for Resistance Racing: Cornell Electric Vehicles.  I love wrestling, biking, and climbing trees or buildings.
 
 ### TA: Alex Katz
 
