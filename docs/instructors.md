@@ -38,7 +38,7 @@ I'm a senior ECE currently involved in a number of projects with the Collective 
 
 ### TA: Evan Kravitz (lab session: Monday 7:30-10pm)
 
-![Evan](./images/Evan.jpg)
+![Evan](./images/Evan.png)
 I'm a fourth year undergrad studying ECE with a minor in CS. My interests include computer software/hardware, math, physics, and data science. I do research in the CSL under Prof. Zhiru Zhang, working on developing efficient machine learning algorithms that can be executed on GPUs and FPGAs. I like to bike, run, hike, and eat good food. 
 
 ### TA: Yonghun Lee
