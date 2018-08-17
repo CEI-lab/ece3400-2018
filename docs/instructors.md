@@ -44,6 +44,7 @@ I'm a fourth year undergrad studying ECE with a minor in CS. My interests includ
 ### TA: Yonghun Lee
 
 ![Yonghun](./images/Yonghun.png)
+I am a senior majoring in AEP with a minor in ECE. My research interest lies in solid state physics, and I am conducting research at Professor Kyle Shen’s group in the Physics department, working on understanding the metal-insulator transition behavior of antiferromagnets. Outside of school work, I like to lift, walk, and watch movies. 
 
 ### TA: Michael Solomentsev (lab session: )
 
