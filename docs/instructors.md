@@ -43,6 +43,8 @@ I'm a fourth year undergrad studying ECE with a minor in CS. My interests includ
 
 ### TA: Yonghun Lee
 
+![Yonghun](./images/Yonghun.png)
+
 ### TA: Michael Solomentsev (lab session: )
 
 ![Michael](./images/Michael.png)
