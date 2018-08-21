@@ -43,7 +43,7 @@ Expectation of workload, as per university policy:
 * Ugrad: Logan Horowitz (lhh48)
 * Ugrad: Alicia Coto
 * Ugrad: Jennifer Fuhrer
-* Ugrad: Michael Solomentsev
+* Ugrad: Michael Solomentsev (mys29)
 * Ugrad: Alex Katz (aik49)
 * Ugrad: Yonghun Lee (yl634)
 * Ugrad: Evan Kravitz (esk95)

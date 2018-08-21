@@ -49,5 +49,6 @@ I am a senior majoring in AEP with a minor in ECE. My research interest lies in 
 ### TA: Michael Solomentsev (lab session: )
 
 ![Michael](./images/Michael.png)
+I'm a ECE senior with big dreams and a bigger heart. I've been working with the CEI lab on grape and computer visions related projects. Lot of experience working on embedded design projects, with an emphasis on signal processing. This semester I'm taking a bunch of analog focused classes. I also run the lab manager of the Maker Lab, out of Phillips 217! Please contact me if you'd like access to that space (mys29). 
 
 
