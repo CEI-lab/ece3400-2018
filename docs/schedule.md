@@ -89,9 +89,9 @@ Week 14:
 
 Week 15:
 * *Work on final system*
-* Nov 26th, Mon: IPS Ethics
-* Nov 28th, Wed: IPS Ethics
-* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
+* Nov 26th, Mon: IPS Ethics (Park Atkinson Doing)
+* Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
+* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Ethics homework hand-in. Fill out the team assessment form.
 
 
 Week 16:
