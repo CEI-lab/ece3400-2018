@@ -3,7 +3,7 @@
 
 [Return to main page](https://cei-lab.github.io/ece3400-2018/)
 
-If you have a question that can't be answered by one of the links above, or on the Piazza page, try contact one of us!
+If you have a question that can't be answered by one of the links above, or on the Piazza page, try contacting one of us!
 
 ### Instructor: Kirstin Petersen
 
