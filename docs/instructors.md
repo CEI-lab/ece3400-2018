@@ -36,7 +36,7 @@ I'm a senior ECE currently involved in a number of projects with the Collective 
 
 ### TA: Alex Katz (lab session: Monday 7.30-10.30pm)
 
-![Alex](./images/Alex.png) .  
+![Alex](./images/Alex.png)   
 I'm a senior in ECE and my interests currently lie on or near the boundary between hardware and software. Specifically I'm interested in solving problems that involve computer architecture, operating systems, and distributed systems. I've done research in both the ECE and CS departments, and am doing distributed systems work with Ken Birman from CS. Outside of school I'm an EMT and a member of Cornell EMS. I also love any combination of trail running, climbing, and skiing. Feel free to say hi if you see me at Lindseth or out for a run!
 
 
