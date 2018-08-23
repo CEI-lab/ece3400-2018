@@ -20,7 +20,7 @@ The four teams with the highest cummulative score (marked by an apostrophy) go o
 
 * Round 3: Team 1-4'
 
-The last four teams will be ranked according to their performance in the final round. The winnin team will receive class t-shirts!
+The last four teams will be ranked according to their performance in the final round. 
 
 ## Scoring
 
@@ -34,7 +34,7 @@ The following grading scheme is applied at every round for every robot that is c
 
 ### Coverage
 
-The full mazes will be 9 x 9 squares. The robot that maps the most of the maze correctly in a given round will receive 15 points. All other robots will receive scaled values thereof. 
+The full mazes will be 9 x 9 squares. The robot that maps the most of the maze correctly (wrt to walls and gaps) in a given round will receive 15 points. All other robots will receive scaled values thereof. 
 
 ### Treasures
 
