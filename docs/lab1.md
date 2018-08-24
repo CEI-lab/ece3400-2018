@@ -18,9 +18,11 @@ Remember, all labs are mandatory; attendance will be taken at every lab. All lab
 
 ### Procedure
 
+Grab the box that has your team number written on it. 
+
 Split into two teams. Each team needs:
-- 1 Arduino Uno
-- 1 USB A/B cable
+- 1 Arduino Uno (in the box)
+- 1 USB A/B cable (in the box)
 - 1 Continuous rotation servos
 - 1 Pushbutton
 - 1 LED (any color except IR!)
@@ -69,7 +71,7 @@ The servos you have are different than standard servos – most servos can only 
 
 **Assemble and Run Your Robot**
 
-Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; remember to record videos for the website.  
+Whoever finishes first should start assembling the robot. For this you will need a chassis, screws, a 9V battery with clip, and ball bearings. Examine all of your parts, and make sure you understand the purpose of each - make the TAs aware immediately if anything is missing. Once the robot is assembled complete with two servos and a ball bearing, hook it up to an Arduino and make it perform a short autonomous task. E.g. make it drive in figure eights, or a square or similar; *remember to record videos for the website*.  
 
 If you have plenty of spare time, feel free to add line sensors. Try making the robot follow a black line on the floor and make it go as fast as possible; this will help you in the final challenge.
 
@@ -98,7 +100,8 @@ Start thinking about what sensors you want on your robot. How many are needed? C
 
 ### Wrap-Up
 
-Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins.
+Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. There should also be two battery banks in your box, it would be a good idea to mark them with your team number. We will be using these to power the robot this year (one spare, one onboard) - no non-rechargeable batteries will be accepted. Think green! It is your responsibility to keep the batteries charged. 
+
 You should have documented this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
 
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commits. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
