@@ -6,8 +6,8 @@
 * [TA's](./instructors.md)
 * [Piazza](https://piazza.com/cornell/fall2018/ece3400/home?), sign up [here](http://piazza.com/cornell/fall2018/ece3400)
 * Note that lab and milestone grades will be distributed over Blackboard!
-* Class hours: Monday and Wednesday 11.15am-12.05pm, Upson Hall 142.
-* Team meetings: Friday 11.15am-12.05pm, location TBD by teams.
+* Class hours: Monday and Wednesday 11.15am-12.05pm, Upson Hall 142 (or overflow rooms).
+* Team meetings: Friday 11.15am-12.05pm, Upson Hall 142 (or overflow rooms).
 * Labs: Monday 1.25-4.25pm, Monday 7.30-10.30pm, Wednesday 7.30-10.30pm, Thursday 7.30-10.30pm, Friday 1.25-4.25pm in Phillips Hall 427. 
 
 ***
