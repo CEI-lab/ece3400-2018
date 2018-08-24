@@ -27,7 +27,7 @@ Instead of traditional hand-ins, we leverage peer-to-peer mentoring where studen
 * [Course Description](./courseDescription.md)
 * [Detailed Schedule](schedule.md)
 * [Lab schedule](https://calendar.google.com/calendar/b/1?cid=ZWNlMzQwMDIwMTdAZ21haWwuY29t)
-* [Lectures](./lectures/readme.md)
+* [Lectures](./lectures/lectures.md)
 * [Piazza](https://piazza.com/cornell/fall2018/ece3400/home), please sign up [here](https://piazza.com/cornell/fall2018/ece3400)
 * [Team Websites](./teams.md)
 * [Grades, rules, and final scoring chart](./Grading/Readme.md)
