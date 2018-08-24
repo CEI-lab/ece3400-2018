@@ -29,7 +29,7 @@ I am an MEng student in ECE, who also did her undergrad here at Cornell in the s
 ### TA: Alicia Coto (lab session: Monday 1.25-4.25pm)
 
 <p align="center">
-  <img width="200" src="./images/Alicia.png">
+  <img width="200" src="./images/Alicia.jpg">
 </p>
 
 I am a senior studying ECE graduating in December. I spent last year serving as the Navigation Team lead of Cornell's Autonomous Sailboat Team, CUSail. My focus has been on hardware and embedded systems. I spent last summer working at MIT's Lincoln laboratory working with sonar. Outside of class, catch me listening to podcasts, playing boardgames and hiking!
