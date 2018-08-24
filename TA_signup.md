@@ -26,10 +26,16 @@ Expectation of workload, as per university policy:
 * Milestone 4 (Evan, Haron)
 
 **Jennifer, any chance you're willing to switch with Michael for lab 1 grading? I need him to help me setup the skunkworks lab.**
+
 **Ryan, how do you feel about mentoring Friday team meetings? They'll all be in UH142.**
+
 **Alex and Evan: FPGA/Vision lab?**
+
 **Logan: IR hats**
+
 **Alicia, Thinesiya, Younghun, and Haron: Please add open lab hours to the google calendar**
+
+**EVERYONE: please add your net id to the instructors page so that students can mail you if they have conflicts**
 
 3. No students are allowed in PH414/PH427 without a TA present, so we need lots of Open Lab hours (OH) with a couple of caveats. No more than two TAs should cover a single time slot. OHs during the weekend are encouraged. TAs are not expected to do OH during the two weeks where they grade. If you have weeks where you have no time for OH, feel free to catch up later. Specifically, we need lots of extra office hours Sept 4-9th (because of labor day), Oct 10th-14th (because of Fall break), and before and after Thanksgiving. It is very helpful for the students if you plan at least one week ahead for OH. 
 
