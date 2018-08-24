@@ -1,4 +1,4 @@
-# Schedule for ECE 3400 Fall 2017
+# Schedule for ECE 3400 Fall 2018
 
 Week 1:
 * Aug 24th, Friday: Introduction
