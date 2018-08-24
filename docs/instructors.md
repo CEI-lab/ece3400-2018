@@ -13,7 +13,7 @@ I am an assistant professor in ECE, with field appointments in ME and CS. I run 
 ### TA: Haron Abdel-Raziq (lab session: Friday 1.25-4.25pm)
 
 ![Haron](./images/Haron.png)
-I am a second-year PhD student in ECE, working with Kirstin in the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/). My previous research background is actually mostly in materials/device physics with some experience in the automotive industry (Ford Motor Company). I am currently working on using a specialzed sensor to obtain map information from honey bees. In generally I've worked on a wide variety of research projects including embedded systems for biology applications, "high temperature superconductors", and magnetic thin films and devices. You are welcome to ask me about research interests in any of these. Outside of school, I have always enjoyed sports, especially particular soccer and basketball. I am also an avid comic reader. 
+I am a second-year PhD student in ECE, working with Kirstin in the [Collective Embodied Intelligence Lab](http://cei.ece.cornell.edu/). My previous research background is actually mostly in materials/device physics with some experience in the automotive industry (Ford Motor Company). I am currently working on using a specialzed sensor to obtain map information from honey bees. In general, I've worked on a wide variety of research projects including embedded systems for biology applications, "high temperature" superconductors, and magnetic thin films and devices. You are welcome to ask me about research interests in any of these. Outside of school, I have always enjoyed sports, especially soccer and basketball. I am also an avid comic reader. 
 
 ### TA: Ryan O'Hern (lab session: Monday, 1.25-4.25pm)
 
