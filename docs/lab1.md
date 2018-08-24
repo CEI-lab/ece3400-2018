@@ -6,7 +6,7 @@ In this introductory lab, you will learn how to use the various functionalities 
 
 ### Pre-lab Assignment
 By the beginning of your lab session, your team must have created a GitHub account. We will use GitHub to share and save code (source control), and to manage your team website. 
-To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). There is a document on BlackBoard with more details on GitHub. This [link](https://cei-lab.github.io/ece3400-2018/tutorials/) has helpful remarks on how to use GitHub, and how to build a website.
+To create a GitHub account go to github.com and request a private account via the educational discount (https://education.github.com/discount_requests/new). This [link](https://cei-lab.github.io/ece3400-2018/tutorials/) has helpful remarks on how to use GitHub, and how to build a website.
 
 In addition, you should have reviewed the Arduino Reference (http://arduino.cc/en/Reference/HomePage) page and made yourself familiar with its layout and some basic functions and syntax. Also, read up on how the Parallax Continuous Rotation Servo is used in a circuit:
 http://www.parallax.com/downloads/continuous-rotation-servo-documentation.
