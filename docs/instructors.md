@@ -24,6 +24,8 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 
 ![Thinesiya](./images/Thinesiya.png)
 
+I am an MEng student in ECE, who also did her undergrad here at Cornell in the same department.  My MEng project is to work with Professor Aaron Wagner and see how Machine Learning techniques can be used to compress information.  As an undergrad, I was part of PAN, one of Cornell's Cube-Sat teams, working on the communication subsystem.  I spent most of my summers interning at MITRE working with SDRs (Software Defined Radios).  My interests include communication, information theory, probability, and Math in general. Outside of academics, I love to draw and paint and is always up for a good movie! 
+
 ### TA: Alicia Coto (lab session: Monday 1.25-4.25pm)
 
 ### TA: Jennifer Fuhrer (lab session: Thursday 7.30-10.30pm)
