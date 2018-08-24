@@ -25,9 +25,9 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 
 ### TA: Alicia Coto (lab session: Monday 1.25-4.25pm)
 
-### TA: Jennifer Fuhrer (lab session: Thursday 7.30-10.30pm ??)
+### TA: Jennifer Fuhrer (lab session: Thursday 7.30-10.30pm)
 
-![Jennifer](./images/Jennifer.png)
+![Jennifer](./images/Jennifer2.png)
 
 ### TA: Logan Horowitz (lab session: Wednesday 7.30-10.30pm)
 
