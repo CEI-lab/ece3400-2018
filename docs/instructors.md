@@ -29,6 +29,7 @@ I am a second-year PhD student in ECE, working with Kirstin in the [Collective E
 ### TA: Jennifer Fuhrer (lab session: Thursday 7.30-10.30pm)
 
 ![Jennifer](./images/Jennifer2.png)
+I am a senior ECE undergraduate student who almost became a Mechanical Engineer. Therefore, I am interested in the interaction between physical and electrical systems. I was a mechanical member of CUAUV for three years and I can CAD anything under the sun. In addition, I am an executive member of the Guild of Visual Arts, where I exercise my love of drawing. I also like to hike and travel.
 
 ### TA: Logan Horowitz (lab session: Wednesday 7.30-10.30pm)
 
