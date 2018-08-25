@@ -1,8 +1,10 @@
 # Robot Components and Cost
 
-## ECE 3400, fall 2017
+## ECE 3400, fall 2018
 
-Your team has a budget of $100 to use for your robot. Your team must keep a running tally of the cost breakdown and present this number on the website.
+Teams are restricted to build a robot within $100. 
+
+Basic electronics, laser cutter- and 3D printed parts do not count towards this amount. Neither does the FPGA. 
 
 The cost breakdown is as follows:
 
@@ -10,7 +12,6 @@ The cost breakdown is as follows:
 * IR distance sensors: $7
 * Camera: $14
 * Parallax servos: $13
-* Basic components (resistors, capacitors, LEDs, Arduino Uno, FPGA, etc.): $0
-* 3D printed pieces, laser cut pieces, and milled PCBs: $0
-* Used/salvaged parts can be used: you must clear those with the staff and the parts’ list price will also count towards the total available budget. Shipping charges will also count towards your total $100 budget.
+* Arduino Uno: $16 (count only what's mounted on the robot)
+* Used/salvaged parts: You can use parts from old robots, provided that you clear it with the staff first. The approximate price of these parts will also count towards the total available budget.
 * Custom orders: We have a _limited_ budget to buy additional parts for you. To get non-stocked components, you'll have to first write an email arguing why these parts are needed to the instructor. The instructor will buy the parts; we CANNOT reimburse you. Note that the cost of the parts plus shipping goes towards your $100 total available budget. Order as soon as possible - it can take up to two weeks for parts to arrive. 

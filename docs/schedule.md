@@ -1,11 +1,11 @@
-# Schedule for ECE 3400 Fall 2017
+# Schedule for ECE 3400 Fall 2018
 
 Week 1:
 * Aug 24th, Friday: Introduction
 * Aug 25th, Saturday: **Deadline @midnight:** 1) Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32). 2) Sign up for [Piazza](piazza.com/cornell/fall2018/ece3400)
 
 Week 2:
-* *Lab 1 Microcontrollers*
+* *[Lab 1 Microcontrollers](./lab1.md)*
 * Aug 27th, Monday: Working with Arduinos, embedded control
 * Aug 29th, Wednesday: Effective team work/time management by Robin Parker, Center for Teaching Excellence
 * Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to the instructor.
@@ -89,9 +89,9 @@ Week 14:
 
 Week 15:
 * *Work on final system*
-* Nov 26th, Mon: IPS Ethics
-* Nov 28th, Wed: IPS Ethics
-* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
+* Nov 26th, Mon: IPS Ethics (Park Atkinson Doing)
+* Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
+* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Ethics homework hand-in. Fill out the team assessment form.
 
 
 Week 16:

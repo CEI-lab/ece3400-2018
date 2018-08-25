@@ -1,10 +1,10 @@
 
-# Team Contract, ECE 3400, Fall 2017
+# Team Contract, ECE 3400, Fall 2018
 **Courtesy of the Center for Teaching Excellence, Cornell**
 
 ## Guidelines for Writing Team Contract
 
-To prepare you for the teamwork in the business world, you will be assigned a team for the semester.
+To prepare you for the teamwork in industry, you will be assigned a team for the semester.
 
 According to concepts from Organizational Behavior, there are five stages of team development: _forming, storming, norming, performing, and adjourning_. During the forming stage, teams tend to communicate in indirect polite ways rather than more directly. The storming stage, characterized by conflict, can be often be productive, but may consume excessive amounts of time and energy. In this stage it is important to listen well for differing expectations. Next, during the norming stage, teams formulate roles and standards, increasing trust and communication. This norming stage is characterized by agreement on procedures, reduction in role ambiguity, and increased “we-ness” or unity.  These developments generally are precursors to the performing stage, during which teams achieve their goals, are highly task oriented, and focus on performance and production. When the task has been completed, the team adjourns.
 
@@ -22,7 +22,7 @@ Your team contract template is divided into three major sections:
 
 Since the basic purpose of this team contract is to accelerate your team's development, to increase individual accountability for team tasks, and to reduce the possibility for team conflict, make your contract as specific as possible:  (a) specify each task as detailed as possible, (b) specify each step in a procedure or process as detailed as possible, (c) specify the exact person(s) responsible for each specific task, and (d) specify the exact time and exact place for completion or submission of each task.  The more specifically you describe your team expectations, roles, and procedures, the greater chance you have for a successful team experience.
 
-Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and submit a copy of your finalized contract to the professor.
+Use the Team Contract template to discuss and finalize your team roles, procedures, and standards.  Complete, sign, and submit a copy of your finalized contract to the professor, and/or link it to your website.
 
 Once your team contract has been developed, your team is ready to begin work on collaborative assignments.  However, you may soon find that your team is not working as well as you had hoped.  This is normal but needs to be attended to immediately.  Perhaps your team is simply not following the established contract procedures or roles as strictly as you should be, or perhaps you need to change some of the procedures or roles as outlined in your contract.  Call a team meeting immediately to discuss and resolve the challenges your team is facing; do not delay.  Seek guidance from your instructor, TA, or preceptor to resolve any conflicts so that you will have the most positive team experience possible.
 
@@ -35,6 +35,9 @@ Team Members: _ _ _
 ### Team Procedures
 
 1.	Day, time, and place for regular team meetings:
+
+UH142, Friday 11.15-12.05pm, weekly. 
+(We'd suggest allocating more time towards the end of the semester)
 
 2.	Preferred method of communication (e.g., e-mail, cell phone, wired phone, Blackboard Discussion Board, face-to-face, in a certain class) in order to inform each other of team meetings, announcement, updates, reminders, problems:
 
@@ -82,17 +85,13 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
 
-Aug 28th - Sep 15th (Lab 1, work on lab 2): 
+Week 1-4 (Start-up, Lab 1, Milestone 1): 
 
-Sep 16th - Sep 29th (Lab 2, Milestone 1 and 2): 
+Week 5-8 (Lab 2, Lab 3, Milestone 2): 
 
-Sep 30th - Oct 20th (Lab 3, work on lab 4):
+Week 9-12 (Lab 4, Milestone 3):
 
-Oct 21st - Nov 3rd (Lab 4 and Milestone 3):
-
-Nov 4th - Nov 17th (Milestone 4):
-
-Nov 18th - Dec 5th (Final competition and deadline for the website):
+Week 13-16 (Milestone 4, competition, final report):
 
 
 ------
@@ -105,5 +104,4 @@ c)	I understand that if I do not abide by these terms and conditions, I will suf
 2) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
 3) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
 4) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-5) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
-6) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+

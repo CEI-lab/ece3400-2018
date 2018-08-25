@@ -24,9 +24,6 @@ Here are some tutorials we would like to add to the website. This is not a compl
 * Good line following with PID control
 * How to use other freeware CAD-programs
 * How to make pretty websites in markdown/html
-* How to make an analog filter
-* How to make a digital filter
-* How to make a low noise amplifier
 * How to make your own motor controller for DC motors
 * Example video of how to design and layout a small PCB
 * Example of how to easily calibrate IR sensors

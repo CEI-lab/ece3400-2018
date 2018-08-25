@@ -70,6 +70,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [How to solder components and wires](https://cei-lab.github.io/ece3400-2017/tutorials/Soldering/Soldering_Tutorial.html)
 * [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
 * [Wiring a robot] To be added.
+* [How to Splice USB Cable](https://www.youtube.com/watch?v=EjqtAGdSsN8)
 * [Tutorials on Eagle](https://cei-lab.github.io/ece3400-2017/tutorials/Eagle/Eagle_Tutorial.html)
 * [How to layout a PCB](https://cei-lab.github.io/ece3400-2017/tutorials/PCB/)
 * [How to etch your own PCB](https://www.sparkfun.com/news/2116?_ga=2.203306769.1650204894.1508633871-2087463493.1502106414) from Sparkfun.
