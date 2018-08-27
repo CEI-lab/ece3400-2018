@@ -21,4 +21,5 @@ Skunkworks lab to-dos:
 * Make crimp tutorial
 * Train all TAs
 * Video tutorial of laser cutter/3D printer/Autocad
+* Order more Acrylic (Kirstin)
 
