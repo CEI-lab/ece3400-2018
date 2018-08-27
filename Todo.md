@@ -22,4 +22,5 @@ Skunkworks lab to-dos:
 * Train all TAs
 * Video tutorial of laser cutter/3D printer/Autocad
 * Order more Acrylic (Kirstin)
+* Order a broom, order a new fan (Kirstin)
 
