@@ -6,12 +6,19 @@
 * Update lab 4
 * Make new grading rubrics
 * Make new mazes with treasures and IR disturbances (use Ross' old dance floor?)
-* Make PCB mills work (Haron)
-* Make tutorials on PCB mills (Haron, Michael)
-* Prepare new lectures (Kirstin)
 * Prepare online quizzes (Kirstin)
 * Make Blackboard page with grading rubrics (Kirstin)
 * Design camera mounts (Kirstin)
 * Make crimping tutorial (Kirstin)
 * Check if we need new wires! (Haron)
+
+
+Skunkworks lab to-dos:
+* Make PCB mills work (Haron)
+* Make tutorials on PCB mills (Haron, Michael)
+* Get Up! to work
+* Fix laser cutter bed size
+* Make crimp tutorial
+* Train all TAs
+* Video tutorial of laser cutter/3D printer/Autocad
 
