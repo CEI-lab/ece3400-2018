@@ -102,6 +102,9 @@ Start thinking about what sensors you want on your robot. How many are needed? C
 
 Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. There should also be two battery banks in your box, it would be a good idea to mark them with your team number. We will be using these to power the robot this year (one spare, one onboard) - no non-rechargeable batteries will be accepted. Think green! It is your responsibility to keep the batteries charged. 
 
-You should have documented this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
-
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commits. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
+
+### Grading
+
+You need to document this lab thoroughly on your website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the deadline noted [here](./schedule.md). Note that to encourage concise and engaging websites, we have a cap on the number of words allowed to discuss the lab: 2,000 (not including code snippets). You can easily make up for the lack of words by adding figures, photos, and videos with captions! Remember to have a TA note your attendance before heading out.
+
