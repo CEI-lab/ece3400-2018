@@ -37,7 +37,7 @@ Team Members: _ _ _
 1.	Day, time, and place for regular team meetings:
 
 UH142, Friday 11.15-12.05pm, weekly. 
-(We'd suggest allocating more time towards the end of the semester)
+(We suggest allocating more time towards the end of the semester)
 
 2.	Preferred method of communication (e.g., e-mail, cell phone, wired phone, Blackboard Discussion Board, face-to-face, in a certain class) in order to inform each other of team meetings, announcement, updates, reminders, problems:
 
@@ -83,7 +83,9 @@ _Consequences for Failing to Follow Procedures and Fulfill Expectations_
 
 ### Team Leadership ###
 
-Every person on the team will have to take the role as a leader for at least two weeks. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
+Every person on the team will have to take the role as a leader. The role of the leader will be to organize meetings and make sure that everything is submitted in a timely manner. Please note here who will be responsible when:
+
+(Split up the time according to the number of members, below is an example for a team of 4).
 
 Week 1-4 (Start-up, Lab 1, Milestone 1): 
 
@@ -104,4 +106,5 @@ c)	I understand that if I do not abide by these terms and conditions, I will suf
 2) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
 3) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
 4) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
+5) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  date  _ _ _ _ _ _ _ _ _
 
