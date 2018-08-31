@@ -4,7 +4,14 @@
 
 ### Team Websites
 
+[Team 4 - ](https://pages.github.coecis.cornell.edu/jh2232/3400/index.html)
+[Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
+[Team 11 -](https://ece3400team11.github.io/)
 [Team 12 - The Onions](https://pages.github.coecis.cornell.edu/pac256/Team-12/index.html)
+[Team 17 - Prime](https://3400-17.github.io/Team-17-Prime/)
+[Team 20 -](https://blue9.github.io/ece3400/TeamContract)
+[Team 26 - ](https://sz95.github.io/ECE3400Team26/)
+
 
 
 See past websites [here](https://cei-lab.github.io/ece3400-2017/teams.html). 
