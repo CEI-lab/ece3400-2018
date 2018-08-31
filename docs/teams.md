@@ -6,6 +6,7 @@
 
 [Team 4 - ](https://pages.github.coecis.cornell.edu/jh2232/3400/index.html)
 [Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
+[Team 7 -](https://github.coecis.cornell.edu/pbc48/ECE-3400-Fall-2018)
 [Team 11 -](https://ece3400team11.github.io/)
 [Team 12 - The Onions](https://pages.github.coecis.cornell.edu/pac256/Team-12/index.html)
 [Team 17 - Prime](https://3400-17.github.io/Team-17-Prime/)
