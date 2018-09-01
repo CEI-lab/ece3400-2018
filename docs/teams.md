@@ -20,7 +20,7 @@
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
 * [Team 15 -](https://gururajbhupal.github.io/ECE3400-Team15/)
 * [Team 17 - Prime](https://3400-17.github.io/Team-17-Prime/)
-* Team 18
+* [Team 18 - Yaaas](https://am2384.github.io/)
 * [Team 19 -](https://ece3400team19.github.io./)
 * [Team 20 -](https://blue9.github.io/ece3400/TeamContract)
 * [Team 21 - The Smart Bet](https://ece3400-fa18-group21.github.io/)
