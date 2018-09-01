@@ -8,7 +8,7 @@
 * [Team 2 - Purple Cobras](https://pages.github.coecis.cornell.edu/PurpleCobras/PurpleCobras/)
 * [Team 3 - Pulse](https://pulse-3400.github.io/)
 * [Team 4 - ](https://pages.github.coecis.cornell.edu/jh2232/3400/index.html)
-* Team 5
+* [Team 5 - Leak Leeks](http://leakleeks.com/)
 * [Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
 * [Team 7 -](https://pages.github.coecis.cornell.edu/ECE-3400-Team-7/ECE-3400-Fall-2018/)
 * [Team 8 -](https://pages.github.coecis.cornell.edu/bh377/ece3400/)
@@ -19,6 +19,7 @@
 * [Team 13 - Black Hat Cats](https://yanray.github.io/Black_Hat_Cats/)
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
 * [Team 15 -](https://gururajbhupal.github.io/ECE3400-Team15/)
+* [Team 16 -](https://ece3400-team16.github.io/team16/)
 * [Team 17 - Prime](https://3400-17.github.io/Team-17-Prime/)
 * [Team 18 - Yaaas](https://am2384.github.io/)
 * [Team 19 -](https://ece3400team19.github.io./)
