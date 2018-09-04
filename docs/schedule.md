@@ -8,7 +8,7 @@ Week 2:
 * *[Lab 1 Microcontrollers](./lab1.md)*
 * Aug 27th, Monday: Working with Arduinos, embedded control
 * Aug 29th, Wednesday: Effective team work/time management by Robin Parker, Center for Teaching Excellence
-* Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team website, 3) add a link to your contract, and 4) send your website link to the instructor.
+* Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team [website (you have to use Github)](https://github.com/CEI-lab/ece3400-2017/blob/master/docs/tutorials/webpages/webpages.md), 3) add a link to your contract, and 4) send your website link to the instructor.
 
 Week 3:
 * *Work on milestone 1*
