@@ -42,8 +42,8 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-1 | ~~Intro~~ | 9 | Prototyping [_LAB 4_](./lab4.md)  
-2 | ~~Embedded programming, team work/time management, [_LAB 1_](./lab1.md)~~ | 10 | Conflict resolution and algorithms 
+~~1~~ | Intro | 9 | Prototyping [_LAB 4_](./lab4.md)  
+~~2~~ | Embedded programming, team work/time management, [_LAB 1_](./lab1.md) | 10 | Conflict resolution and algorithms 
 3 | Online communication | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
 4 | Sensors and filters [_Milestone 1_](./Grading/Milestone_score.md) | 12 | Evaluating and debugging IPS
 5 | Actuators and control, [_LAB 2_](./lab2.md) | 13 | (EE-)Power and Careers, [_Milestone 4_](./Grading/Milestone_score.md)
