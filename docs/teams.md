@@ -15,7 +15,7 @@
 * [Team 9 -](https://pages.github.coecis.cornell.edu/teamnine/website/)
 * [Team 10 - Scooby Snacks](https://pages.github.coecis.cornell.edu/jdg272/ScoobySnacks/)
 * [Team 11 -](https://ece3400team11.github.io/)
-* [Team 12 - The Onions](https://pages.github.coecis.cornell.edu/pac256/Team-12/index.html)
+* [Team 12 - The Onions](https://cya6.github.io/Team-12/index.html)
 * [Team 13 - Black Hat Cats](https://yanray.github.io/Black_Hat_Cats/)
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
 * [Team 15 -](https://gururajbhupal.github.io/ECE3400-Team15/)
