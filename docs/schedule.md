@@ -14,8 +14,8 @@ Week 3:
 * *Work on milestone 1*
 * Sep 3rd, Mon: Labor day
 * Sep 5th, Wed: How to make good websites, online communication
-* Sep 7th, Fri: Team meetings. **Deadline @midnight:** 1) The websites will be graded for contents on lab 1. 2) Fill out the team assessment form.
-
+* Sep 7th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 1. 
+* Sep 9th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 Week 4:
 * *Work on milestone 1*
