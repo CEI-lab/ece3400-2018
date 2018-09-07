@@ -27,9 +27,9 @@
 * [Team 21 - The Smart Bet](https://ece3400-fa18-group21.github.io/)
 * Team 22 N/A
 * [Team 23 -](https://ece-3400-group.github.io/)
-* [Team 24 - Robots'n'Roses](https://pages.github.coecis.cornell.edu/sh2393/Team24/index.html)
+* [Team 24 - Robots'n'Roses](https://samuel-feibel.github.io/RobotsNRoses/index.html)
 * [Team 25 -](http://ece3400.herokuapp.com/)
-* [Team 26 - ](https://sz95.github.io/ECE3400Team26/)
+* [Team 26 - ](https://ece3400-fa18.github.io/team26/)
 * [Team 27 -](https://rs2353.github.io/team27/)
 * [Team 28 - Angry](https://ece3400team28.github.io/website/)
 
