@@ -7,7 +7,7 @@
 * [Team 1 - ](https://pages.github.coecis.cornell.edu/mb2372/ece-3400-team1/)
 * [Team 2 - Purple Cobras](https://ece3400.github.io/purplecobras/)
 * [Team 3 - Pulse](https://pulse-3400.github.io/)
-* [Team 4 - ](https://pages.github.coecis.cornell.edu/jh2232/3400/index.html)
+* [Team 4 - ](https://sanskritijoshi1441.github.io/3400/)
 * [Team 5 - Leak Leeks](http://leakleeks.com/)
 * [Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
 * [Team 7 -](https://pages.github.coecis.cornell.edu/ECE-3400-Team-7/ECE-3400-Fall-2018/)
