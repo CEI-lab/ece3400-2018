@@ -23,7 +23,7 @@ In Lab 2 Analog Circuitry and FFT's, the first 15 points are scored by:
 * 2 points: Correct FFT analysis for IR
 * 2 points: Working amplifier (or active filter) circuit for IR
 * 2 points: Distinguish a 12kHz IR signal from an IR signal at 7kHz and 17kHz
-* 3 points: Nicely merged code
+* 3 points: Demonstration of a single system with nicely merged code that can do both IR and audio
 
 In Lab 3 Radio Communication and Map Drawing, the first 15 points are scored by:
 
