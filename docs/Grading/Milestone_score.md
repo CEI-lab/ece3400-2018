@@ -9,17 +9,20 @@ _Milestone 1 will be graded as follows:_
 
 _Milestone 2 will be graded as follows:_
 
-* 2.5 points (total of 7.5) per different treasure that can be detected and classified
-* 2.5 points to autonomously detect walls
+* 4 points: Robot that successfully circles an arbitrary set of walls (e.g. through right hand wall following)
+* 4 points: Robot that automatically starts when a 660Hz tone is played (with background noise)
+* 2 points: For a demonstration of a robot that automatically starts upon a 660Hz tone, does line tracking, and avoids walls.
 
 _Milestone 3 will be graded as follows:_
 
+TBD
 * 4 points: Simulated maze exploration
 * 4 points: Real implementation of the maze exploration
 * 2 points: The fastest solution will get an added two points
 
 _Milestone 4 will be graded as follows:_
 
+TBD
 * 3 points: System that successfully displays the walls in a maze as the robot finds them
 * 3 points: System that successfully displays treasures in a maze as the robot finds them
 * 2 points: Robot that successfully signals 'done' on the screen when the maze has been mapped
