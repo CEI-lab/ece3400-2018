@@ -9,9 +9,11 @@ _Milestone 1 will be graded as follows:_
 
 _Milestone 2 will be graded as follows:_
 
-* 4 points: Robot that successfully circles an arbitrary set of walls (e.g. through right hand wall following)
-* 4 points: Robot that automatically starts when a 660Hz tone is played (with background noise)
-* 2 points: For a demonstration of a robot that automatically starts upon a 660Hz tone, does line tracking, and avoids walls.
+* 2 points: Robot that successfully circles an arbitrary set of walls (e.g. through right hand wall following)
+* 2 points: Robot that successfully avoids other robots
+* 2 points: Robot that automatically starts when a 660Hz tone is played (with background noise)
+* 4 points: For a demonstration of a robot that automatically starts upon a 660Hz tone, does line tracking, and avoids robots, and walls.
+(It would be helpful to 'show' what the robot is thinking, e.g. by adding visual LEDs that indicate when walls/robots have been detected)
 
 _Milestone 3 will be graded as follows:_
 
