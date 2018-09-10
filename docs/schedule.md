@@ -1,16 +1,16 @@
 # Schedule for ECE 3400 Fall 2018
 
-Week 1:
+~~Week 1:~~
 * Aug 24th, Friday: Introduction
 * Aug 25th, Saturday: **Deadline @midnight:** 1) Fill out [google form](https://goo.gl/forms/G54ZCPmXbgT65QS32). 2) Sign up for [Piazza](piazza.com/cornell/fall2018/ece3400)
 
-Week 2:
+~~Week 2:~~
 * *[Lab 1 Microcontrollers](./lab1.md)*
 * Aug 27th, Monday: Working with Arduinos, embedded control
 * Aug 29th, Wednesday: Effective team work/time management by Robin Parker, Center for Teaching Excellence
 * Aug 31st, Friday: Team meetings. **Deadline @midnight:** 1) Make a [team contract](./Teamwork/Team_Contract.md), 2) make your team [website (you have to use Github)](https://github.com/CEI-lab/ece3400-2017/blob/master/docs/tutorials/webpages/webpages.md), 3) add a link to your contract, and 4) send your website link to the instructor.
 
-Week 3:
+~~Week 3:~~
 * *Work on milestone 1*
 * Sep 3rd, Mon: Labor day
 * Sep 5th, Wed: How to make good websites, online communication
@@ -44,6 +44,7 @@ Week 7:
 
 
 Week 8:
+* *Work on milestone 2 and lab 3*
 * Oct 8th, Mon: Fall break
 * Oct 10th, Wed: Mechanical prototyping
 * Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2. 
@@ -56,7 +57,7 @@ Week 9:
 
 
 Week 10:
-* *Work on milestone 3*
+* *Work on lab 4*
 * Oct 22nd, Mon: Conflict resolution by Erica Dawson
 * Oct 24th, Wed: Algorithms
 * Oct 26th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 4. 
