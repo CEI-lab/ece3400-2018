@@ -34,4 +34,4 @@
 * [Team 28 - Angry](https://ece3400team28.github.io/website/)
 
 
-See past websites [here](https://cei-lab.github.io/ece3400-2017/teams.html). 
+See past teams [here](https://cei-lab.github.io/ece3400-2017/teams.html). 
