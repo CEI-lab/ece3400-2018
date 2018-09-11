@@ -10,7 +10,7 @@
 * [Team 4 - ](https://sanskritijoshi1441.github.io/3400/)
 * [Team 5 - Leak Leeks](http://leakleeks.com/)
 * [Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
-* [Team 7 -](https://pbc48.github.io/ECE-3400-Fall-2018/)
+* [Team 7 - The 7-Ups](https://pbc48.github.io/ECE-3400-Fall-2018/)
 * [Team 8 -](https://soapbar.github.io/team8s/lab1)
 * [Team 9 -](https://pages.github.coecis.cornell.edu/teamnine/website/)
 * [Team 10 - Scooby Snacks](https://jared-gal.github.io/ScoobySnacks/)
