@@ -1,5 +1,5 @@
 # Grading of Milestones
-## ECE 3400, Fall 2017
+## ECE 3400, Fall 2018
 
 _Milestone 1 will be graded as follows:_
 
