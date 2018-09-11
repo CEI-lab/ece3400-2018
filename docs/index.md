@@ -6,7 +6,9 @@ Welcome to ECE 3400; a class where students learn to tie the fundamental princip
 
 ![ECE3400 Overview](./images/Overview.png)
 
-[Here is a video of the 2017 competition](https://www.youtube.com/watch?v=H8rs1d3O4aI&t=33s) and the [2015 class](https://www.youtube.com/watch?v=WN0maCOflVQ).
+Past years: 
+[2017 website](https://cei-lab.github.io/ece3400-2017/) and [competition video](https://www.youtube.com/watch?v=H8rs1d3O4aI&t=33s) 
+[2015 class](https://www.youtube.com/watch?v=WN0maCOflVQ)
 
 Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for future students to rely on.
 
@@ -42,8 +44,8 @@ Please be aware that the following schedule is tentative and may change througho
 
 Week | Topic | Week | Topic
 -----|-------|------|-------
-~~1~~ | Intro | 9 | Prototyping [_LAB 4_](./lab4.md)  
-~~2~~ | Embedded programming, team work/time management, [_LAB 1_](./lab1.md) | 10 | Conflict resolution and algorithms 
+1 | Intro | 9 | Prototyping [_LAB 4_](./lab4.md)  
+2 | Embedded programming, team work/time management, [_LAB 1_](./lab1.md) | 10 | Conflict resolution and algorithms 
 3 | Online communication | 11 | Algorithms, [_Milestone 3_](./Grading/Milestone_score.md) 
 4 | Sensors and filters [_Milestone 1_](./Grading/Milestone_score.md) | 12 | Evaluating and debugging IPS
 5 | Actuators and control, [_LAB 2_](./lab2.md) | 13 | (EE-)Power and Careers, [_Milestone 4_](./Grading/Milestone_score.md)
