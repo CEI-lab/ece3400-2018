@@ -7,7 +7,9 @@ Welcome to ECE 3400; a class where students learn to tie the fundamental princip
 ![ECE3400 Overview](./images/Overview.png)
 
 Past years: 
+
 [2017 website](https://cei-lab.github.io/ece3400-2017/) and [competition video](https://www.youtube.com/watch?v=H8rs1d3O4aI&t=33s) 
+
 [2015 class](https://www.youtube.com/watch?v=WN0maCOflVQ)
 
 Instead of traditional hand-ins, we leverage peer-to-peer mentoring where students, under guidance, upload their progress and ideas to create a sustainable and continuously evolving database for future students to rely on.
