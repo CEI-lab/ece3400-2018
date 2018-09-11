@@ -17,15 +17,11 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-TBD
-* 4 points: Simulated maze exploration
-* 4 points: Real implementation of the maze exploration
-* 2 points: The fastest solution will get an added two points
+* 5 points: Simulated maze exploration
+* 5 points: Robot which successfully transmits all necessary maze information to the screen
 
 _Milestone 4 will be graded as follows:_
 
-TBD
-* 3 points: System that successfully displays the walls in a maze as the robot finds them
-* 3 points: System that successfully displays treasures in a maze as the robot finds them
-* 2 points: Robot that successfully signals 'done' on the screen when the maze has been mapped
-* 2 points: Robot that successfully plays 'done' on the speaker when the maze has been mapped
+* 2 points: Robot which can successfully distinguish between red, green, and blue treasures
+* 3 points: Robot which can successfully distinguish a square, triangle, and diamond shape
+* 5 points: Real implementation of the maze exploration
