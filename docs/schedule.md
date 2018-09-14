@@ -17,7 +17,7 @@
 * Sep 7th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 1. 
 * Sep 9th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
-Week 4:
+~~Week 4:~~
 * *Work on milestone 1*
 * Sep 10th, Mon: Sensors and Analog filters
 * Sep 12th, Wed: Digital filters
@@ -27,7 +27,8 @@ Week 5:
 * *Lab 2 Analog circuitry and FFT*
 * Sep 17th, Mon: Actuators, feedback control
 * Sep 19th, Wed: Feedback Control, how servos work.
-* Sep 21st, Fri: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
+* Sep 21st, Fri: Team meetings. 
+* Sep 23rd, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 6:
@@ -40,7 +41,8 @@ Week 7:
 * *Lab 3 Wireless Communication*
 * Oct 1st, Mon: FPGA lecture by Bruce Land
 * Oct 3rd, Wed: VGA/Camera
-* Oct 5th, Fri: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
+* Oct 5th, Fri: Team meetings. 
+* Oct 7th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 8:
@@ -53,7 +55,8 @@ Week 9:
 * *Lab 4 FPGA / Vision*
 * Oct 15th, Mon: Tutorial on 3D printers, laser cutters, and design strategies.
 * Oct 17th, Wed: EE prototyping (PCB layout)
-* Oct 19th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 3. Fill out the team assessment form.
+* Oct 19th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 3. 
+* Oct 21st, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 10:
@@ -66,7 +69,8 @@ Week 11:
 * *Work on milestone 3*
 * Oct 29th, Mon: Algorithms
 * Oct 31st, Wed: Algorithms
-* Nov 2nd, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. Fill out the team assessment form.
+* Nov 2nd, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
+* Nov 4th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 12:
@@ -79,7 +83,8 @@ Week 13:
 * *Work on milestone 4*
 * Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
 * Nov 14th, Wed: Power and batteries for IPS
-* Nov 16th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 4. Fill out the team assessment form.
+* Nov 16th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 4. 
+* Nov 18th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 14:
@@ -92,7 +97,8 @@ Week 15:
 * *Work on final system*
 * Nov 26th, Mon: IPS Ethics (Park Atkinson Doing)
 * Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
-* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Ethics homework hand-in. Fill out the team assessment form.
+* Nov 30th, Fri: Team meetings. **Deadline @midnight:** Ethics homework hand-in. 
+* Dec 2nd, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 16:
