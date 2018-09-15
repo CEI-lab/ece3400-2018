@@ -19,7 +19,7 @@
 * [Team 13 - Black Hat Cats](https://yanray.github.io/Black_Hat_Cats/)
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
 * [Team 15 -](https://gururajbhupal.github.io/ECE3400-Team15/)
-* [Team 16 -](https://ece3400-team16.github.io/team16/)
+* [Team 16 - Rage Against the Machines](https://ece3400-team16.github.io/team16/)
 * [Team 17 - Prime](https://3400-17.github.io/Prime/#)
 * [Team 18 - Yaaas](https://am2384.github.io/)
 * [Team 19 -](https://ece3400team19.github.io./)
