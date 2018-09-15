@@ -22,7 +22,7 @@
 * [Team 16 - Rage Against the Machines](https://ece3400-team16.github.io/team16/)
 * [Team 17 - Prime](https://3400-17.github.io/Prime/#)
 * [Team 18 - Yaaas](https://am2384.github.io/)
-* [Team 19 -](https://ece3400team19.github.io./)
+* [Team 19 - Team K](https://ece3400team19.github.io./)
 * [Team 20 -](https://blue9.github.io/ece3400-team20-website/)
 * [Team 21 - The Smart Bet](https://ece3400-fa18-group21.github.io/)
 * Team 22 N/A
