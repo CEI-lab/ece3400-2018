@@ -98,7 +98,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 
 * Finally, take the IR decoy and hook it up to 3V power. 3V, NOT 5V! Again, you can use a coin cell battery, or (recommended) use a power supply. Try placing your robot at an intersection in the maze, and place the decoy on a wall next to it. Code up a solution that enables your robot to tell the difference between robots and decoys. Anything goes - it could be a great FFT filter, or some higher level reasoning.
 
-![IRdecoy](IRdecoys.png)
+![IRdecoy](./images/IRdecoys.png)
 
 * **Remember to turn off the IR hat and the decoy when you're done using it. You may keep the IR hat in your box after lab, but we recommend ensuring that you get the IR detection circuit working, before you mount your hat permanently on your robot. Alternatively, pair up with another team and make the robots sense each other. (We do NOT have enough boards for everyone to get two). **
 
