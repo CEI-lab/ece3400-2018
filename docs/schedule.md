@@ -24,7 +24,7 @@
 * Sep 14th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 1. 
 
 Week 5:
-* *Lab 2 Analog circuitry and FFT*
+* *[Lab 2 Analog circuitry and FFT](./lab2.md)*
 * Sep 17th, Mon: Actuators, feedback control
 * Sep 19th, Wed: Feedback Control, how servos work.
 * Sep 21st, Fri: Team meetings. 
