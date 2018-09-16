@@ -2,18 +2,18 @@
 ## Lab 2: Analog Circuitry and FFTs
 
 ### Objective
-In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect nearby robots emitting at 12kHz.
+In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect nearby robots emitting IR at 12kHz.
 
-### Pre-lab Assignment
+### Pre-lab Assignment (for BOTH subgroups)
 Before you start your lab, you should have familiarized yourself with the analog-to-digital converter on the [ATmega328](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) (Arduino microcontroller).
 
 You should also have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your website will be expected to have a sufficient explanation of the basic FFT algorithm.
 
 Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading 660Hz sine wave, or ~12kHz IR signal). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
 
-For testing in the lab, it’s a good idea to install an App on your phone that will generate the 660 Hz tone. There are many free Apps for this like Tone Generator for example.
+If you are on audio, it’s a good idea to install an App on your phone that will generate the 660 Hz tone for testing. There are many free Apps for this like Tone Generator for example. 
 
-You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. You will especially need an [amplifier](https://cei-lab.github.io/ece3400/Grading/Lab_score.html) on your treasure detection circuit to reliably detect the correct frequency of the treasure. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.)
+You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.) [Check the grading scheme](https://cei-lab.github.io/ece3400/Grading/Lab_score.html).
 
 As always it is a good idea to see old examples of solutions!
 
@@ -39,7 +39,7 @@ The acoustic team will need the following materials:
 The optical team will need the following materials:
 - Arduino Uno
 - IR transister (OP598)
-- Borrow a "decoy" board from the TA's 
+- An IR hat (given by TAs)
 - Various other components, as needed
 
 #### Download the Open Music Labs FFT library
@@ -74,29 +74,28 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 
 #### Optical Team: Assemble your IR circuit
 
-Objective: Be able to detect a 12kHz IR beacon with an Arduino using the FFT library.
+Objective: Be able to detect another robot emitting IR at 12kHz, with an Arduino using the FFT library.
 
 * A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](http://www.mouser.com/ds/2/414/OP593-598-6739.pdf) (OP598A). Then connect the sensor as below:
 
-![IR_phototransistor](./images/Lab2_Phototransistor.jpg)
-**Kirstin/Logan: Check if this is still correct!**
+![IR_phototransistor](./images/OP598.png)
 
-* Prepare your decoy: Measure the frequency output of your treasure with an oscilloscope, adjust the potentiometer using a small screwdriver to make it flash at 12kHz.
+* Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead.
 
-![Treasure](./images/Treasure_Pot.JPG)
-**Kirstin/Logan: Replace image**
+![IRhat](./images/IRhat.JPG)
+![IRhat](./images/IRhat_mount.JPG)
 
-* *Unit Test:* Hold your decoy at a realistic difference from the sensor (you can check with the maze that is available on your desk), and measure the output of the sensor with the scope. Will you need additional analog circuitry before you pass this on to the Arduino?
+* *Unit Test:* Power the IR hat and hold your sensor at a realistic difference it (you can check with the maze that is available on your desk), and measure the output of the sensor with the scope. Will you need additional analog circuitry before you pass this on to the Arduino?
 
 * While designing additional amplifiers/analog passive/active filter circuits, feel free to reference textbooks and the web to decide what circuitry to use. Just be sure that you can fully describe and explain your circuitry choices and how they work when you update your website. Be sure to cite your sources.
 
 * *Unit Test:* If you have additional circuitry, be sure to test it before hooking them up to the Arduino. An amplifer can easily be tested by adding a DC voltage to the input and an oscilloscope to the output. A filter should be tested by doing a frequency sweep with a signal generator and an oscilloscope on the output. Once you know that it works, you can test your circuit further by hooking it up to your photo transistor and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
-* Next, hook up your circuit to the Arduino and try make it detect the presence and frequency of a decoy. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
+* Next, hook up your circuit to the Arduino and try make it detect the presence of an IR hat. Remember: It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
 * In the final competition you will need to distinguish other robots (12kHz) from decoys (7kHz and 17kHz).  If you have time to spare, check that your FFT works well enough to sense the difference.
 
-* **Remember to turn off the decoy when you're done using it, and to hand it back to the TAs**
+* **Remember to turn off the IR hat when you're done using it. You may keep the hat in your box, but we recommend ensuring that your IR detection circuit works before mounting it permanently on the robot. Alternatively, pair up with another team and make the robots sense each other. (We do NOT have enough boards for everyone to get two). **
 
 * As always, feel free to talk to other groups or a TA if you need assistance!
 
