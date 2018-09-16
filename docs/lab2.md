@@ -9,7 +9,7 @@ Before you start your lab, you should have familiarized yourself with the analog
 
 You should also have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your website will be expected to have a sufficient explanation of the basic FFT algorithm.
 
-Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading 660Hz sine wave, or ~12kHz IR signal). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
+Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading a 660Hz sine wave, or ~12kHz IR signal). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
 
 If you are on audio, it’s a good idea to install an App on your phone that will generate the 660 Hz tone for testing. There are many free Apps for this like Tone Generator for example. 
 
@@ -29,7 +29,7 @@ Be sure to note on the website what work is carried out by whom. And remember th
 Split into two teams.
 
 The acoustic team will need the following materials:
-- Arduino Uno
+- 1 Arduino Uno
 - Electret microphone
 - 1 µF capacitor
 - 300 Ω resistors
@@ -37,10 +37,13 @@ The acoustic team will need the following materials:
 - Various other components, as needed
 
 The optical team will need the following materials:
-- Arduino Uno
-- IR transister (OP598)
-- An IR hat (given by TAs)
+- 1 Arduino Uno
+- IR transistor (OP598)
+- 1 IR hat (given by TAs)
+- 1 IR decoy
 - Various other components, as needed
+
+*Don't grab new Arduino's - use the ones you have!*
 
 #### Download the Open Music Labs FFT library
 
@@ -74,13 +77,13 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 
 #### Optical Team: Assemble your IR circuit
 
-Objective: Be able to detect another robot emitting IR at 12kHz, with an Arduino using the FFT library.
+Objective: Using an Arduino and the FFT library, detect another robot emitting IR at 12kHz, and distinguish robots from decoys.
 
 * A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](http://www.mouser.com/ds/2/414/OP593-598-6739.pdf) (OP598A). Then connect the sensor as below:
 
 ![IR_phototransistor](./images/OP598.png)
 
-* Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead.
+* Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead (think GREEN!).
 
 ![IRhat](./images/IRhat.JPG)
 ![IRhat](./images/IRhat_mount.JPG)
@@ -93,9 +96,9 @@ Objective: Be able to detect another robot emitting IR at 12kHz, with an Arduino
 
 * Next, hook up your circuit to the Arduino and try make it detect the presence of an IR hat. Remember: It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-* In the final competition you will need to distinguish other robots (12kHz) from decoys (7kHz and 17kHz).  If you have time to spare, check that your FFT works well enough to sense the difference.
+* Next, take the IR decoy and hook it up to 3V power. 3V, NOT 5V! Again, you can use a coin cell battery, or (recommended) use a power supply. Try placing your robot at an intersection in the maze, and place the decoy on a wall next to it. Code up a solution that enables your robot to tell the difference between robots and decoys. Anything goes - it could be a great FFT filter, or some higher level reasoning.
 
-* **Remember to turn off the IR hat when you're done using it. You may keep the hat in your box, but we recommend ensuring that your IR detection circuit works before mounting it permanently on the robot. Alternatively, pair up with another team and make the robots sense each other. (We do NOT have enough boards for everyone to get two). **
+* **Remember to turn off the IR hat and the decoy when you're done using it. You may keep the IR hat in your box after lab, but we recommend ensuring that you get the IR detection circuit working, before you mount your hat permanently on your robot. Alternatively, pair up with another team and make the robots sense each other. (We do NOT have enough boards for everyone to get two). **
 
 * As always, feel free to talk to other groups or a TA if you need assistance!
 
