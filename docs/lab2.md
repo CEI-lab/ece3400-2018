@@ -2,16 +2,16 @@
 ## Lab 2: Analog Circuitry and FFTs
 
 ### Objective
-In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect nearby robots emitting IR at 12kHz.
+In this lab, you will add sensors to your robot, and make analog circuits and a digital filter to interface with the Arduino. One is a microphone circuit that will detect a 660Hz whistle blow signifying the beginning of your maze mapping. The other will capture inputs from an IR sensor to detect nearby robots emitting IR at 6.08, and distinguish them from decoys emitting at 18kHz.
 
 ### Pre-lab Assignment (for BOTH subgroups)
 Before you start your lab, you should have familiarized yourself with the analog-to-digital converter on the [ATmega328](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf) (Arduino microcontroller).
 
 You should also have looked over the Open Music Labs Arduino FFT library documentation. If you are unfamiliar with Fourier Transforms and Fast Fourier Transforms (FFTs), be sure to check out online resources or textbooks to review the concepts. Your website will be expected to have a sufficient explanation of the basic FFT algorithm.
 
-Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading a 660Hz sine wave, or ~12kHz IR signal). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
+Look over the Open Music Labs Arduino FFT library example sketches. You’ll see that they use the internal microcontroller’s Analog-Digital Converter (ADC) as fast as it can convert. Look this up online and see how fast it goes, and then compare that to the Arduino’s analogRead function. Is it necessary to use the ADC directly, or is analogRead fast enough? This will depend on your application (reading a 660Hz sine wave, or 6.08kHz IR signal). What might be some concerns of using either method? What’s the normal range of a human voice? Are the harmonics of human speech an issue? What is the frequency of the fluorescent lights in the room? Can they interfere with your IR sensor?
 
-If you are on audio, it’s a good idea to install an App on your phone that will generate the 660 Hz tone for testing. There are many free Apps for this like Tone Generator for example. 
+If you are on audio, it’s a good idea to install an App on your phone that will generate the 660Hz tone for testing. There are many free Apps for this like Tone Generator for example. 
 
 You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.) [Check the grading scheme](https://cei-lab.github.io/ece3400/Grading/Lab_score.html).
 
@@ -43,7 +43,7 @@ The optical team will need the following materials:
 - 1 IR decoy
 - Various other components, as needed
 
-*Don't grab new Arduino's - use the ones you have!*
+*Please don't grab new Arduino's - use the ones you have!*
 
 #### Download the Open Music Labs FFT library
 
@@ -77,7 +77,7 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 
 #### Optical Team: Assemble your IR circuit
 
-Objective: Using an Arduino and the FFT library, detect another robot emitting IR at 12kHz, and distinguish robots from decoys.
+Objective: Using an Arduino and the FFT library, detect another robot emitting IR at 6.08kHz, and ignore decoys (18kHz).
 
 * A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](http://www.mouser.com/ds/2/414/OP593-598-6739.pdf) (OP598A). Then connect the sensor as below:
 
@@ -96,7 +96,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 
 * Next, hook up your circuit to the Arduino and try make it detect the presence of an IR hat. Remember: It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
-* Finally, take the IR decoy and hook it up to 3V power. 3V, NOT 5V! Again, you can use a coin cell battery, or (recommended) use a power supply. Try placing your robot at an intersection in the maze, and place the decoy on a wall next to it. Code up a solution that enables your robot to tell the difference between robots and decoys. Anything goes - it could be a great FFT filter, or some higher level reasoning.
+* Finally, take the IR decoy and hook it up to 3V power. 3V, NOT 5V! Again, you can use a coin cell battery, or (recommended) a power supply. First, check that the decoy is actually emitting at 18kHz - if not, contact your TA. Try placing your robot at an intersection in the maze, and place the decoy on a wall next to it. Code up a solution that enables your robot to tell the difference between robots and decoys. Anything goes - it could be a great FFT filter, or some higher level reasoning.
 
 ![IRdecoy](./images/IRdecoys.png)
 
