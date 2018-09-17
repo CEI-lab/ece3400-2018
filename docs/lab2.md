@@ -32,8 +32,8 @@ The acoustic team will need the following materials:
 - 1 Arduino Uno
 - Electret microphone
 - 1 µF capacitor
-- 300 Ω resistors
-- ~3 kΩ resistor
+- 300 Ω resistors
+- ~3 kΩ resistor
 - Various other components, as needed
 
 The optical team will need the following materials:
@@ -57,7 +57,7 @@ The optical team will need the following materials:
 
 #### Acoustic Team: Assemble your microphone circuit
 
-The basic circuit for your electret microphone is as follows. It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor:
+The basic circuit for your electret microphone is as follows. It is suggested that you use a 1 µF capacitor and a ~3 kΩ resistor:
 
 ![Image from Wikipedia](images/lab2_fig1.png)
 
@@ -67,7 +67,7 @@ The basic circuit for your electret microphone is as follows. It is suggested th
 
 * *Unit Test:* Check your circuitry before hooking it up to the Arduino. An amplifier can easily be tested by adding a DC voltage to the input. A filter should be tested by doing a frequency sweep with a signal generator. Once you know that it works, you can test your circuit further by hooking it up to your microphone and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
-* Next, hook up your circuit to the Arduino and try make it detect when you register the 660Hz signal. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
+* Next, hook up your circuit to the Arduino and try make it detect when you register the 660Hz signal. It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
 * Be aware that during the competition, this circuit must work despite excessive background noise. Your performance will be penalized if you have to start the robot manually and you will get a late start on mapping the maze. Try to recreate this situation during the lab and check if your circuit is robust to audible noise!
 
@@ -81,7 +81,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 
 * A phototransistor lets more current pass the more light it receives. You can look up the one you have available in this [datasheet](http://www.mouser.com/ds/2/414/OP593-598-6739.pdf) (OP598A). Then connect the sensor as below:
 
-![IR_phototransistor](./images/OP598.png)
+![IR_phototransistor](./images/lab2_phototransistor_schem.png)
 
 * Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead (think GREEN!).
 
@@ -94,7 +94,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 
 * *Unit Test:* If you have additional circuitry, be sure to test it before hooking them up to the Arduino. An amplifer can easily be tested by adding a DC voltage to the input and an oscilloscope to the output. A filter should be tested by doing a frequency sweep with a signal generator and an oscilloscope on the output. Once you know that it works, you can test your circuit further by hooking it up to your photo transistor and checking that the output has a range and a signal-to-noise ratio that works for the Arduino.
 
-* Next, hook up your circuit to the Arduino and try make it detect the presence of an IR hat. Remember: It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
+* Next, hook up your circuit to the Arduino and try make it detect the presence of an IR hat. Remember: It is wise to put a ~300 Ω resistor in series with anything you connect to a pin, whether it is an input or an output. This way, if you have set something up incorrectly, it is less likely that you will burn out the pin or any connected components.
 
 * Finally, take the IR decoy and hook it up to 3V power. 3V, NOT 5V! Again, you can use a coin cell battery, or (recommended) a power supply. First, check that the decoy is actually emitting at 18kHz - if not, contact your TA. Try placing your robot at an intersection in the maze, and place the decoy on a wall next to it. Code up a solution that enables your robot to tell the difference between robots and decoys. Anything goes - it could be a great FFT filter, or some higher level reasoning.
 
