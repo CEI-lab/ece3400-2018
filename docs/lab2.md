@@ -83,7 +83,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 
 ![IR_phototransistor](./images/lab2_phototransistor_schem.png)
 
-* Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead (think GREEN!).
+* Grab your IR hat and prop it up 5.5" above the ground; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead (think GREEN!).
 
 ![IRhat](./images/IRhat.JPG)
 ![IRhat](./images/IRhat_mount2.JPG)
