@@ -86,7 +86,7 @@ Objective: Using an Arduino and the FFT library, detect another robot emitting I
 * Grab your IR hat and prop it up 5.5" above the group; the mounting holes in the PCB fits with the robot base boards. All robots must be carrying an IR hat at the competition, and all of them must be mounted at exactly 5.5" with no shading in front. On mobile robots they can be powered by a 9V battery; in the lab, we suggest that you hook them up to a power supply instead (think GREEN!).
 
 ![IRhat](./images/IRhat.JPG)
-![IRhat](./images/IRhat_mount.JPG)
+![IRhat](./images/IRhat_mount2.JPG)
 
 * *Unit Test:* Power the IR hat and hold your sensor at a realistic difference it (you can check with the maze that is available on your desk), and measure the output of the sensor with the scope. Will you need additional analog circuitry before you pass this on to the Arduino?
 
