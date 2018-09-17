@@ -17,12 +17,13 @@ In Lab 1 Microcontrollers, the first 15 points are scored by:
 
 In Lab 2 Analog Circuitry and FFT's, the first 15 points are scored by:
 
-* 2 points: Correct FFT analysis
-* 2 points: Working amplifier circuit
-* 3 points: Recognize a 660Hz tone 
-* 2 points: Working IR sensor circuit
-* 3 points: Recognize an IR decoy blinking at 12kHz
-* 3 points: Nicely merged code
+* 2 points: Correct FFT analysis for audio
+* 2 points: Working amplifier (or active filter) circuit for audio
+* 2 points: Distinguish a 660Hz tone from background noise (talking/music)
+* 2 points: Correct FFT analysis for IR
+* 2 points: Working amplifier (or active filter) circuit for IR
+* 2 points: Distinguish a 6.08kHz IR signal from an IR signal at 18kHz
+* 3 points: Demonstration of a single system with nicely merged code that can do both IR and audio
 
 In Lab 3 Radio Communication and Map Drawing, the first 15 points are scored by:
 

@@ -51,12 +51,11 @@ Remember, all labs are mandatory; attendance will be taken at every lab. All lab
 ....
 
 ### Wrap-Up
-Keep all circuitry and materials relevant to the robot in your box. Throughout this week all teams will be sharing FPGAs, so do NOT store those in your bins. Also, do not keep USB A/B cables or computer monitors in your box. All other components can be placed back into their appropriate bins.
 
-You should have documented this lab on your website; your documentation should include personal notes, challenges, successes, and applicable diagrams.
+Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
 
-Make sure to push all code to your teams GitHub repository before you leave lab.
+Use GitHub on the computer to upload and save your code, be sure to add appropriate commit messages. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
 
-### Report
+### Grading
 
-The grading will be based entirely upon your documentation and written understanding of the lab, including video-proof that the system is in fact working.
+You need to document this lab thoroughly on your website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the deadline noted [here](./schedule.md). Note that to encourage concise and engaging websites, we have a cap on the number of words allowed to discuss lab 4: 3,000 (not including code snippets). You can easily make up for the lack of words by adding figures, photos, and videos with captions! Remember to have a TA note your attendance before heading out.

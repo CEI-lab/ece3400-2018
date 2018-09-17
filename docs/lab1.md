@@ -27,7 +27,7 @@ Split into two teams. Each team needs:
 - 1 Pushbutton
 - 1 LED (any color except IR!)
 - 1 Potentiometer
-- Several resistors (kΩ range)
+- Several resistors (kΩ range)
 - 1 Solderless breadboard
 
 **Communicating between the Uno and IDE**   
@@ -51,7 +51,7 @@ Figure 1 shows a pinout diagram for the potentiometer. You can also access the d
 
 ![Fig. 1](images/lab1_fig1.png)  
 
-Using the Arduino Reference webpage as a guide, think about how to write your setup and loop functions so that the serial monitor outputs the circuit’s analog value every half-second. When defining the analog pin number, use the code int PINNAME = AX;, where PINNAME is your variable name and X is the analog pin number. You can view the serial monitor by clicking on the magnifying glass in the top right corner of the IDE. Of course, the USB A/B cable must be connected to both the Uno and the computer for the serial monitor to work. Repeat the above with all analog pins to make sure that all analog pins work.  
+Using the Arduino Reference webpage as a guide, think about how to write your setup and loop functions so that the serial monitor outputs the circuit’s analog value every half-second. When defining the analog pin number, use the code `int PINNAME = AX;`, where `PINNAME` is your variable name and X is the analog pin number. You can view the serial monitor by clicking on the magnifying glass in the top right corner of the IDE. Of course, the USB A/B cable must be connected to both the Uno and the computer for the serial monitor to work. Repeat the above with all analog pins to make sure that all analog pins work.  
 
 While there are examples in the IDE that have code for the serial monitor and analog pins, try to figure out how to write the code on your own using just the Arduino Reference page for help. If you get stuck, feel free to collaborate with a neighboring group or ask a TA for assistance.
 
@@ -102,6 +102,15 @@ Start thinking about what sensors you want on your robot. How many are needed? C
 
 Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. There should also be two battery banks in your box, it would be a good idea to mark them with your team number. We will be using these to power the robot this year (one spare, one onboard) - no non-rechargeable batteries will be accepted. Think green! It is your responsibility to keep the batteries charged. 
 
-You should have documented this lab thoroughly on the website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the end of the following week. Remember to have a TA note your attendance before heading out.
-
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commits. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
+
+### Grading
+
+Check the grading rubrics [here](./Grading/Lab_score.md).
+
+You need to document this lab thoroughly on your website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the deadline noted [here](./schedule.md). Since both sub-teams will be completing the same task during the lab, you are welcome to only document one of these on the website. 
+
+Note that to encourage concise and engaging websites, we have a cap on the number of words allowed to discuss the lab: 2,000 (not including code snippets) - Feel free to write much less! You can easily make up for the lack of words by adding figures, photos, and videos with captions! 
+
+Remember to have a TA note your attendance before heading out.
+

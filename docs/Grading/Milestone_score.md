@@ -1,5 +1,5 @@
 # Grading of Milestones
-## ECE 3400, Fall 2017
+## ECE 3400, Fall 2018
 
 _Milestone 1 will be graded as follows:_
 
@@ -9,18 +9,19 @@ _Milestone 1 will be graded as follows:_
 
 _Milestone 2 will be graded as follows:_
 
-* 2.5 points (total of 7.5) per different treasure that can be detected and classified
-* 2.5 points to autonomously detect walls
+* 2 points: Robot that successfully circles an arbitrary set of walls (e.g. through right hand wall following)
+* 2 points: Robot that successfully avoids other robots
+* 2 points: Robot that automatically starts when a 660Hz tone is played (with background noise)
+* 4 points: For a demonstration of a robot that automatically starts upon a 660Hz tone, does line tracking, and avoids robots, and walls.
+(It would be helpful to 'show' what the robot is thinking, e.g. by adding visual LEDs that indicate when walls/robots have been detected)
 
 _Milestone 3 will be graded as follows:_
 
-* 4 points: Simulated maze exploration
-* 4 points: Real implementation of the maze exploration
-* 2 points: The fastest solution will get an added two points
+* 5 points: Simulated maze exploration
+* 5 points: Robot which successfully transmits all necessary maze information to the screen
 
 _Milestone 4 will be graded as follows:_
 
-* 3 points: System that successfully displays the walls in a maze as the robot finds them
-* 3 points: System that successfully displays treasures in a maze as the robot finds them
-* 2 points: Robot that successfully signals 'done' on the screen when the maze has been mapped
-* 2 points: Robot that successfully plays 'done' on the speaker when the maze has been mapped
+* 2 points: Robot which can successfully distinguish between red, green, and blue treasures
+* 3 points: Robot which can successfully distinguish a square, triangle, and diamond shape
+* 5 points: Real implementation of the maze exploration

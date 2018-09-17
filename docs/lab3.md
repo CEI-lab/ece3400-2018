@@ -1,7 +1,7 @@
 # Lab 3: Radio Communication and Map Drawing
 ## ECE 3400 Fall ’18
 
-FIX!!!
+**IN PROGRESS - EVERYTHING WILL CHANGE**
 
 
 ### Objective
@@ -171,10 +171,11 @@ Finally, add additional support to display any previously-visited locations.
 ***
 
 ### Wrap-Up
-Keep all relevant parts of this lab in the box dedicated for your team. All other components, including USB cables, can be placed back into their appropriate bins.
 
-Before leaving the lab ask one TA to confirm that your box only has 2 Arduinos, 2 Breadboards, and no tools.
+Keep your Arduino Unos and Parallax servos in the box dedicated for your team. All other components can be placed back into their appropriate bins. Clean up your station thoroughly before you leave!
 
-You should have documented this lab in your notebook; your documentation should include personal notes, challenges, successes, and applicable diagrams.
+Use GitHub on the computer to upload and save your code, be sure to add appropriate commit messages. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
 
-Use the GitHub program on the lab computer to save your code.
+### Grading
+
+You need to document this lab thoroughly on your website, feel free to add ideas/comments this lab inspires regarding your future robot; the TA's will check the website by the deadline noted [here](./schedule.md). Note that to encourage concise and engaging websites, we have a cap on the number of words allowed to discuss lab 3: 2,500 (not including code snippets). You can easily make up for the lack of words by adding figures, photos, and videos with captions! Remember to have a TA note your attendance before heading out.
