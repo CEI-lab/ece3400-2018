@@ -32,16 +32,16 @@
 
 
 Week 6:
-* *Work on milestone 2*
+* *Work on milestone 2 and Lab 2*
 * Sep 24th, Mon: Wired communication (by Haron Abdel Raziq)
 * Sep 26th, Wed: Wireless communication and recap
-* Sep 28th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2.
+* Sep 28th, Fri: Team meetings. 
 
 Week 7:
 * *Lab 3 Wireless Communication*
 * Oct 1st, Mon: FPGA lecture by Bruce Land
 * Oct 3rd, Wed: VGA/Camera
-* Oct 5th, Fri: Team meetings. 
+* Oct 5th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2.
 * Oct 7th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
