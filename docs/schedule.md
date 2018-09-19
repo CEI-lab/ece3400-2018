@@ -23,7 +23,7 @@
 * Sep 12th, Wed: Digital filters
 * Sep 14th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 1. 
 
-Week 5:
+~~Week 5:~~
 * *[Lab 2 Analog circuitry and FFT](./lab2.md)*
 * Sep 17th, Mon: Actuators, feedback control
 * Sep 19th, Wed: Feedback Control, how servos work.
@@ -33,8 +33,8 @@ Week 5:
 
 Week 6:
 * *Work on milestone 2*
-* Sep 24th, Mon: Wired communication, EMC concerns
-* Sep 26th, Wed: Wireless communication
+* Sep 24th, Mon: Wired communication (by Haron Abdel Raziq)
+* Sep 26th, Wed: Wireless communication and recap
 * Sep 28th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2.
 
 Week 7:
