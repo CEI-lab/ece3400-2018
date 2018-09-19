@@ -8,4 +8,4 @@
 * [Lecture 5: Sensors](./Lecture5-Sensors.pdf), [task1](./Analog_task1.png), [task2](./Analog_task2.png)
 * [Lecture 6: Amplifiers and analog/digital filters](./Lecture6-Amplifers'n'Filters.pdf)
 * [Lecture 7: Actuators](./Lecture7-Actuators.pdf)
-* [Lecture 8: Feedback Control](./Lecture8-Feedback Control.pdf)
+* [Lecture 8: Feedback Control](./Lecture8-FeedbackControl.pdf)
