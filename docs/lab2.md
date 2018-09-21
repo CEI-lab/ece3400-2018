@@ -13,7 +13,7 @@ Look over the Open Music Labs Arduino FFT library example sketches. You’ll see
 
 If you are on audio, it’s a good idea to install an App on your phone that will generate the 660Hz tone for testing. There are many free Apps for this like Tone Generator for example. 
 
-You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.) [Check the grading scheme](https://cei-lab.github.io/ece3400/Grading/Lab_score.html).
+You should also design some simple analog amplifying and filtering circuits so you can add them as necessary once you’re in lab checking out the amplitude of your analog signals. What are some good cutoff frequencies to use in your design? How big of a gain and DC offset is appropriate? (Remember that the Arduino inputs must be between 0 and 5V.) [Check the grading scheme](https://cei-lab.github.io/ece3400-2018/Grading/Lab_score.html).
 
 As always it is a good idea to see old examples of solutions!
 
