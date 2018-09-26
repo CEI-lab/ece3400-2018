@@ -9,3 +9,5 @@
 * [Lecture 6: Amplifiers and analog/digital filters](./Lecture6-Amplifers'n'Filters.pdf)
 * [Lecture 7: Actuators](./Lecture7-Actuators.pdf)
 * [Lecture 8: Feedback Control](./Lecture8-FeedbackControl.pdf)
+* Lecture 9: Wired Communication
+* [Lecture 10: Wireless Communication and memory management](./Lecture10-Wireless'n'Memory.pdf), [code-examples](./BitwiseLogicSketch.ino)
