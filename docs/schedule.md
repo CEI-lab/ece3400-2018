@@ -34,7 +34,7 @@
 Week 6:
 * *Work on milestone 2 and Lab 2*
 * Sep 24th, Mon: Wired communication (by Haron Abdel Raziq)
-* Sep 26th, Wed: Wireless communication and recap
+* Sep 26th, Wed: Wireless communication and storage management
 * Sep 28th, Fri: Team meetings. 
 
 Week 7:
