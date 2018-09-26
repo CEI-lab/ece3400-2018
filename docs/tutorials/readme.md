@@ -64,6 +64,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 
 * [Download LTSpice lite for free here](http://www.linear.com/solutions/ltspice)
 * [VL53L0X time-of-flight distance sensor](https://cei-lab.github.io/ece3400-2017/tutorials/sensors/VL53L0X.html)
+* [How to use the Nordic Radio module](http://starter-kit.nettigo.eu/2014/connecting-and-programming-nrf24l01-with-arduino-and-other-boards/)
 * [Nordic Radio modules explained](https://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo)
 
 **Related to Electronics:**
