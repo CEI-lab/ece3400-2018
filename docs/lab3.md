@@ -1,41 +1,37 @@
-# Lab 3: Radio Communication and Map Drawing
+# Lab 3: System Integration and Radio Communication
 ## ECE 3400 Fall ’18
 
-**IN PROGRESS - EVERYTHING WILL CHANGE**
-
-
 ### Objective
-In this lab, you will be working on the final major component of your project: radio communication. You will also extend the work you did in Lab 3, using the FPGA to draw a full maze on a VGA monitor and update it with information received from the radio.
+In this lab you will integrate the components you have worked on in Labs and milestones 1 and 2. You will make a robot that can start on a 660Hz tone, have it navigate a small test maze autonomously, and have it send the maze information it discovers wirelessly to a base station. The base station, in turn, will display these updates on a screen for debugging. 
 
-Before the lab, split your team into two groups. One group will work on the radio component and the other on the FPGA component. Preferably, the FPGA group will *not* contain the group members who did the maze drawing component of Lab 3. We would like everyone to get experience with the VGA elements of this course. Note that the each group has it own pre-lab assignment.
-
-For the final portion of the lab, the work done with the radio will be combined with the work done with the FPGA. Using the Nordic nRF24L01+ transceivers and the corresponding Arduino RF24 library, you will get the robot and video controller to talk to each other. You should ideally be able to send messages from one Arduino to the other Arduino (simulating actual maze information) and have the FPGA display the received data on the monitor.
+Before the lab, split your team into two groups. One group will work on the radio component and the other on integrating robot start signals, line following, wall detection and detection of other robots (while ignoring decoys). For the final portion of the lab, your work will be tied together so that the robot can run through the maze and update the program as it goes. 
 
 ### Documentation
 Throughout this lab and ALL labs, remember to document your progress on your website. Add anything that you think might be useful to the next person doing the lab. This may include helpful notes, code, schematics, diagrams, videos, and documentation of results and challenges of this lab. You will be graded on the thoroughness and readability of these websites.
 
 Remember, all labs are mandatory; attendance will be taken at every lab. All labs will require you to split into two sub-teams, so be sure to note on the website what work is carried out by whom.
 
+### Joint Pre-Lab
+Before you come to lab, you need to discuss with your entire team how you want to encode the maze and all the information in the maze. Preferably, whatever you do for the small test setup in this lab, will apply directly to the big maze in the final challenge. We have gone over some of these principles in lectures. Remember, the final maze will have 9x9 squares. Each square can be explored/unexplored, have walls on either and all sides, have treasures (with three shapes/colors) or not, and potentially have other robots/decoys as well. Will all this information fit in the memory of the Arduino? (How much SRAM do you have available?) Consider using bit masking to compress information. 
+
 ***
 
 ## Radio Group
+To know if the robot is correctly searching through the maze, it will have to display the map it has discovered on a screen connected to a base station which is wirelessly connected to your robot. Beyond this application, the radio itself will come in handy for debugging purposes because it just acts as a (wireless) serial link between two Arduinos, one of which is hooked up to your computer.  
 
 ### Materials
 - 2 Nordic nRF24L01+ transceivers
-- 2 Arduino Unos
-- 2 USB A/B cables
-- 2 radio breakout boards with headers
+- 2 Arduino Unos (you can borrow an extra one *for the duration of the lab session* from the TAs)
+- 2 radio breakout boards with headers (if we are out, feel free to make your own from perfboards).
 
 ![Fig. 1](images/lab4_fig1.png)
-
 ![Fig. 2](images/lab4_fig2.png)
 
-### Pre-lab Assignment
+### Extra Pre-lab Assignment
+
 This lab will use the RF24 Arduino library. Before you start the lab, look over the reference page (http://maniacbug.github.io/RF24/classRF24.html) and review the primary public interface methods at the top of the page. Make sure that you understand what they do at a high level.
 
-If you are sending a 2-dimensional (3x3, for example) array of chars, what is the size of the array in bytes? Compare this to the maximum payload size of the radio. How many packets are required to send the 3x3 char array?
-
-Now assume that each element in the array has a maximum value of 3. How many bytes can you compress this array into, now that you know this piece of information? How many packets are now required to send the array?
+You will also use the graphical user interface (GUI) prepared by the TAs. To install this GUI, please follow the instructions [here](https://github.com/backhous/ece3400-maze-gui). 
 
 ### Procedure
 **Getting Started**
@@ -66,7 +62,7 @@ You will put these channel numbers (with leading 0s) in the line of code that sa
 const uint64_t pipes[2] = { 0xF0F0F0F0E1LL, 0xF0F0F0F0D2LL };
 ```
 
- so that it instead says
+so that it instead says
 
 ```C
 const uint64_t pipes[2] = { 0x0000000024LL, 0x0000000025LL };
@@ -82,73 +78,61 @@ Once this is working, do some quick experiments with range and channel number. H
 
 *Note:* If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
 
-Make sure you understand the "Getting Started" sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a staff member.
+Make sure you understand the "Getting Started" sketch at a high level; it is suggested that you use this sketch as a building block for your own radio code. If you have any questions, ask a TA.
 
-**Sending Maze Information**
+**Sending Maze Information Between Arduinos**
 
-We will now do two exercises for sending maze information, one where the entire maze is sent and one where only new information is sent.
+In the final challenge the GUI will sound the 660Hz signal that starts your robot, and then log and display all the information sent to it by your robot through your base station. After 5 minutes the GUI will time out and compare what your robot has discovered to the final maze, and give you a score. Likely, your robot will not be able to finish the entire maze in time. Therefore, it is important that the robot constantly sends updates everytime it acquires new knowledge about the maze. 
 
-**Sending the Entire Maze**
+* Next, you will first send wireless information over the radio. 
+* You will write up code that simulates a robot moving through a maze on the extra Arduino 
+* You will design a protocol for data sent between the robot and the base station, and try to send the virtual robot updates via this link. 
+* You will ensure that the base station can correspond with the GUI using the correct protocol. 
+* When you have finished, try it out with the real robot! 
 
- The most intuitive way of representing an entire maze is with a two-dimensional array. Use this 2D char array as an example:
+**Robot-to-Base Station Transmission**
 
-```C
-unsigned char maze[5][5] =
-{
-3, 3, 3, 3, 3,
-3, 1, 1, 1, 3,
-3, 2, 0, 1, 2,
-3, 1, 3, 1, 3,
-3, 0, 3, 1, 0,
-};
-```
+Modify the Getting Started sketch to send, receive, and display information using the Serial Monitor between your two Arduinos (one of which emules the robot). You can choose to pack characters or send entire strings. This may come in handy for debugging throughout the rest of the semester.
 
- Modify the Getting Started sketch to send, receive, and display the array using the Serial Monitor. You can choose to pack the array (since the values only go up to 3) or to send them as chars.
+**Emulating Your Robot**
 
-Keep in mind the number of packets you expect to receive and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets. *Note:* It is enabled by default.
+At this point your team should have decided on the data structure they will use to encode the maze information. On your extra processor, write a program that has a pre-filled simulated maze with walls. Now, write a for loop that runs a virtual robot through your maze (the order it runs in does not matter at this point). Every time your robot jumps to a new square in the maze, it should send information about that square wirelessly to the base station. 
 
-**Sending New Information Only**
+You get to decide on the protocol you want to use between the robot and the base station. Think about how many characters you have to send. How big is the maximum package the Nordic Radio module can send? Can you do with a single transmission of data? Be sure to describe your chosen protocol carefully on your webpage. 
 
- If you do not want to send the entire maze, an alternative is only sending new information. This may seem a trivial optimization, but in real-world robotics, power consumption is an unavoidable technical limitation. Wasting energy sending superfluous data over radio is shoddy engineering at best.
+Be sure to package your code nicely, so that it easily transfers to the actual robot at the end of the lab.
 
-Take this code for an example on sending only new maze information:
+Keep in mind the number of packets you expect to receive and think of a way to correct behavior if a packet is dropped. For example, if you expect to receive 8 packets but only receive 7, then when the first packet comes of another maze update, you’ll think it’s actually the 8th packet and be one off on your counting after that. The RF24 library has an Auto-ACK feature – look at the details of this and think of how enabling or disabling it would affect how you send and encode packets. (*Note:* It is enabled by default.)
 
-```C
-int x_coord = 3; 
-int y_coord = 2; 
-char data = 2;
-```
+**Base Station-to-GUI Transmission**
 
- As in the first exercise, modify the Getting Started sketch to send, receive, and display the sent information using the Serial Monitor.
+You can find lots of information about how the GUI works [here](https://github.com/backhous/ece3400-maze-gui/blob/master/README.md). Note this GUI is a work in progress, so if you find a bug, please let the TAs know immediately. It also does not have all of the graphics enabled yet. However, it should work fine for displaying walls.
 
-Keep in mind though that even if one method may seem easier to implement, there may be unexpected overhead in other elements of the project. Ask yourself how your choice for this portion of the project affects the robot’s logic as well as the video controller logic. What happens if a packet is dropped? Again, how will enabling the Auto-ACK feature affect this?
+Do a unit test first. I.e. check that your base station Arduino can update the GUI graphics. E.g. send information about the upper right square in a maze: Serial.println("0,0,west=true,north=true").
 
-**Sending robot position**
+One this works, think about the software architecture on your base station. How often do you want to communicate with the GUI? All the time, or could you make this an event-driven operation? 
 
-The FPGA team has been working to draw a grid that shows the current position of the robot. To do this, they will need you to relay a coordinate position to them over the radio.
+Now, integrate the full loop from the virtual robot Arduino to the base station Arduino to the GUI. Make sure that your "robot" can successfully update the entire maze.
 
-Implement a communication method to send the current position of the robot from one Arduino to the other. Design for a 4 x 5 maze and decide on the appropriate coordinate system to use.
+**Reliability**
+It is always a good idea to test the limits of your system. See how far away the base station can be from the robot. Do you ever experinece missed packages? Is this system reliable enough to work during the final competition? Your robot will be a maximum of 15ft from your base station. 
 
-Your goal is to send the current position of the robot from Arduino A to Arduino B. Then Arduino B will transfer that information to the FPGA so that the current position of the robot appears on the VGA monitor.
-
-***
-
-## FPGA Group
+## Robot Group
 
 For this lab, you will modify this code to display the full 4x5 grid on the VGA monitor. Additionally, you will get an Arduino communicating with the FPGA so that your Arduino can receive messages about the maze from the robot and display that information on the monitor.
 
 ### Materials
-- FPGA
-- Arduino Uno
-- 1 VGA cable
-- 1 VGA connector
-- 1 VGA switch
-- Various resistors (for voltage divider)
+- Your robot 
+- Decoy
+- 660Hz tone generator
+- Partner with another team to show robot avoidance
+- Walls to make the following maze setup
+
+![Test Maze](./images/Test-Maze.PNG)
+
 
 ### Pre-lab Assignment
-For this lab, packets do not need to be large since you only need to display the robot's current location; however, keep in mind that for the final competion, packets must carry much more information than just the robot's location. For this reason, it might be worthwhile to spend some time thinking about the best method for transmitting data from the Arduino to the FPGA even if that means changing your implementation from lab 3.
 
-Brainstorm various methods of communication for transmitting maze data. This includes the robot's current location, any walls, treasure presence and frequency, and the done signal. What method of data transmission did you use in lab 3? Is this method easily scaled up to transmit longer packets? Decide on how you would like to transmit packets. You will implement this method in lab 4. 
 
 ### Procedure
 
