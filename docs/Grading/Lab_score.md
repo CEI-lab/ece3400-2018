@@ -15,7 +15,7 @@ In Lab 1 Microcontrollers, the first 15 points are scored by:
 * 2 points: Assemble your robot
 * 3 points: Driving your robot autonomously
 
-In Lab 2 Analog Circuitry and FFT's, the first 15 points are scored by:
+In Lab 2 Analog Circuitry and FFT's, the first 15 points are scored as follows:
 
 * 2 points: Correct FFT analysis for audio
 * 2 points: Working amplifier (or active filter) circuit for audio
@@ -25,17 +25,18 @@ In Lab 2 Analog Circuitry and FFT's, the first 15 points are scored by:
 * 2 points: Distinguish a 6.08kHz IR signal from an IR signal at 18kHz
 * 3 points: Demonstration of a single system with nicely merged code that can do both IR and audio
 
-In Lab 3 Radio Communication and Map Drawing, the first 15 points are scored by:
+In Lab 3 System Integration and Radio Communication, the first 15 points are scored as follows:
 
-* 2 points: Sending information wirelessly between Arduino's
-* 2 points: Sending the entire maze wirelessly
-* 3 points: Updating the maze array, dependent only on the updated robot information
-* 1 point: 
-* 3 points: 
-* 2 points: 
-* 2 points: 
+* 2 points: Efficient data scheme to store all maze information on an Arduino
+* 1 points: Sending maze information wirelessly between Arduino's
+* 1 points: Updating the GUI from the base station
+* 2 points: Updating the GUI from a virtual robot on a separate Arduino which is wirelessly connected to the base station
+* 2 point: Robot starting on a 660Hz tone
+* 2 points: Robot starting on a 660Hz tone and exploring the entire maze
+* 2 points: Robot that explores, and stops if it sees another robot, but ignores decoys
+* 3 points: Robot-to-GUI integration, full exploration and update on the GUI
 
-In Lab 4 FPGA and Vision, the first 15 points are scored by:
+In Lab 4 FPGA and Vision, the first 15 points are scored as follows:
 
 * 1 point: 
 * 1 point: 
