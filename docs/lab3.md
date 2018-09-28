@@ -90,7 +90,7 @@ In the final challenge the GUI will sound the 660Hz signal that starts your robo
 * You will ensure that the base station can correspond with the GUI using the correct protocol. 
 * When you have finished, try it out with the real robot! 
 
-**Emulating Your Robot**
+**Simulating Your Robot**
 
 At this point your team should have decided on the data structure they will use to encode the maze information. On your extra processor, write a program that has a pre-filled simulated maze with walls. Now, write a for-loop that runs a virtual robot through your maze (the order it runs in does not matter at this point). Every time your robot jumps to a new square in the maze, it should send information about that square wirelessly to the base station. 
 
