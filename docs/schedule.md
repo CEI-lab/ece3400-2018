@@ -38,7 +38,7 @@ Week 6:
 * Sep 28th, Fri: Team meetings. 
 
 Week 7:
-* *Lab 3 Wireless Communication*
+* *[Lab 3 Wireless Communication](./lab3.md)*
 * Oct 1st, Mon: FPGA lecture by Bruce Land
 * Oct 3rd, Wed: VGA/Camera
 * Oct 5th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 2.
