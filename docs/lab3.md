@@ -127,7 +127,7 @@ Like discussed briefly in lecture, you can consider event-driven operation, roun
 - Partner with another team to show robot avoidance
 - Walls to make the following maze setup
 
-![Test Maze](./images/Test-Maze.PNG)
+![Test Maze](./images/Test-Maze.png)
 
 ### Procedure
 
@@ -148,7 +148,7 @@ To show that everything has been integrated, you will need to show the robot run
 
 ### Wrap-Up
 
-Be sure to place the extra Arduino back in the drawer before you leave. Put all tools and other components back in their appropriate bins as well. Clean up your station thoroughly before you leave!
+Be sure to place the extra Arduino back in the drawer before you leave. Put all tools, walls, and other components back in their appropriate bins as well. Clean up your station thoroughly before you leave!
 
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commit messages. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
 
