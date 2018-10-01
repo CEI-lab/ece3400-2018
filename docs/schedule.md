@@ -31,7 +31,7 @@
 * Sep 23rd, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
-Week 6:
+~~Week 6:~~
 * *Work on milestone 2 and Lab 2*
 * Sep 24th, Mon: Wired communication (by Haron Abdel Raziq)
 * Sep 26th, Wed: Wireless communication and storage management
