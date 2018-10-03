@@ -59,7 +59,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [Helpful FPGA-related Links and Tips](./FPGA_resources.md)
 * [Verilog for Beginners](https://www.nandland.com/verilog/tutorials/tutorial-introduction-to-verilog-for-beginners.html)
 * [State Machine Example Code](https://cei-lab.github.io/ece3400-2017/tutorials/Arduino/EmbeddedControlsDemo.ino)
-* [VGA Color scheme, by Angus Gibbs 2016](.https://cei-lab.github.io/ece3400-2017/tutorials/FPGA/colors_html.html)
+* [VGA Color scheme, by Angus Gibbs 2016](https://cei-lab.github.io/ece3400-2017/tutorials/FPGA/colors_html.html)
 
 **Related to Sensors and Signal Processing:**
 
