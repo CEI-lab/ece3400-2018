@@ -12,3 +12,4 @@
 * [Lecture 9: Wired Communication, by Haron Abdel-Raziq](./Lecture9-WiredCommunication.pdf)
 * [Lecture 10: Wireless Communication and memory management](./Lecture10-Wireless'n'Memory.pdf), [code-examples](./BitwiseLogicSketch.ino)
 * [Lecture 11: FPGA, by Bruce Land](http://people.ece.cornell.edu/land/courses/ece3400/FPGA_Verilog/fpga_2018.html)
+* [Lecture 12: FPGA revisited, cameras, and image processing](./Lecture12-Camera.pdf)
