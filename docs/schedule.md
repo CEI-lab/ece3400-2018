@@ -37,7 +37,7 @@
 * Sep 26th, Wed: Wireless communication and storage management
 * Sep 28th, Fri: Team meetings. 
 
-Week 7:
+~~Week 7:~~
 * *[Lab 3 Wireless Communication](./lab3.md)*
 * Oct 1st, Mon: FPGA lecture by Bruce Land
 * Oct 3rd, Wed: VGA/Camera
@@ -48,7 +48,7 @@ Week 7:
 Week 8:
 * *Work on milestone 2 and lab 3*
 * Oct 8th, Mon: Fall break
-* Oct 10th, Wed: Mechanical prototyping
+* Oct 10th, Wed: EMI and Mechanical prototyping
 * Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2. 
 
 Week 9:
