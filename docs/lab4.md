@@ -72,7 +72,7 @@
  #### Download Template
   We first need to download the template for the Quartus II project. You can download that here:
 
-  [Lab 4 FPGA Template](https://drive.google.com/drive/folders/1Y-8ffTd48_8gKcQvvmo0JlusevLoOGQ2?usp=sharing)
+  [Lab 4 FPGA Template](./Lab4_FPGA_Template.zip)
 
   Unzip this folder and put it somewhere you'll remember.
 
@@ -125,7 +125,7 @@
 
  Study and download the template Arduino code provided here:
 
- [Lab 4 Arduino Template](https://drive.google.com/drive/folders/1Y-8ffTd48_8gKcQvvmo0JlusevLoOGQ2?usp=sharing)
+ [Lab 4 Arduino Template](./Lab4_Arduino_Template.zip)
 
  In order for the provided functions to work, we need to set up the Arduino's I2C interface. This will require wiring the Arduino's SDA and SCL pins to the camera's, and setting the camera up as a slave peripheral.
 
