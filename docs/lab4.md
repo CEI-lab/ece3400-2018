@@ -125,12 +125,12 @@
 
   You'll want to assign the 24MHz output to a GPIO pin, for the Camera team to use.
 
-### Team Camera
- Congrats, you've been chosen to be a part of Team Camera. You will be responsible for wiring the camera and setting up its registers. 
+### Team Arduino
+ Congrats, you're on Team Arduino. You will be responsible for wiring the camera, setting up its registers with the Arduino, and reading in treasure data from the FPGA. 
 
- So grab the OV7670 and Arduino, get to work.
+ So grab the OV7670, your Arduino, an FPGA, and get to work.
 
- Study and download the template Arduino code provided here:
+ First, study and download the template Arduino code provided here:
 
  [Lab 4 Arduino Template](./Lab4_Arduino_Template.zip)
 
@@ -171,6 +171,10 @@
 
   Lastly, you'll want to call the *set_color_matrix()* function in your code. This sets a group of registers responsible to ensuring the colors from your camera come out properly.
 
+#### Communicating with the FPGA
+  Next, you'll need to create a system to pass information (about treasure presence, color, and shape) from the FPGA to the Arduino using the digital ports on both of these devices. You can send the information serially or through a parallel bus, but be sure to consider timing and other concerns when determining this. Again, be aware that the DE0-Nano operates at 3.3 Volts, but the Arduino Uno outputs 5 volts on its digital pins. Therefore, you will need to have a voltage divider for each wire connected from the Arduino to the FPGA. You will also need a common ground. Confirm with the TA’s that your choice of resistors is adequate before hooking everything up.
+
+The final step is to create a protocol for the information that is being sent, and to interpret the information on the Arduino’s side of communication. You can show that your system is working, by e.g. lighting different LEDs depending on the treasure, or transmitting serially to a separate screen. 
 
 ### Team FPGA
 
