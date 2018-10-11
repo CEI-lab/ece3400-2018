@@ -55,6 +55,7 @@
   - Set the camera to output the resolution you specified in *Q4* and the pixel format you specified in *Q2*.(Note: The pixel format will take setting an extra register to fully specify)
   - Enable a color bar test (takes setting 2 regs, neither of them are the SCALING regs)
   - Vertical and mirror flip the output image (optional: it's not necessarily needed but could be useful)  
+  - As we discussed in class, you may also want to fix, e.g. the gain (Automatic Gain Ceiling) and other parameters of the camera 
 
   **Make sure to keep track of each register's name, address(hex), and value(hex).**  
 
