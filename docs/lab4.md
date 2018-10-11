@@ -7,7 +7,7 @@
 
  Below is a block diagram of the device that will implemented. The red blocks, along with all of the interconnects will be made by you, the white ones are provided.
 
- ![BLOCK DIAGRAM](images/Lab3BlockDiagram.png "Block, Lock, and Drop it")
+ ![BLOCK DIAGRAM](./images/Lab3BlockDiagram.png "Block, Lock, and Drop it")
 
 ## Prelab
 
@@ -89,7 +89,7 @@
   ![PLL makeo](images/PLL1.PNG "Really, go nuts")
 
   5. In the General Modes tab, set the device speed to *Any* and the frequency of inclk0 to *50MHz*, as below.
-  ![PLL makeo](images/PLL2.PNG "You'll miss these easy early parts of this lab")
+  ![PLL makeo](./images/PLL2.PNG "You'll miss these easy early parts of this lab")
 
   6. In the **Inputs/Lock** tab deselect everything
 
@@ -99,7 +99,7 @@
 
   9. You can skip over to **Output Clocks** now. We'll be setting up *clk c0*, *clk c1*, and *clk c2*. 
 
-  ![PLL makeo](images/PLL3.PNG "I thought this was supposed to be the easy part")
+  ![PLL makeo](./images/PLL3.PNG "I thought this was supposed to be the easy part")
 
   10. 
   For c0, select *Use this clock*. Also select *Enter output clock frequency* and set it to *24.0 MHz* as the Requested Setting. Make sure you set the clock duty cycle to *50%*.
@@ -110,7 +110,7 @@
 
   11. Jump to the summary tab and select *nameyouchose*_inst.v and *nameyouchose*_bb.v. Your design should look like the block on the left of the picture below.
 
-  ![PLL makeo](images/PLL4.PNG "almost there")
+  ![PLL makeo](./images/PLL4.PNG "almost there")
 
   Click **Finish**
 
@@ -152,7 +152,7 @@
 
   Here's what you'll want to do:
 
-  ![Camera Wiring Diagram](images/Lab3CameraWiringDiagram.png "If you can figure out how to do this without an extra board, it probably doesn't look very good")
+  ![Camera Wiring Diagram](./images/Lab3CameraWiringDiagram.png "If you can figure out how to do this without an extra board, it probably doesn't look very good")
 
  #### Writing Registers 
   Next you'll need to make use of the functions in the template code to write the values of the registers from the prelab to the values expected.
@@ -188,7 +188,7 @@
 
   With nothing driving *VGA_COLOR_IN*, it'll look something like this:
 
-  ![VGA w/ No Input](images/VGANoInput.png  "Please do not judge the MSPaint skills of this TA")
+  ![VGA w/ No Input](./images/VGANoInput.png  "Please do not judge the MSPaint skills of this TA")
 
 #### Buffer Reader
 
@@ -203,7 +203,7 @@
 
  Nice work. Now you'll be integrating the two portions. This will involve taking the actual data from the OV7670, saving it into memory (using the FPGA team's Downsampler), and reading it to the display. The Camera team should have set the camera to output a color bar test, so the output ought to look something like so:
 
- ![Color Bar](images/colorbar.png  "what a beaut")
+ ![Color Bar](./images/colorbar.png  "what a beaut")
 
  If it's not, the registers may be set incorrectly. If it looks somewhat resemblant of the photo, but skewed or 'negative', the downsampler is likely the culprit. If the buffer reader portion of Team FPGA's part came out fine, it's highly unlikely that the problem lies in the RAM-VGA driver-Display portion of the Verilog module.
 
@@ -221,7 +221,7 @@
 
  Here are the shapes you should be able to detect:
 
- ![Color Bar](images/shaps.png  "Tag yourself")
+ ![Color Bar](./images/shaps.png  "Tag yourself")
 
  Heres a folder with the shapes individually:  
  [Shapes](https://drive.google.com/open?id=1VWMcFQEi5sB54JpQl7shY5PiMzX-B1q6)
