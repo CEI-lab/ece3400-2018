@@ -219,9 +219,7 @@
 
  During the competition, your Arduino, FPGA, and camera will be mounted on your robot. It will need to send this data over radio to another Arduino that will be left at a base station to verify if a shape has been detected.
 
- Here are the shapes you should be able to detect:
+ Here are the treasures you should be able to detect:
 
- ![Color Bar](./images/shaps.png  "Tag yourself")
+ ![Treasures](./images/Treasures.png  "Tag yourself")
 
- Heres a folder with the shapes individually:  
- [Shapes](https://drive.google.com/open?id=1VWMcFQEi5sB54JpQl7shY5PiMzX-B1q6)
