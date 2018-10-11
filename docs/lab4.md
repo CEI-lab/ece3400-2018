@@ -11,21 +11,21 @@
 
 ## Prelab
 
- The FPGA being used is the DE0-Nano (Non-SOC). You can find some key portions of the DE0-nano's documentation here:
+ The FPGA being used is the DE0-Nano. You can find some key portions of the DE0-nano's documentation here:
 
  * [DE0-Nano Specifications](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=2 "Specs")
 
  * [DE0-Nano User Manual](http://www.ti.com/lit/ug/tidu737/tidu737.pdf "The Manual")
 
- The expansion headers on **page 18** of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera.
+ The expansion headers on **page 18** of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera. Remember that the FPGA runs on 3.3V - you should *never* connect any I/O pins to the ATmega without a voltage divider in between.
 
  To setup the OV7670 digital camera, you will need to get acquainted with its datasheet here:
 
  * [OV7670 Datasheet](https://www.voti.nl/docs/OV7670.pdf "Camera stuff")
 
- In order to perform image processing (for our treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that we may configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
+ In order to perform image processing (for our treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that you can configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
 
- We will use a VGA adapter to connect to a display for debugging (to ensure your image comes out properly). The adapter takes pixel data in RGB 332 format (8 bits - 3 red, 3 blue, 2 green). 
+ You will use a VGA adapter to connect to a display for debugging (to ensure your image comes out properly). The adapter takes pixel data in RGB 332 format (8 bits - 3 red, 3 blue, 2 green). 
 
  The OV7670 camera requires being setup every time the camera is powered on. This involves setting registers in the camera, which can be done over the Arduino's I2C interface. The camera also requires a clock input. Lastly, it has an active-low reset pin and a power-down pin. Outputs of the camera include 8 pins for 8b data output and 3 signals for sampling: PCLK(pixel clock), HS(HREF), and VS(VSYNC).
  
@@ -45,7 +45,7 @@
   Given that the input to the VGA adapter is RGB 332. How can you convert (downsize) the pixel format from *Q2* to be accepted by the VGA module? 
 
   #### *Q4:*  
-  Now that you know the downsized memory per pixel (from Q3), we need to know how many of them we can fit in memory. Which of the predefined resolutions that the OV7670 supports provides the max amount of pixels in an image, given the constrained max size of the buffer (from *Q1*)? What's the size of the buffer?  
+  Now that you know the downsized memory per pixel (from Q3), you need to know how many you can fit in memory. Which of the predefined resolutions that the OV7670 supports provides the max amount of pixels in an image, given the constrained max size of the buffer (from *Q1*)? What's the size of the buffer?  
 
   #### *Q5:*  
   Using the Register Set table on pages 10-23 of the OV7670 datasheet, find the registers you will need to set to do the following:  
@@ -59,7 +59,7 @@
   **Make sure to keep track of each register's name, address(hex), and value(hex).**  
 
   #### *Q6:*  
-  Take a look at the timing diagrams (Fig 5 and 6) on Page 7 (Ignore HSYNC, we don't use it). Use both diagrams to determine when you should sample your data. (Hint: You only want to sample valid bytes, and each one only once) 
+  Take a look at the timing diagrams (Fig 5 and 6) on Page 7 (Ignore HSYNC, you won't use it). Use both diagrams to determine when you should sample your data. (Hint: You only want to sample valid bytes, and each one only once) 
 
 ## Lab
   To begin, grab an OV7670 camera and two DE0-Nano FPGAs for your team. (Note that until the Lab 4 deadline has passed, you do not get to keep these in your box because we do not have enough boards for all 30 teams to keep two). 
@@ -104,7 +104,7 @@
 
   8. In the **Clock Switchover** tab deselct everything
 
-  9. You can skip over to **Output Clocks** now. We'll be setting up *clk c0*, *clk c1*, and *clk c2*. 
+  9. You can skip over to **Output Clocks** now. You'll be setting up *clk c0*, *clk c1*, and *clk c2*. 
 
   ![PLL makeo](./images/PLL3.PNG "I thought this was supposed to be the easy part")
 
@@ -112,7 +112,7 @@
 
   For c1, select *Use this clock*. Also select *Enter output clock frequency* and set it to *25.0 MHz* as the Requested Setting. Make sure you set the clock duty cycle to *50%*.
 
-  For c2, select *Use this clock*. Also select Also select *Enter output clock frequency* and set it to *50.0 MHz* as the Requested Setting. We are making this clock, despite having CLOCK 50 as the reference clock, for the others to always be phase-locked to. As such, you should be sure to use this clock instead of CLOCK_50. Make sure you set the clock duty cycle to *50%*.
+  For c2, select *Use this clock*. Also select Also select *Enter output clock frequency* and set it to *50.0 MHz* as the Requested Setting. You are making this clock, despite having CLOCK 50 as the reference clock, for the others to always be phase-locked to. As such, you should be sure to use this clock instead of CLOCK_50. Make sure you set the clock duty cycle to *50%*.
 
   11. Jump to the summary tab and select *nameyouchose*_inst.v and *nameyouchose*_bb.v. Your design should look like the block on the left of the picture below.
 
@@ -133,7 +133,7 @@
 
  [Lab 4 Arduino Template](./Lab4_Arduino_Template.zip)
 
- In order for the provided functions to work, we need to set up the Arduino's I2C interface. This will require wiring the Arduino's SDA and SCL pins to the camera's, and setting the camera up as a slave peripheral.
+ In order for the provided functions to work, you need to set up the Arduino's I2C interface. This will require wiring the Arduino's SDA and SCL pins to the camera's, and setting the camera up as a slave peripheral.
 
 #### **EXTREMELY IMPORT PART TO NEVER, EVER, FORGET**
   Every time you start a new lab session, **BEFORE** uploading **ANY** code to your Arduino that includes what's in the template, you have to disable the internal pull-up resistors that are a part of the Arduino's I2C interface. This is because they pull the signals that set up our camera to 5V, while our camera requires 3.3V. Sending 5V through will harm the camera. 
@@ -178,7 +178,7 @@
 
 #### Setup
 
-  Open the Verilog project you downloaded before. Notice the *SCREEN_WIDTH* and *SCREEN_HEIGHT* defined at the top. Make sure these match the resolution you expected to get as part of your prelab. We also defined what RED, GREEN, and BLUE are as localparameters, they can be useful for writing a test pattern.
+  Open the Verilog project you downloaded before. Notice the *SCREEN_WIDTH* and *SCREEN_HEIGHT* defined at the top. Make sure these match the resolution you expected to get as part of your prelab. You should also define what RED, GREEN, and BLUE are as local parameters, they can be useful for writing a test pattern.
 
   You'll notice the Memory and VGA Driver are already created in the top-level DE0-Nano module. You'll need to input clock signals for them to work. Recall that VGA requires a 25MHz signal to output to the monitor. The memory can use any clocks but they must be different between read and write as you **cannot** read and write from the same address at the same time. (That would give you indeterminate data when reading.) 
 
@@ -198,7 +198,7 @@
 
 #### Downsampler
 
-  The OV7670 Camera can only output 8 bits of a pixel at a time through D7 - D0. One pixel of color takes more than 8 bits (depending on the resolution you chose in the prelab), thus requiring more than one clock cycle to output a pixel. Notice in the timing diagrams for the OV7670 that the camera outputs 1 pixel of data over two clock cycles - 8bits at each posedge. Missing just one of these cycles will lose some information, so you must determine when to sample the input data and update memory so that nothing is lost. Make sure you only sample when data is valid (Prelab *Q6*). Remember that although each pixel is output with 16bits from the camera, we only store 8bits per pixel (1 for each entry in our RAM), so we'll need to downsize it. You should know which pixels to strip away, and which to keep according to your prelab.
+  The OV7670 Camera can only output 8 bits of a pixel at a time through D7 - D0. One pixel of color takes more than 8 bits (depending on the resolution you chose in the prelab), thus requiring more than one clock cycle to output a pixel. Notice in the timing diagrams for the OV7670 that the camera outputs 1 pixel of data over two clock cycles - 8bits at each posedge. Missing just one of these cycles will lose some information, so you must determine when to sample the input data and update memory so that nothing is lost. Make sure you only sample when data is valid (Prelab *Q6*). Remember that although each pixel is output with 16bits from the camera, you can only store 8bits per pixel (for each entry in our RAM), so you will have to downsize the resolution. You should know which pixels to strip away, and which to keep according to your prelab.
 
 ### Integrating
 
