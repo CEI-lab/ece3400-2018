@@ -3,7 +3,7 @@
 ## LAB 4 - FPGA and Shape Detection
 
 ### Overview
- In this lab, you will split into two teams to develop an FPGA module capable of detecting basic shapes from a camera input. This device will be mounted on the robot to identify these shapes on the walls of the maze.
+ In this lab, you will split into two teams to develop an FPGA module capable of detecting basic shapes from a camera input, and pass this information on to the Arduino. This device will be mounted on the robot to identify these shapes on the walls of the maze.
 
  Below is a block diagram of the device that will implemented. The red blocks, along with all of the interconnects will be made by you, the white ones are provided.
 
@@ -23,7 +23,7 @@
 
  * [OV7670 Datasheet](https://www.voti.nl/docs/OV7670.pdf "Camera stuff")
 
- In order to perform image processing (for our treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that you can configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
+ In order to perform image processing (for your treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that you can configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
 
  You will use a VGA adapter to connect to a display for debugging (to ensure your image comes out properly). The adapter takes pixel data in RGB 332 format (8 bits - 3 red, 3 blue, 2 green). 
 
@@ -62,10 +62,13 @@
   #### *Q6:*  
   Take a look at the timing diagrams (Fig 5 and 6) on Page 7 (Ignore HSYNC, you won't use it). Use both diagrams to determine when you should sample your data. (Hint: You only want to sample valid bytes, and each one only once) 
 
+  #### *Q7:*
+  Discuss with your entire team, what method you want to use to communicate information from the FPGA to the Arduino. Parallel? Serial? Maybe take a look at team Alpha's write up of their Lab 3.
+
 ## Lab
-  To begin, grab an OV7670 camera and two DE0-Nano FPGAs for your team. (Note that until the Lab 4 deadline has passed, you do not get to keep these in your box because we do not have enough boards for all 30 teams to keep two). 
+  To begin, grab an OV7670 camera and two DE0-Nano FPGAs for your team. (Note that until the Lab 4 deadline has passed, you do not get to keep these in your box, because we do not have enough boards for all 30 teams to keep two). 
   
-  You will need to split into two teams to complete this lab, so decide which members will go into each. Team Camera will be working on setting up the OV7670 camera with the Arduino. Team FPGA will work on creating a downsampler in Verilog, and writing an image to the VGA display. Once *both* teams are done, you should work to combine the two and display the camera's image to the display. Once a subteam is done with their task, they can begin implementing their image processor in Verilog.
+  You will need to split into two teams to complete this lab. Team Arduino will set up the OV7670 camera using the Arduino, and work on getting info from the FPGA to the Arduino. Team FPGA will work on creating a downsampler in Verilog, writing an image to the VGA display, and detecting the color of the image. Once *both* teams are done, you should work to combine the two, display the camera's image to the display, and detect (through the FPGA to the Arduino) when blue and red pixels are in front of the camera. 
 
 ### PLL
  Each team will need a clock to run their respective devices and both teams should perform the following steps.
@@ -123,7 +126,7 @@
 
   13. Go to *File>Open>folder_your_project_is_in*, and you should be able to open your *nameyouchose*_inst.v file. Pasting this into your top level module will allow you access to these clock signals. Remember to input 50MHz.
 
-  You'll want to assign the 24MHz output to a GPIO pin, for the Camera team to use.
+  You'll want to assign the 24MHz output to a GPIO pin, for Team Arduino to use.
 
 ### Team Arduino
  Congrats, you're on Team Arduino. You will be responsible for wiring the camera, setting up its registers with the Arduino, and reading in treasure data from the FPGA. 
@@ -178,8 +181,8 @@ The final step is to create a protocol for the information that is being sent, a
 
 ### Team FPGA
 
- Congrats, you've been chosen to be a part of Team FPGA. Grab the DE0-Nano and the VGA adapter, and get to work! 
- You'll be responsible for writing data into the provided Dual_Port M9K RAM and reading it out to the VGA display. 
+ Congrats, you're on Team FPGA. Grab the DE0-Nano and the VGA adapter, and get to work! 
+ You'll be responsible for writing data into the provided Dual_Port M9K RAM, reading it out to the VGA display, and detecting the color of the bits in the RAM. 
 
 #### Setup
 
@@ -205,9 +208,13 @@ The final step is to create a protocol for the information that is being sent, a
 
   The OV7670 Camera can only output 8 bits of a pixel at a time through D7 - D0. One pixel of color takes more than 8 bits (depending on the resolution you chose in the prelab), thus requiring more than one clock cycle to output a pixel. Notice in the timing diagrams for the OV7670 that the camera outputs 1 pixel of data over two clock cycles - 8bits at each posedge. Missing just one of these cycles will lose some information, so you must determine when to sample the input data and update memory so that nothing is lost. Make sure you only sample when data is valid (Prelab *Q6*). Remember that although each pixel is output with 16bits from the camera, you can only store 8bits per pixel (for each entry in our RAM), so you will have to downsize the resolution. You should know which pixels to strip away, and which to keep according to your prelab.
 
+#### Color Detection
+
+  Next, work similar to how you did so before. Read data out of the RAM and into the image processing module. We have provided an IMAGE_PROCESSOR.v file, though one look into it will reveal that it's pretty much empty. Your job is to detect whether or not the pixels are majorily red or blue. It may be helpful to use the onboard LEDs to indicate what the modules finds. Try experimenting with different thresholds and different noisy pictures. 
+  
 ### Integrating
 
- Nice work. Now you'll be integrating the two portions. This will involve taking the actual data from the OV7670, saving it into memory (using the FPGA team's Downsampler), and reading it to the display. The Camera team should have set the camera to output a color bar test, so the output ought to look something like so:
+ Nice work. Now you'll be integrating the two portions. This will involve taking the actual data from the OV7670, saving it into memory (using the FPGA team's Downsampler), and showing that you can write it to the display, and detect the color of the majority of the pixels. Team Arduino should have set the camera to output a color bar test, so the output ought to look something like so:
 
  ![Color Bar](./images/colorbar.png  "what a beaut")
 
@@ -217,13 +224,15 @@ The final step is to create a protocol for the information that is being sent, a
 
  Once your image is clear, move on to testing your image processing.
 
-### Image Processing
+### Thinking ahead.
+
+For this lab, you just need to show that you can detect the color of the pixels. However, you should think ahead on how you want to implement the full treasure detection. 
 
 Here are the treasures you should be able to detect:
 
  ![Treasures](./images/Treasures.png  "Tag yourself")
 
- For your image processor, we have provided an IMAGE_PROCESSOR.v file, though one look into it will reveal that it's pretty much empty. You can make any object detection algorithm that you wish. As discussed in class you can get far with pretty simple measures. You will need to use the pixel data saved in RAM from your camera to detect the different colored shapes shown above on the walls of the final maze. Feel free to edit any part of the code from previous portions of this lab if you wish, though it is not required. Note that you might be able to do better image processing if you downsample to RGB323 (leaving more resolution to the red and blue colors of the treasures) instead of RGB332 as the VGA monitor requires.
+ As discussed in class you can get far with pretty simple measures. You will need to use the pixel data saved in RAM from your camera to detect the different colored shapes shown above on the walls of the final maze. Feel free to edit any part of the code from previous portions of this lab if you wish, though it is not required. Note that you might be able to do better image processing if you downsample to RGB323 (leaving more resolution to the red and blue colors of the treasures) instead of RGB332 as the VGA monitor requires.
 
  The image processor should output if it has detected a shape, and which shape/color. This output should then be sent to the Arduino, where you'll want to verify its value by outputting to the Serial monitor. 
 
