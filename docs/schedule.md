@@ -60,7 +60,7 @@ Week 9:
 
 
 Week 10:
-* *Lab 4 FPGA / Vision* 
+* *[Lab 4 FPGA / Vision](./lab3.md)* 
 * Oct 22nd, Mon: Conflict resolution by Erica Dawson
 * Oct 24th, Wed: Algorithms
 * Oct 26th, Fri: Team meetings. 
