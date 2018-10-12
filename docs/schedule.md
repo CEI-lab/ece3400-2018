@@ -52,7 +52,7 @@ Week 8:
 * Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2. 
 
 Week 9:
-* *Lab 4 FPGA / Vision*
+* *Work on Lab 3*
 * Oct 15th, Mon: Tutorial on 3D printers, laser cutters, and design strategies.
 * Oct 17th, Wed: EE prototyping (PCB layout)
 * Oct 19th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 3. 
@@ -60,42 +60,42 @@ Week 9:
 
 
 Week 10:
-* *Work on lab 4*
+* *Lab 4 FPGA / Vision* 
 * Oct 22nd, Mon: Conflict resolution by Erica Dawson
 * Oct 24th, Wed: Algorithms
-* Oct 26th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 4. 
+* Oct 26th, Fri: Team meetings. 
 
 Week 11:
-* *Work on milestone 3*
+* *Work on lab 4*
 * Oct 29th, Mon: Algorithms
 * Oct 31st, Wed: Algorithms
-* Nov 2nd, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
+* Nov 2nd, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on lab 4. 
 * Nov 4th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 12:
-* *Work on milestone 4*
+* *Work on milestone 3*
 * Nov 5th, Mon: Evaluating IPS
 * Nov 7th, Wed: Debugging IPS
-* Nov 9th, Fri: Team meetings. 
+* Nov 9th, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
 
 Week 13:
 * *Work on milestone 4*
 * Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
 * Nov 14th, Wed: Power and batteries for IPS
-* Nov 16th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 4. 
+* Nov 16th, Fri: Team meetings. 
 * Nov 18th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 14:
-* *Work on final system*
+* *Work on milestone 4*
 * Nov 19th, Mon: Alternative approaches to IPS 
 * Nov 21st, Wed: Thanksgiving recess
 * Nov 23rd, Fri: Thanksgiving recess
 
 Week 15:
 * *Work on final system*
-* Nov 26th, Mon: IPS Ethics (Park Atkinson Doing)
+* Nov 26th, Mon: IPS Ethics (Park Atkinson Doing). **Deadline @midnight:** The websites will be graded for contents on milestone 4. 
 * Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
 * Nov 30th, Fri: Team meetings. **Deadline @midnight:** Ethics homework hand-in. 
 * Dec 2nd, Sun: **Deadline @midnight:** Fill out the team assessment form.
