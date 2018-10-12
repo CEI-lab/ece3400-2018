@@ -45,7 +45,7 @@
 * Oct 7th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
-Week 8:
+~~Week 8:~~
 * *Work on milestone 2 and lab 3*
 * Oct 8th, Mon: Fall break
 * Oct 10th, Wed: EMI and Mechanical prototyping
