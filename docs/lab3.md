@@ -50,7 +50,7 @@ Change the identifier numbers for the two pipes to the ones assigned to your tea
 2(3D + N) + X
 ```
 
-where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
+where D is the day of your lab (0 = Monday day, 1 = Monday night, 2 = Wednesday night, 3 = Friday, 4 = Thursday) and N is your team number. X is 0 for one radio and 1 for the other (you need 2 identifiers, which is why this X is included in the formula).
 
 Example: You are Friday Team 9. And so, D = 3, N = 9, and your identifier numbers are then:
 
