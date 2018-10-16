@@ -14,3 +14,4 @@
 * [Lecture 11: FPGA, by Bruce Land](http://people.ece.cornell.edu/land/courses/ece3400/FPGA_Verilog/fpga_2018.html)
 * [Lecture 12: FPGA revisited, cameras, and image processing](./Lecture12-Camera.pdf)
 * [Lecture 13: EMI and ME Prototyping I](./Lecture13-EMI'n'ME-Prototyping.pdf)
+* [Lecture 14: ME Prototyping II, by Michael Solomentsev](./Lecture14-ME_Prototyping.pdf)
