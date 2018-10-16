@@ -42,7 +42,7 @@ Plug your radios into your Arduinos using the special printed circuit boards. Wi
 
 Download the [RF24 Arduino library](https://github.com/maniacbug/RF24). Add it to the Libraries folder in your Arduino directory. *Note:* Do not update this library if the Arduino asks you to do so. The update will break the example code used for this lab.
 
-Download the "Getting Started" sketch from the course GitHub repository for Lab 4. Do NOT use the "Getting Started" sketch included in the RF24 library. Replace the Getting Started code in the RF24 library example folder with the one you downloaded from the course GitHub.
+Download the "Getting Started" sketch [here](https://github.com/nRF24/RF24/blob/master/examples/GettingStarted/GettingStarted.ino). Replace the Getting Started code in the RF24 library example folder with the one you downloaded.
 
 Change the identifier numbers for the two pipes to the ones assigned to your team using the following formula:
 
