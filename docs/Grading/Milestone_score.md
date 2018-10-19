@@ -17,7 +17,7 @@ _Milestone 2 will be graded as follows:_
 _Milestone 3 will be graded as follows:_
 
 * 5 points: Simulated maze exploration
-* 5 points: Robot which successfully transmits all necessary maze information to the screen
+* 5 points: Robot which successfully transmits all necessary maze information to the screen (it doesn't have to explore a maze or actively detect treasures/walls, it should simply be able to send maze information to the screen)
 
 _Milestone 4 will be graded as follows:_
 
