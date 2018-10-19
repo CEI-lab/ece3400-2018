@@ -51,7 +51,7 @@
 * Oct 10th, Wed: EMI and Mechanical prototyping
 * Oct 12th, Fri: Team meetings. **Deadline @midnight:** The websites will be graded for contents on milestone 2. 
 
-Week 9:
+~~Week 9:~~
 * *Work on Lab 3*
 * Oct 15th, Mon: Tutorial on 3D printers, laser cutters, and design strategies.
 * Oct 17th, Wed: EE prototyping (PCB layout)
