@@ -33,12 +33,12 @@ This lab will use the RF24 Arduino library. Before you start the lab, look over 
 
 You will also use the graphical user interface (GUI) prepared by the TAs. To install this GUI, please follow the instructions [here](https://github.com/backhous/ece3400-maze-gui). 
 
-**NOTE that the radio is powered by 3V! Do not hook it up to 5V, V_in or VCC.** It will fry!
+**NOTE that the radio is powered by 3.3Vmax! Do not hook it up to 5V, V_in or VCC.** It will fry!
 
 ### Procedure
 **Getting Started**
 
-Plug your radios into your Arduinos using the special printed circuit boards. Wire the radio to the **3.3V pin** on the Arduino.
+Plug your radios into your Arduinos using the special printed circuit boards. Wire the radio to the **3.3V pin** on the Arduino. (NOT the 5V pin, VCC, or VIN.) 
 
 ![Fig. 3: Arduino with radio.](images/lab4_fig3.png)
 
