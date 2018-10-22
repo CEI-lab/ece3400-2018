@@ -33,6 +33,8 @@ This lab will use the RF24 Arduino library. Before you start the lab, look over 
 
 You will also use the graphical user interface (GUI) prepared by the TAs. To install this GUI, please follow the instructions [here](https://github.com/backhous/ece3400-maze-gui). 
 
+**NOTE that the radio is powered by 3V! Do not hook it up to 5V, V_in or VCC.** It will fry!
+
 ### Procedure
 **Getting Started**
 
@@ -74,7 +76,7 @@ Program the sketch onto *both* of your Arduinos. If you like, you can use two PC
 
 Choose one Arduino to be the transmitter and open the serial monitor for it. Type in “T” and hit enter. This will put it in Transmit mode. You should see this Arduino sending a timestamp. Switch to the serial monitor for the other Arduino and you should see it printing the received message.
 
-Once this is working, do some quick experiments with range and channel number. How far do the radios work at the chosen power level? Do you have any dropped packets? Is there any interference? Is this system reliable enough to work during the final competition? Your robot will be a maximum of 15ft from your base station. 
+Once this is working, do some quick experiments with range and channel number. How far do the radios work at the chosen power level? (*Note that power level refers to a setting on the radio, never apply more than 3V to the supply pin*) Do you have any dropped packets? Is there any interference? Is this system reliable enough to work during the final competition? Your robot will be a maximum of 15ft from your base station. 
 
 *Note:* If you wish to try different power levels, note that the commented values are INCORRECT. The enum names are “RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_MAX.” There is no MED value that the code mentions.
 
