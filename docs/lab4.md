@@ -183,6 +183,8 @@ The final step is to create a protocol for the information that is being sent, a
 
  Congrats, you're on Team FPGA. Grab the DE0-Nano and the VGA adapter, and get to work! 
  You'll be responsible for writing data into the provided Dual_Port M9K RAM, reading it out to the VGA display, and detecting the color of the bits in the RAM. 
+ 
+ NOTE: If you want to use the non-volatile memory to store your bit-stream, [try this out](https://unboxnbeyond.wordpress.com/2013/05/11/configuring-de0-nano-epcs64-flash-device/). I haven't tested the directions there, so it may require a bit of modification, but overall it looks about right. 
 
 #### Setup
 
