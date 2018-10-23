@@ -16,7 +16,7 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-* 8 points: Robot capable of maze exploration using DFS, BFS, Dijkstra, or A* (try different maze configurations, we expect at least one of them to be at least 4x5)
+* 8 points: Robot capable of maze exploration using DFS, BFS, Dijkstra, or A* (show that your robot can do different maze configurations, we expect at least one of them to be a minimum size of 4x5)
 * 2 points: ..if the robot is also able to update the GUI
 
 _Milestone 4 will be graded as follows:_
