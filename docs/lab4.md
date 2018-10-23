@@ -158,7 +158,7 @@
   ```
   5. Save the doc and close.
 
-  Now you'll need to wire the Arduino to the OV7670 camera. You should wire power and the I2C interface - all data pins will have to go into the FPGA when you integrate.
+  Now you'll need to wire the Arduino to the OV7670 camera. You should wire power and the I2C interface - all data pins will have to go into the FPGA when you integrate. Note that the pin names on the camera might be slightly different than the diagram below (SIOC <-> SCL, SIOD <-> SDA, MCLK <-> XCLK).
 
   Here's what you'll want to do:
 
