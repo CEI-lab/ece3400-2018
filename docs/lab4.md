@@ -158,16 +158,17 @@
   ```
   5. Save the doc and close.
 
-  Now you'll need to wire the Arduino to the OV7670 camera. You should wire power and the I2C interface - all data pins will have to go into the FPGA when you integrate. Note that the pin names on the camera might be slightly different than the diagram below (SIOC <-> SCL, SIOD <-> SDA, MCLK <-> XCLK).
+  Now you'll need to wire the Arduino to the OV7670 camera. You should wire power and the I2C interface - all data pins will have to go into the FPGA when you integrate. 
 
   Here's what you'll want to do:
 
   ![Camera Wiring Diagram](./images/Lab3CameraWiringDiagram.png "If you can figure out how to do this without an extra board, it probably doesn't look very good")
+**Note that the pin names on the camera might be slightly different than the diagram below (SIOC <-> SCL, SIOD <-> SDA, MCLK <-> XCLK).**
 
  #### Writing Registers 
   Next you'll need to make use of the functions in the template code to write the values of the registers from the prelab to the values expected.
-  Note that you'll need to write the slave address (in hex) found in the datasheet into the code (Define statement at the top). These addresses use the **least significant bit** to distinguish between read and write(0->Write, 1->Read). Arduino's Wire library uses different commands for read and write however, and appends that bit to the end of the address you use. You have to figure out what the proper address is to send to the Arduino.
-
+  Note that you'll need to write the slave address (in hex) found in the datasheet into the code (Define statement at the top). These addresses use the **least significant bit** to distinguish between read and write(0->Write, 1->Read). Arduino's Wire library uses different commands for read and write however, and appends that bit to the end of the address you use. You have to figure out what the proper address is to send to the Arduino. **That means the address that you give the Arduino I2C library should not include the lsb**. That is, the read/write addresses you get from the datasheet are the seven bit I2C addresses plus a 1 or a 0 depending on whether it's a read or write address. So just give the arduino library the upper seven bits.
+  
 *Unit check:*  When writing the registers, you'll want to make sure you actually addressed the right registers by checking them after you write. You can read the value of a register using *read_register_value()*. You can also add something more intelligent to the routine called *read_key_registers* such that it automatically outputs what you have written 
 
   Note that all values will be read in hexadecimal format. All addresses and write values should also be written in hex. Be sure you specify that format in your code (eg. 0xAB).
