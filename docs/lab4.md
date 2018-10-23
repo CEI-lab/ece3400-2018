@@ -124,7 +124,7 @@
 
   Click **Finish**
 
-  13. Go to *File>Open>folder_your_project_is_in*, and you should be able to open your *nameyouchose*_inst.v file. Pasting this into your top level module will allow you access to these clock signals. Remember to input 50MHz.
+  13. Go to *File>Open>folder_your_project_is_in*, and you should be able to open your *nameyouchose*_inst.v file. Pasting this into your top level module will allow you access to these clock signals. Remember to input 50MHz, and then create wires for each of the outputs. 
 
   You'll want to assign the 24MHz output to a GPIO pin, for Team Arduino to use.
 
