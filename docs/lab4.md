@@ -17,7 +17,7 @@
 
  * [DE0-Nano User Manual](http://www.ti.com/lit/ug/tidu737/tidu737.pdf "The Manual")
 
- The expansion headers on **page 18** of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera. Remember that the FPGA runs on 3.3V - you should *never* connect any I/O pins to the ATmega without a voltage divider in between.
+ **The expansion headers on page 18 of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera. Remember that the FPGA runs on 3.3V - you should *never* connect any I/O pins to the ATmega without a voltage divider in between.**
 
  To setup the OV7670 digital camera, you will need to get acquainted with its datasheet here:
 
