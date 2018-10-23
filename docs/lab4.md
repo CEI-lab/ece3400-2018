@@ -163,7 +163,7 @@
   Here's what you'll want to do:
 
   ![Camera Wiring Diagram](./images/Lab3CameraWiringDiagram.png "If you can figure out how to do this without an extra board, it probably doesn't look very good")
-**Note that the pin names on the camera might be slightly different than the diagram below (SIOC <-> SCL, SIOD <-> SDA, MCLK <-> XCLK).**
+**Note that the pin names on the camera might be slightly different than the diagram above (SIOC <-> SCL, SIOD <-> SDA, MCLK <-> XCLK).**
 
  #### Writing Registers 
   Next you'll need to make use of the functions in the template code to write the values of the registers from the prelab to the values expected.
