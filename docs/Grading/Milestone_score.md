@@ -16,11 +16,11 @@ _Milestone 2 will be graded as follows:_
 
 _Milestone 3 will be graded as follows:_
 
-* 5 points: Simulated maze exploration
-* 5 points: Robot which successfully transmits all necessary maze information to the screen (it doesn't have to explore a maze or actively detect treasures/walls, it should simply be able to send maze information to the screen)
+* 8 points: Robot capable of maze exploration using DFS, BFS, Dijkstra, or A* (try different maze configurations, we expect at least one of them to be at least 4x5)
+* 2 points: ..if the robot is also able to update the GUI
 
 _Milestone 4 will be graded as follows:_
 
-* 2 points: Robot which can successfully distinguish between red, green, and blue treasures
-* 3 points: Robot which can successfully distinguish a square, triangle, and diamond shape
-* 5 points: Real implementation of the maze exploration
+* 1 points: Robot which can detect when there are/are not treasures
+* 4 points: Robot which can successfully distinguish between red and blue treasures
+* 5 points: Robot which can successfully distinguish a square, triangle, and diamond shape
