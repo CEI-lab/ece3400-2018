@@ -75,14 +75,14 @@ Week 11:
 
 Week 12:
 * *Work on milestone 3*
-* Nov 5th, Mon: Evaluating IPS
-* Nov 7th, Wed: Debugging IPS
+* Nov 5th, Mon: Debugging IPS
+* Nov 7th, Wed: Power and batteries for IPS
 * Nov 9th, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
 
 Week 13:
 * *Work on milestone 4*
 * Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
-* Nov 14th, Wed: Power and batteries for IPS
+* Nov 14th, Wed: Alternative approaches to IPS 
 * Nov 16th, Fri: Team meetings. 
 * Nov 18th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
