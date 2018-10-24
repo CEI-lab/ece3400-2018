@@ -16,3 +16,4 @@
 * [Lecture 13: EMI and ME Prototyping I](./Lecture13-EMI'n'ME-Prototyping.pdf)
 * [Lecture 14: ME Prototyping II, by Michael Solomentsev](./Lecture14-ME_Prototyping.pdf)
 * [Lecture 15: PCB Design, by Logan H Horowitz](./Lecture15-PCB_Design.pdf)
+* [Lecture 15: Intro to Search](./Lecture16-SearchI.pdf)
