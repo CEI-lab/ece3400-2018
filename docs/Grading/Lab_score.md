@@ -33,7 +33,7 @@ In Lab 3 System Integration and Radio Communication, the first 15 points are sco
 * 2 points: Updating the GUI from a virtual robot on a separate Arduino which is wirelessly connected to the base station
 * 2 point: Robot starting on a 660Hz tone
 * 2 points: Robot starting on a 660Hz tone and exploring the entire maze
-* 2 points: Robot that explores, and stops if it sees another robot, but ignores decoys
+* 2 points: Robot that explores, and stops if it sees another robot (min. 1ft distance), but ignores decoys
 * 3 points: Robot-to-GUI integration, full exploration and update on the GUI
 
 In Lab 4 FPGA and Vision, the first 15 points are scored as follows:
