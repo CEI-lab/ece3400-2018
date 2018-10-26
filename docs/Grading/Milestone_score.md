@@ -10,7 +10,7 @@ _Milestone 1 will be graded as follows:_
 _Milestone 2 will be graded as follows:_
 
 * 3 points: Robot that successfully circles an arbitrary set of walls (e.g. through right hand wall following)
-* 3 points: Robot that successfully avoids other robots
+* 3 points: Robot that successfully avoids other robots (at least 1ft distance)
 * 4 points: For a demonstration of a robot that does line tracking, and avoids robots, and walls.
 (It would be helpful to 'show' what the robot is thinking, e.g. by adding visual LEDs that indicate when walls/robots have been detected)
 
