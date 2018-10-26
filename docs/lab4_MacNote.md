@@ -2,8 +2,9 @@
 ## Cornell University, Fall 2018
 ...by Tyler Sherman
 
-Mac Instructions - "EXTREMELY IMPORT PART TO NEVER, EVER, FORGET"
-In Lab 4, it states: "Every time you start a new lab session, BEFORE uploading ANY code to your Arduino that includes what's in the template, you have to disable the internal pull-up resistors that are a part of the Arduino's I2C interface. This is because they pull the signals that set up our camera to 5V, while our camera requires 3.3V. Sending 5V through will harm the camera." The directions included only work for Windows. To do the same thing on Mac, the instructions are:
+Mac Instructions for Lab 4
+
+In Lab 4, it states: "Every time you start a new lab session, *BEFORE* uploading ANY code to your Arduino that includes what's in the template, you have to disable the internal pull-up resistors that are a part of the Arduino's I2C interface. This is because they pull the signals that set up our camera to 5V, while our camera requires 3.3V. Sending 5V through will harm the camera." The directions included only work for Windows. To do the same thing on Mac, the instructions are:
 
 * Go to your applications folder and right-click on Arduino
 * Click "Show Package Contents"
