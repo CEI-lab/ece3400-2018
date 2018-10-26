@@ -143,7 +143,7 @@
   Every time you start a new lab session, **BEFORE** uploading **ANY** code to your Arduino that includes what's in the template, you have to disable the internal pull-up resistors that are a part of the Arduino's I2C interface. This is because they pull the signals that set up our camera to 5V, while our camera requires 3.3V. Sending 5V through will harm the camera. 
 
   To disable these in Windows:
-  (To disable them in Mac, please see [here](./lab4_MacNote) )
+  (To disable them in Mac, please see [here](./lab4_MacNote.md) )
   
   1. Go to *twi.c* at *C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\utility*
 
