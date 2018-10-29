@@ -16,4 +16,5 @@
 * [Lecture 13: EMI and ME Prototyping I](./Lecture13-EMI'n'ME-Prototyping.pdf)
 * [Lecture 14: ME Prototyping II, by Michael Solomentsev](./Lecture14-ME_Prototyping.pdf)
 * [Lecture 15: PCB Design, by Logan H Horowitz](./Lecture15-PCB_Design.pdf)
-* [Lecture 15: Intro to Search](./Lecture16-SearchI.pdf)
+* [Lecture 16: Intro to Search](./Lecture16-SearchI.pdf)
+* [Lecture 17: Search II](./Lecture17-SearchII.pdf), [Matlab ex1](BFS_noStorage.m), [Matlab_ex2](BFS_notVisitingParents.m), [Matlab_ex3](BFS_RevisitingNodes.m), [Matlab_ex4 (BFS)](BFS)
