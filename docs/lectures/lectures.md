@@ -18,3 +18,4 @@
 * [Lecture 15: PCB Design, by Logan H Horowitz](./Lecture15-PCB_Design.pdf)
 * [Lecture 16: Intro to Search](./Lecture16-SearchI.pdf)
 * [Lecture 17: Search II](./Lecture17-SearchII.pdf), [Matlab ex1](./BFS_noStorage.m), [Matlab_ex2](./BFS_notVisitingParents.m), [Matlab_ex3](./BFS_RevisitingNodes.m), [Matlab_ex4 (BFS)](./BFS.m)
+* [Lecture 18: Game Theory](./Lecture18-GameTheory.pdf)
