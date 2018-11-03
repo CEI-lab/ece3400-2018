@@ -59,13 +59,13 @@
 * Oct 21st, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
-Week 10:
+~~Week 10:~~
 * *[Lab 4 FPGA / Vision](./lab3.md)* 
 * Oct 22nd, Mon: Conflict resolution by Erica Dawson
 * Oct 24th, Wed: Algorithms
 * Oct 26th, Fri: Team meetings. 
 
-Week 11:
+~~Week 11:~~
 * *Work on lab 4*
 * Oct 29th, Mon: Algorithms
 * Oct 31st, Wed: Algorithms
@@ -75,21 +75,21 @@ Week 11:
 
 Week 12:
 * *Work on milestone 3*
-* Nov 5th, Mon: Debugging IPS
-* Nov 7th, Wed: Power and batteries for IPS
+* Nov 5th, Mon: Evaluating IPS (Probability)
+* Nov 7th, Wed: Localization
 * Nov 9th, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
 
 Week 13:
 * *Work on milestone 4*
 * Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
-* Nov 14th, Wed: Alternative approaches to IPS 
+* Nov 14th, Wed: Recap
 * Nov 16th, Fri: Team meetings. 
 * Nov 18th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 14:
 * *Work on milestone 4*
-* Nov 19th, Mon: Alternative approaches to IPS 
+* ~~Nov 19th, Mon: Cancelled~~
 * Nov 21st, Wed: Thanksgiving recess
 * Nov 23rd, Fri: Thanksgiving recess
 
@@ -102,5 +102,5 @@ Week 15:
 
 
 Week 16:
-* Dec 3rd, Mon: Recap!
+* Dec 3rd, Mon: Practice Competition
 * Dec 4th, Tuesday: **FINAL COMPETION 9-12**. **Deadline @midnight** Grading of final websites!
