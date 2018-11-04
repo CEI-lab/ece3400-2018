@@ -75,8 +75,8 @@
 
 Week 12:
 * *Work on milestone 3*
-* Nov 5th, Mon: Evaluating IPS (Probability)
-* Nov 7th, Wed: Localization
+* Nov 5th, Mon: Evaluating IPS 
+* Nov 7th, Wed: Probability and Localization
 * Nov 9th, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
 
 Week 13:
@@ -89,7 +89,7 @@ Week 13:
 
 Week 14:
 * *Work on milestone 4*
-* ~~Nov 19th, Mon: Cancelled~~
+* Nov 19th, Mon: Alternative Approaches to IPS
 * Nov 21st, Wed: Thanksgiving recess
 * Nov 23rd, Fri: Thanksgiving recess
 
