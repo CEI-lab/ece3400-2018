@@ -21,7 +21,7 @@
 
  To setup the OV7670 digital camera, you will need to get acquainted with its datasheet here:
 
- * [OV7670 Datasheet](https://www.voti.nl/docs/OV7670.pdf "Camera stuff")
+ * [OV7670 Datasheet](http://web.mit.edu/6.111/www/f2016/tools/OV7670_2006.pdf "Camera stuff")
 
  In order to perform image processing (for your treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that you can configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
 
