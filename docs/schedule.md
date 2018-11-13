@@ -73,7 +73,7 @@
 * Nov 4th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
-Week 12:
+~~Week 12:~~
 * *Work on milestone 3*
 * Nov 5th, Mon: Evaluating IPS 
 * Nov 7th, Wed: Probability and Localization
