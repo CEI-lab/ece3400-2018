@@ -84,7 +84,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 We have a Skunkworks dedicated to the class. This is located in PH414 and is equipped with a laser cutter, two 3D printers, two PCB mills and a PCB etching station (to come). Please be aware that you only get to use these machines after training, and only when TA's are present.
 
 * [How to calculate the cost of your robot?](Cost.md)
-* A zip file "ECE3400_Fall 2017_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400-2017/blob/master/docs/ECE3400_Fall%202017_SolidWorks.zip)
+* A zip file "ECE3400_Fall 2018_SolidWorks.zip", with all the mechanical parts drawn in SolidWorks can be found [here](https://github.com/CEI-lab/ece3400-2017/blob/master/docs/ECE3400%2C%20Fall%202018%2C%20Mechanical_Parts.zip)
 * Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive.
 * [Tutorials on Autocad](https://cei-lab.github.io/ece3400-2017/tutorials/Autocad/AutoCAD_Tutorial.html). Autocad is installed on all the machines in PH427.
 * [Autocad example](https://cei-lab.github.io/ece3400-2017/tutorials/Autocad/Wheel_Demo.html)
