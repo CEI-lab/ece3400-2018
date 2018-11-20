@@ -79,7 +79,7 @@
 * Nov 7th, Wed: Probability and Localization
 * Nov 9th, Fri: Team meetings. **Deadline @midnight**: The websites will be graded for contents on milestone 3. 
 
-Week 13:
+~~Week 13:~~
 * *Work on milestone 4*
 * Nov 12th, Mon: Cornell Engineering Career Center (Christa Downey)
 * Nov 14th, Wed: Recap
@@ -87,7 +87,7 @@ Week 13:
 * Nov 18th, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
-Week 14:
+~~Week 14:~~
 * *Work on milestone 4*
 * Nov 19th, Mon: Alternative Approaches to IPS
 * Nov 21st, Wed: Thanksgiving recess
