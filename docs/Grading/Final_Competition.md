@@ -1,5 +1,7 @@
 # ECE 3400, Fall 2018 - Final Competition
 
+The final schedule is available [here](../CompetitionSchedule.pdf).
+
 ## Competition Overview
 
 The competition will have a total of three rounds: 
