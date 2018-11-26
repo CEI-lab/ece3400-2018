@@ -103,4 +103,4 @@ Week 15:
 
 Week 16:
 * Dec 3rd, Mon: Team meetings. **Deadline @midnight:** Ethics homework hand-in.
-* Dec 4th, Tuesday: **FINAL COMPETION 9-12**. **Deadline @midnight** Grading of final websites!
+* Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites!
