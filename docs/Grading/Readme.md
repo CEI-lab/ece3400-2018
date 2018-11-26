@@ -15,5 +15,5 @@ The score is calculated like this:
 * The [final competition](Final_Competition.md) gives up to 20 points 
 * The [final robot design](Design_score.md) gives up to 25 points
 * The [final webpage](Design_score.md) gives up to 15 points
-* The [ethics homework](ethics.md) gives up to 5 points
+* The [ethics homework](Ethics.md) gives up to 5 points
 * [Team work](Team_score.md) assessments give up to 15 points
