@@ -152,6 +152,8 @@ To show that everything has been integrated, you will need to show the robot run
 
 Be sure to place the extra Arduino back in the drawer before you leave. Put all tools, walls, and other components back in their appropriate bins as well. Clean up your station thoroughly before you leave!
 
+If you decide to use any private parts for your robot, be sure to clearly label them as such. Throughout the semester we will spot check boxes, to ensure that no team has taken more than their share of parts. If your own components are not labeled as such, they will be removed. 
+
 Use GitHub on the computer to upload and save your code, be sure to add appropriate commit messages. The lab computers will NOT keep any data locally (i.e., on them). Once you log off, the data will eventually be lost (typically overnight). Save your data on a flash drive or other means before you leave the lab.
 
 ### Grading
