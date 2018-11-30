@@ -98,9 +98,8 @@ Week 15:
 * Nov 26th, Mon: IPS Ethics (Park Atkinson Doing). **Deadline @midnight:** The websites will be graded for contents on milestone 4. 
 * Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
 * Nov 30th, Fri: Practice Competition
-* Dec 2nd, Sun: **Deadline @midnight:** Fill out the team assessment form.
 
 
 Week 16:
-* Dec 3rd, Mon: Team meetings. **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in.
+* Dec 3rd, Mon: Team meetings. **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in. **Deadline @midnight:** Fill out the team assessment form.
 * Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites!
