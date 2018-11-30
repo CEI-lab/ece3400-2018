@@ -16,7 +16,7 @@
 * [Team 10 - Scooby Snacks](https://jared-gal.github.io/ScoobySnacks/)
 * [Team 11 - We'll probably come up with a team name eventually](https://ece3400team11.github.io/)
 * [Team 12 - The Onions](https://cya6.github.io/Team-12/index.html)
-* [Team 13 - Black Hat Cats](https://yanray.github.io/Black_Hat_Cats/)
+* [Team 13 - Black Hat Cats](https://albrt37.github.io/BHC_website-index.html/)
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
 * [Team 15 -](https://gururajbhupal.github.io/ECE3400-Team15/)
 * [Team 16 - Rage Against the Machines](https://ece3400-team16.github.io/team16/)
