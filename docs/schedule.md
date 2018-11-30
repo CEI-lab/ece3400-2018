@@ -93,7 +93,7 @@
 * Nov 21st, Wed: Thanksgiving recess
 * Nov 23rd, Fri: Thanksgiving recess
 
-Week 15:
+~~Week 15:~~
 * *Work on final system*
 * Nov 26th, Mon: IPS Ethics (Park Atkinson Doing). **Deadline @midnight:** The websites will be graded for contents on milestone 4. 
 * Nov 28th, Wed: IPS Ethics (Park Atkinson Doing)
@@ -101,5 +101,5 @@ Week 15:
 
 
 Week 16:
-* Dec 3rd, Mon: Team meetings. **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in. **Deadline @midnight:** Fill out the team assessment form.
-* Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites!
+* Dec 3rd, Mon: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
+* Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites! **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in.
