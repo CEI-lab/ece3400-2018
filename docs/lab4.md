@@ -231,7 +231,9 @@ The final step is to create a protocol for the information that is being sent, a
 
 ### Thinking ahead.
 
-For this lab, you just need to show that you can detect the color of the pixels. However, you should think ahead on how you want to implement the full treasure detection. 
+For this lab, you just need to show that you can detect the color of the pixels. However, you should think ahead on how you want to implement the full treasure detection, and how you want to integrate the FPGA on the robot. 
+
+The treasures will always be mounted on walls. The wall heights are 6", the treasures are 1.5x1.5" in size. The lowest point of the treasure will be located 3.5" from the ground, the middle 4.25" from the ground, the top 5" from the ground. They will be placed horizontally symmetric around a white line on the floor.
 
 Here are the treasures you should be able to detect:
 
