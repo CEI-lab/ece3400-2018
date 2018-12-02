@@ -34,7 +34,7 @@ The following grading scheme is applied at every round for every robot that is c
 
 ### Start
 
-You will place your robot in one corner and leave the field, when the start tone is played all robots should start. If a robot does not start, the TAs will allow you to run in and turn it on. Note that the start tone will be played on two Logitech computer speakers located just outside the corner walls where your robot is starting.
+You will place your robot in one corner and leave the field, when the start tone is played all robots should start. If a robot does not start, the TAs will allow you to run in and turn it on. Note that the start tone will be played on two Logitech computer speakers at full volume, located just outside the corner walls where your robot is starting.
 
 ### Coverage
 
