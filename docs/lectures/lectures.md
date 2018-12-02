@@ -21,5 +21,5 @@
 * [Lecture 18: Game Theory](./Lecture18-GameTheory.pdf)
 * [Lecture 19: Debugging and Evaluation](./Lecture19-Debugging'n'Evaluation.pdf)
 * [Lecture 20: Probability and Robust Localization](./Lecture20-Probability'n'Localization.pdf)
-* [Lecture 21: Ethics I, by Prof. Park Doing](./Lecture21-EthicsI)
+* [Lecture 21: Ethics I, by Prof. Park Doing](./Lecture21-EthicsI.pdf)
 * [Lecture 22: Ethics II, by Prof. Park Doing]()
