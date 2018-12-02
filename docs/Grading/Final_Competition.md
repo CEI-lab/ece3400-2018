@@ -11,8 +11,6 @@ The competition will have a total of three rounds:
 * Round 1c: Team 17-24
 * Round 1d: Team 24-28
 
-***Haron, should we play the best against the best?***
-
 * Round 2a: Team 1-8
 * Round 2b: Team 9-16
 * Round 2c: Team 17-24
@@ -28,11 +26,15 @@ The last four teams will be ranked according to their performance in the final r
 
 (Note that the maze and competition layout has changed since 2017.)
 
-We will be running 2 large mazes simultaneously with four robots in each. You will place your robot in one corner and leave the field, when the start tone is played all robots should start. If a robot does not start, the TAs will allow you to run in and turn it on. The robots will be scored for the amount of maze they manage to map correctly in 5 min. They will receive bonus points for detecting treasures, and negative points for crashing into other robots. If someone drives into your robot, you can help it by physically getting it back on track. 
+We will be running 2 large mazes simultaneously with four robots in each. The robots will be scored for the amount of maze they manage to map correctly in 5 min. They will receive bonus points for detecting treasures, and negative points for crashing into other robots. If someone drives into your robot, you can help it by physically getting it back on track. 
 
 The layout of the maze will not be revealed before the competition and they will be changed between rounds. Teams are not allowed to change their algorithms between rounds. You will have 2min to place your robot; 5 min to run it (as many times as you want, in case it fails); and 5min to clear off the robot and receive your score. Start and end times will be strictly enforced.
 
 The following grading scheme is applied at every round for every robot that is competing.
+
+### Start
+
+You will place your robot in one corner and leave the field, when the start tone is played all robots should start. If a robot does not start, the TAs will allow you to run in and turn it on. Note that the start tone will be played on two Logitech computer speakers located just outside the corner walls where your robot is starting.
 
 ### Coverage
 
@@ -41,9 +43,11 @@ The full mazes will be 9 x 9 squares. The robot that maps the most of the maze c
 ### Treasures
 
 * For every treasure which is located correctly: 1 point
-* For every treasure that is located and color-identified correctly: 1 point
-* For every treasure that is located and shape-identified correctly: 1 point
+* For every treasure with the correctly identified color: 1 point
+* For every treasure with the correctly identified shape: 1 point
 * For every discovery of a treasure that is not there: -1 point
+* For mislabeled shape: -1 point (worst case is -1 point per treasure)
+* For mislabeled color: -1 point (worst case is -1 point per treasure)
 * The minimum score per round is 0 points; the maximum is 20 points. 
 
 ### Penalties 
