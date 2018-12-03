@@ -18,7 +18,7 @@
 * [Team 12 - The Onions](https://cya6.github.io/Team-12/index.html)
 * [Team 13 - Black Hat Cats](https://albrt37.github.io/BHC_website-index.html/)
 * [Team 14 -](https://ece3400-team14.github.io/Team-14-Website/)
-* [Team 15 -](https://gururajbhupal.github.io/herring-cove/)
+* [Team 15 - Alex](https://gururajbhupal.github.io/herring-cove/)
 * [Team 16 - Rage Against the Machines](https://ece3400-team16.github.io/team16/)
 * [Team 17 - Prime](https://3400-17.github.io/Prime/#)
 * [Team 18 - Yaaas](https://am2384.github.io/)
