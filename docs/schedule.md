@@ -101,5 +101,5 @@
 
 
 Week 16:
-* Dec 3rd, Mon: Team meetings. **Deadline @midnight:** Fill out the team assessment form.
-* Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites! **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in.
+* Dec 3rd, Mon: Team meetings. 
+* Dec 4th, Tuesday: **[FINAL COMPETITION 9-12](./CompetitionSchedule.pdf)**. **Deadline @midnight** Grading of final websites! **Deadline @midnight:** [Ethics homework](./Grading/Ethics.md) hand-in. **Deadline @midnight:** Fill out the team assessment form.
