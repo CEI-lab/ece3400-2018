@@ -29,7 +29,7 @@
 * [Team 23 - Camp Tungunma](https://ece-3400-group.github.io/)
 * [Team 24 - Robots'n'Roses](https://samuel-feibel.github.io/RobotsNRoses/index.html)
 * [Team 25 - CAPTCHA](https://eldorbekpulatov.github.io/ece3400/)
-* [Team 26 - ](https://ece3400-fa18.github.io/team26/)
+* [Team 26 - JNPV](https://ece3400-fa18.github.io/team26/)
 * [Team 27 - Cabbage Corp](https://rs2353.github.io/team27/)
 * [Team 28 - Angry](https://ece3400team28.github.io/website/)
 
