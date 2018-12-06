@@ -7,13 +7,13 @@ Written by Team 5 (Avisha Kumar, Katarina Martucci, Emma Kaufman, and Liam Patte
 
 A logic analyzer allows one to view directly the signals acquired directly from a circuit. In the context of this course, this means that instead of viewing individual I2C frames on an oscilloscope, one can see them decoded in real time, including ACK/NACK, data, and START/STOP frames. This allows for supremely simple I2C and other protocol debugging.
 
-Most logic analyzers one might find in a lab/makerspace setting will be primarily of the consumer/portable type. This means only decent resolution and sample rates (on the order of tens to hundreds of MHz). Common vendors for these applications include Digilent (Analog Discovery 2, $179 with academic discount) and Saleae (Logic series, from $199 with academic pricing). Each are fairly similar, interfacing with a host computer (macOS/Windows/Linux) over USB.
+Most logic analyzers one might find in a lab/makerspace setting will be primarily of the consumer/portable type. This means only decent resolution and sample rates (on the order of tens to hundreds of MHz). Common vendors for these applications include Digilent ([Analog Discovery 2, $179 with academic discount](https://store.digilentinc.com/analog-discovery-2-100msps-usb-oscilloscope-logic-analyzer-and-variable-power-supply/)) and Saleae (Logic series, from $199 with academic pricing). Each are fairly similar, interfacing with a host computer (macOS/Windows/Linux) over USB.
 
 Personally, I use the Analog Discovery 2 (AD2). In addition to protocol analysis, it can also act as an oscilloscope, voltmeter, voltage source, and even a function generator. Since I do only have this piece of hardware, I can only provide general guidance for similar products, and the tutorial will be tailored for the AD2.
 
 ### Usage
 
-The AD2 can be used to sniff UART, SPI, I2C, and CAN out of the box with the default software (Waveforms, downloadable from Digilent).
+The AD2 can be used to sniff UART, SPI, I2C, and CAN out of the box with the default software (Waveforms, downloadable from [Digilent](https://store.digilentinc.com/waveforms-previously-waveforms-2015/)).
 
 Logic analyzers will require being physically connected to the circuit to be inspected. Refer to the manual for your board to figure out which pins can be used for logic analysis. The AD2 allows you to make use of all 16 DIO pins for logic analysis and even view multiple connections simultaneously (if, for instance, you have multiple I2C busses, you’d be able to view them both with this device). Attach a header wire of your choice to each DIO pin on the AD2 you wish to use, connecting each to your protocol’s respective connections (for I2C this would simply be two wires, SDA & SCL). It’s important to also establish a common ground at this step. On that note, the AD2 will not provide internal pullup support, so ensure your I2C or other protocol’s lines are established correctly. Then, knowing the bus rate of your line, select the frequency at which to sample (normally, the defaults provided will be adequate).
 
