@@ -71,8 +71,9 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 
 **Related to Electronics:**
 
+* [Intro to soldering (video)](https://www.youtube.com/watch?v=elrTXPSSVv8&feature=youtu.be)
 * [How to solder components and wires](https://cei-lab.github.io/ece3400-2017/tutorials/Soldering/Soldering_Tutorial.html)
-* [Solder Wires Like a Pro!](https://youtu.be/vL4DuoKGquk)
+* [Solder Wires Like a Pro! (video)](https://youtu.be/vL4DuoKGquk)
 * [Wiring a robot] To be added.
 * [How to Splice USB Cable](https://www.youtube.com/watch?v=EjqtAGdSsN8)
 * [Tutorials on Eagle](https://cei-lab.github.io/ece3400-2017/tutorials/Eagle/Eagle_Tutorial.html)
