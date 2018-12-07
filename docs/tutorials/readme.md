@@ -66,7 +66,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [Logic Analyzers](./FPGA/LogicAnalyzer.md)
 
 **Related to Cameras**
-* [Debugging your camera](./Camera/OV7670Registers.md)
+* [Debugging your camera](./Camera/readme.md)
 
 **Related to Sensors and Signal Processing:**
 
