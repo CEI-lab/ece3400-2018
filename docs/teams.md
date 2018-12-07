@@ -12,7 +12,7 @@
 * [Team 6 - The Good Noodles](https://pdr64.github.io/six_squids/)
 * [Team 7 - The 7-Ups](https://pbc48.github.io/ECE-3400-Fall-2018/)
 * [Team 8 - The Team8s](https://soapbar.github.io/team8s/)
-* [Team 9 -](https://anastos.github.io/teamnine/)
+* [Team 9 - The Nines](https://anastos.github.io/teamnine/)
 * [Team 10 - Scooby Snacks](https://jared-gal.github.io/ScoobySnacks/)
 * [Team 11 - We'll probably come up with a team name eventually](https://ece3400team11.github.io/)
 * [Team 12 - The Onions](https://cya6.github.io/Team-12/index.html)
