@@ -35,7 +35,8 @@ Note that all labs have changed slightly, and no prior solutions are directly ap
 
 This is the repository for the team of TA's that solved all the labs during the Summer of 2017. Please use this website for support and inspiration; no credits will be given for close copies of these solutions. Also, the TA's were under strict timelines - hopefully you will upload more comprehensive and better websites over the course of the semester.
 
-[2017 Team Websites](https://cei-lab.github.io/ece3400-2017/teams.html)
+* [2017 Team Websites](https://cei-lab.github.io/ece3400-2017/teams.html)
+* [2018 Team Websites](https://cei-lab.github.io/ece3400-2018/teams.html)
 
 Also, check out this brief on [systems design](./Systems_design.md) early in the semester - it will help you prep for the final competition!
 
@@ -52,7 +53,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
 * Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
 * [Discussion of Source Code Compilation](https://github.com/arduino/Arduino/wiki/Build-Process).
-* [Writing your own (basic) library for your robot by Chloe Kuo](https://pulse-3400.github.io/arduinolibrarytutorial/).
+* [Writing your own (basic) library for your robot](https://pulse-3400.github.io/arduinolibrarytutorial/).
 * [Intro to PWM (Lab1)](https://cei-lab.github.io/ece3400-2017/tutorials/PWM/PWM.html)
 * [A Polulu library reference guide for line following](https://www.pololu.com/docs/0J19/3). We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
 * [State Machine Example Code, by Daniel Kim](https://cei-lab.github.io/ece3400-2017/tutorials/Arduino/EmbeddedControlsDemo.ino)
@@ -63,6 +64,9 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [Verilog for Beginners](https://www.nandland.com/verilog/tutorials/tutorial-introduction-to-verilog-for-beginners.html)
 * [VGA Color scheme, by Angus Gibbs 2016](https://cei-lab.github.io/ece3400-2017/tutorials/FPGA/colors_html.html)
 * [Logic Analyzers](./FPGA/LogicAnalyzer.md)
+
+**Related to Cameras**
+* [Debugging your camera](./Camera/OV7670Registers.md)
 
 **Related to Sensors and Signal Processing:**
 
