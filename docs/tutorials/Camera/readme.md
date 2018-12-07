@@ -1,4 +1,6 @@
+
 # Cornell, ECE 3400, Fall 2018
+
 ## Camera Setup
 
 *By Katarina Martucci, Avisha Kumar, Liam Patterson, and Emma Kaufman*
