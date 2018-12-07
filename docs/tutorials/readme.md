@@ -52,6 +52,7 @@ Also, check out this brief on [systems design](./Systems_design.md) early in the
 * [A useful script to report on the internal state of your Arduino](https://playground.arduino.cc/Main/ShowInfo) and [here](https://playground.arduino.cc/Main/ShowInfo?action=sourceblock&num=1)
 * Also, for problems with Arduino, look at wiring.c on your development machine to see the firmware settings that are being uploaded to your Arduino.
 * [Discussion of Source Code Compilation](https://github.com/arduino/Arduino/wiki/Build-Process).
+* [Writing your own (basic) library for your robot by Chloe Kuo](https://pulse-3400.github.io/arduinolibrarytutorial/).
 * [Intro to PWM (Lab1)](https://cei-lab.github.io/ece3400-2017/tutorials/PWM/PWM.html)
 * [A Polulu library reference guide for line following](https://www.pololu.com/docs/0J19/3). We will not be using the same line sensors, so the library won’t be installed/used directly. However, reading through the example will give you an idea of how PID control can be used for line following, particularly the command reference for readLine() and the bottom section on PID control.
 * [State Machine Example Code, by Daniel Kim](https://cei-lab.github.io/ece3400-2017/tutorials/Arduino/EmbeddedControlsDemo.ino)
