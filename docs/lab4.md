@@ -17,11 +17,12 @@
 
  * [DE0-Nano User Manual](http://www.ti.com/lit/ug/tidu737/tidu737.pdf "The Manual")
 
- **The expansion headers on page 18 of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera. Remember that the FPGA runs on 3.3V - you should *never* connect any I/O pins to the ATmega without a voltage divider in between.**
+ **The expansion headers on page 18 of the manual will be particularly useful for planning GPIO from the FPGA to both the Arduino and the camera. Remember that the FPGA runs on 3.3V - you should *never* connect any I/O pins to the ATmega without a voltage divider in between. Furthermore, be sure to check the outputs from your FPGA. We have some 5V versions floating around which you cannot use without a voltage divider to the camera.**
 
  To setup the OV7670 digital camera, you will need to get acquainted with its datasheet here:
 
  * [OV7670 Datasheet](http://web.mit.edu/6.111/www/f2016/tools/OV7670_2006.pdf "Camera stuff")
+ * Here's an [extra tutorial](https://cei-lab.github.io/ece3400-2018/tutorials/Camera/) you can check to help prepare you for using the camera.
 
  In order to perform image processing (for your treasure detection), it is useful to store the image data in a *memory buffer*. Given that the buffer can hold all the pixel data for exactly one image at a time, reading from it is equivalent to scanning through the pixels of the image in one frame of the image output from the camera. No buffer exists onboard the OV7670, so one must be created on the DE0-Nano using its onboard **embedded memory**. This embedded memory consists of M9K memory blocks that you can configure to create a RAM. One caveat of this is that each entry in the RAM must have a size of 8 or 9 bits.
 
