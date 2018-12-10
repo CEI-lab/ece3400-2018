@@ -95,6 +95,7 @@ We have a Skunkworks dedicated to the class. This is located in PH414 and is equ
 * Solidworks is available in many of the Phillips Hall computer labs; it is very fast to learn, and the tutorials offered in the help-menu are very intuitive.
 * [Tutorials on Autocad](https://cei-lab.github.io/ece3400-2017/tutorials/Autocad/AutoCAD_Tutorial.html). Autocad is installed on all the machines in PH427.
 * [Autocad example](https://cei-lab.github.io/ece3400-2017/tutorials/Autocad/Wheel_Demo.html)
+* [Autocad design for laser cutters](https://www.arch.tamu.edu/media/cms_page_media/197/AutoCAD%20Laser%20Cut%20How%20To.pdf)
 * [Tinkercad](https://www.tinkercad.com/) is a nice free software that many of students have used successfully
 * [How to use the XYYZ and UPplus 2 3D printers](https://cei-lab.github.io/ece3400-2017/tutorials/3Dprinting/3D_Printing_Tutorial.html)
 * [How to use the Epilog laser cutter](https://cei-lab.github.io/ece3400-2017/tutorials/LaserCutter/Laser_Cutting_Tutorial.html)
