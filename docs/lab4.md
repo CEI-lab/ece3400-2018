@@ -1,9 +1,9 @@
 # ECE3400 Fall 2018
 
-## LAB 4 - FPGA and Shape Detection
+## LAB 4 - FPGA and Cameras
 
 ### Overview
- In this lab, you will split into two teams to develop an FPGA module capable of detecting basic shapes from a camera input, and pass this information on to the Arduino. This device will be mounted on the robot to identify these shapes on the walls of the maze.
+ In this lab, you will split into two teams to develop an FPGA module capable of detecting basic colors from a camera input, and pass this information on to the Arduino. This device will be mounted on the robot to identify these colors (and eventually shapes) on the walls of the maze.
 
  Below is a block diagram of the device that will implemented. The red blocks, along with all of the interconnects will be made by you, the white ones are provided.
 
@@ -228,7 +228,7 @@ The final step is to create a protocol for the information that is being sent, a
 
  Once the color bar comes out well, toggle off the registers that are enabling the color bar test. Your image may need to be focused, which you can do manually by turning the camera's lens. You may also need to be sure that there is adequate lighting in the room. 
 
- Once your image is clear, move on to testing your image processing.
+ Once your image is clear, move on to test your image processing.
 
 ### Thinking ahead.
 
